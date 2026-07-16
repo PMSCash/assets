@@ -7,7 +7,8 @@
 **Service model:** Table-delivery robots; orders routed digitally → kitchen → robot → table  
 **Payments:** **Strictly electronic · no cash · no tipping · donations only** (optional, separate from bill)  
 **Images (one folder):** [`images/`](./images/) — all classic PNGs compiled together  
-**Drawings:** see [`drawings/`](./drawings/), [`index.html`](./index.html), and [`download/`](./download/) zip pack
+**Drawings:** see [`drawings/`](./drawings/), [`index.html`](./index.html), and [`download/`](./download/) zip pack  
+**All images PDF:** [`download/EJL-Lighthouse-all-images.pdf`](./download/EJL-Lighthouse-all-images.pdf) — every drawing + concept on landscape A4 sheets (rebuild via [`scripts/build-all-images-pdf.py`](./scripts/build-all-images-pdf.py))
 
 ---
 
