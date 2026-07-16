@@ -9,18 +9,19 @@
   <rect x="40" y="40" width="1120" height="720" fill="url(#grid)" stroke="#1a2a2a" stroke-width="2"/>
 
   <!-- Title block -->
-  <rect x="40" y="770" width="1120" height="60" fill="#1a2a2a"/>
-  <text x="60" y="798" fill="#e8f4f4" font-size="16" font-weight="bold">DUBAI PREMIUM HOOKAH LOUNGE  ON-SITE EMERGENCY / SEIZURE ROOM</text>
-  <text x="60" y="818" fill="#9ab8b8" font-size="11">First-response medical room · seizure stabilization · AED · oxygen · EMS handoff · staff-trained protocol</text>
-  <text x="980" y="805" fill="#e8f4f4" font-size="11">DRAWING A-05</text>
+  <rect x="40" y="770" width="1120" height="60" fill="#120816"/>
+  <text x="60" y="798" fill="#FF69B4" font-size="16" font-weight="bold">EJL LIGHTHOUSE — ON-SITE EMERGENCY / SEIZURE ROOM</text>
+  <text x="60" y="818" fill="#D4AF37" font-size="11">First-response medical room · seizure stabilization · AED · oxygen · EMS handoff · staff-trained protocol</text>
+  <text x="980" y="805" fill="#FF69B4" font-size="11">DRAWING A-05</text>
 
   <!-- Corridor approach -->
   <rect x="60" y="300" width="160" height="220" fill="#e8eeee" stroke="#1a2a2a" stroke-width="1.5"/>
   <text x="140" y="390" text-anchor="middle" font-size="12" fill="#1a2a2a" font-weight="bold">CORRIDOR</text>
   <text x="140" y="410" text-anchor="middle" font-size="10" fill="#3a5a5a">from VIP / dining</text>
   <text x="140" y="430" text-anchor="middle" font-size="9" fill="#5a7a7a">clear stretcher path</text>
+  <text x="140" y="450" text-anchor="middle" font-size="9" fill="#FF2D95">staff rest ? A-06</text>
   <path d="M100 520 L220 520" stroke="#c0392b" stroke-width="3" stroke-dasharray="8,4" fill="none"/>
-  <text x="140" y="545" text-anchor="middle" font-size="8" fill="#c0392b" font-weight="bold">EMS ROUTE ’</text>
+  <text x="140" y="545" text-anchor="middle" font-size="8" fill="#c0392b" font-weight="bold">EMS ROUTE ?</text>
 
   <!-- Double swing / wide door -->
   <rect x="220" y="380" width="40" height="60" fill="#fff" stroke="#c0392b" stroke-width="2"/>
@@ -91,9 +92,9 @@
   <text x="740" y="500" text-anchor="middle" font-size="10" fill="#1a2a2a" font-weight="bold">STRETCHER PARK</text>
 
   <!-- Panic / call -->
-  <rect x="300" y="600" width="200" height="70" fill="#1a2a2a" stroke="#c0392b" stroke-width="2"/>
+  <rect x="300" y="600" width="200" height="70" fill="#120816" stroke="#c0392b" stroke-width="2"/>
   <text x="400" y="630" text-anchor="middle" font-size="12" fill="#ff6b6b" font-weight="bold">PANIC / EMS CALL</text>
-  <text x="400" y="650" text-anchor="middle" font-size="9" fill="#c9b896">VIP + FOH linked · 998</text>
+  <text x="400" y="650" text-anchor="middle" font-size="9" fill="#D4AF37">VIP + FOH linked · 998</text>
 
   <rect x="520" y="600" width="320" height="70" fill="#fff" stroke="#c0392b" stroke-width="1.5"/>
   <text x="680" y="625" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="bold">SEIZURE RESPONSE STEPS (POSTED)</text>
@@ -104,41 +105,41 @@
   <rect x="920" y="100" width="220" height="600" fill="#fff" stroke="#1a2a2a" stroke-width="1.5"/>
   <text x="1030" y="135" text-anchor="middle" font-size="12" font-weight="bold" fill="#c0392b">CLINICAL OPS</text>
 
-  <text x="940" y="170" font-size="10" fill="#1a2a2a" font-weight="bold">Purpose</text>
-  <text x="940" y="188" font-size="9" fill="#3a5a5a">On-site first response for</text>
-  <text x="940" y="204" font-size="9" fill="#3a5a5a">seizure / collapse / hypoxia</text>
-  <text x="940" y="220" font-size="9" fill="#3a5a5a">until EMS arrives</text>
+  <circle cx="1030" cy="170" r="18" fill="none" stroke="#D4AF37" stroke-width="2"/>
+  <text x="1030" y="166" text-anchor="middle" font-size="9" fill="#FF2D95" font-weight="bold">EJL</text>
+  <text x="1030" y="178" text-anchor="middle" font-size="5" fill="#D4AF37">LIGHTHOUSE</text>
 
-  <text x="940" y="250" font-size="10" fill="#1a2a2a" font-weight="bold">Equipment</text>
-  <text x="940" y="268" font-size="9" fill="#3a5a5a">" Treatment bed + rails</text>
-  <text x="940" y="284" font-size="9" fill="#3a5a5a">" O2 cylinder + regulator</text>
-  <text x="940" y="300" font-size="9" fill="#3a5a5a">" Portable suction</text>
-  <text x="940" y="316" font-size="9" fill="#3a5a5a">" AED (monthly check)</text>
-  <text x="940" y="332" font-size="9" fill="#3a5a5a">" Seizure / first-aid kit</text>
-  <text x="940" y="348" font-size="9" fill="#3a5a5a">" Stretcher + wheelchair</text>
-  <text x="940" y="364" font-size="9" fill="#3a5a5a">" SpO2 / BP monitor</text>
-  <text x="940" y="380" font-size="9" fill="#3a5a5a">" Privacy curtain</text>
+  <text x="940" y="210" font-size="10" fill="#1a2a2a" font-weight="bold">Purpose</text>
+  <text x="940" y="228" font-size="9" fill="#3a5a5a">On-site first response for</text>
+  <text x="940" y="244" font-size="9" fill="#3a5a5a">seizure / collapse / hypoxia</text>
+  <text x="940" y="260" font-size="9" fill="#3a5a5a">until EMS arrives</text>
 
-  <text x="940" y="410" font-size="10" fill="#1a2a2a" font-weight="bold">Staffing</text>
-  <text x="940" y="428" font-size="9" fill="#3a5a5a">" Trained first-aiders</text>
-  <text x="940" y="444" font-size="9" fill="#3a5a5a">  on every shift</text>
-  <text x="940" y="460" font-size="9" fill="#3a5a5a">" Optional on-call nurse</text>
-  <text x="940" y="476" font-size="9" fill="#3a5a5a">  peak VIP nights</text>
-  <text x="940" y="492" font-size="9" fill="#3a5a5a">" VIP panic ’ room + EMS</text>
+  <text x="940" y="290" font-size="10" fill="#1a2a2a" font-weight="bold">Equipment</text>
+  <text x="940" y="308" font-size="9" fill="#3a5a5a">• Treatment bed + rails</text>
+  <text x="940" y="324" font-size="9" fill="#3a5a5a">• O2 cylinder + regulator</text>
+  <text x="940" y="340" font-size="9" fill="#3a5a5a">• Portable suction</text>
+  <text x="940" y="356" font-size="9" fill="#3a5a5a">• AED (monthly check)</text>
+  <text x="940" y="372" font-size="9" fill="#3a5a5a">• Seizure / first-aid kit</text>
+  <text x="940" y="388" font-size="9" fill="#3a5a5a">• Stretcher + wheelchair</text>
+  <text x="940" y="404" font-size="9" fill="#3a5a5a">• SpO2 / BP monitor</text>
+  <text x="940" y="420" font-size="9" fill="#3a5a5a">• Privacy curtain</text>
 
-  <text x="940" y="522" font-size="10" fill="#1a2a2a" font-weight="bold">Location rules</text>
-  <text x="940" y="540" font-size="9" fill="#3a5a5a">" Near VIP + guest WC</text>
-  <text x="940" y="556" font-size="9" fill="#3a5a5a">" Stretcher path e 1.1 m</text>
-  <text x="940" y="572" font-size="9" fill="#3a5a5a">" Direct street / lift exit</text>
-  <text x="940" y="588" font-size="9" fill="#3a5a5a">" No robot parking here</text>
+  <text x="940" y="450" font-size="10" fill="#1a2a2a" font-weight="bold">Staffing</text>
+  <text x="940" y="468" font-size="9" fill="#3a5a5a">• Trained first-aiders</text>
+  <text x="940" y="484" font-size="9" fill="#3a5a5a">  on every shift</text>
+  <text x="940" y="500" font-size="9" fill="#3a5a5a">• Optional on-call nurse</text>
+  <text x="940" y="516" font-size="9" fill="#3a5a5a">  peak VIP nights</text>
+  <text x="940" y="532" font-size="9" fill="#3a5a5a">• VIP panic ? room + EMS</text>
 
-  <text x="940" y="618" font-size="10" fill="#1a2a2a" font-weight="bold">Indicative cost</text>
-  <text x="940" y="636" font-size="9" fill="#3a5a5a">Fit-out: AED 80k220k</text>
-  <text x="940" y="652" font-size="9" fill="#3a5a5a">Equipment: 40k120k</text>
-  <text x="940" y="668" font-size="9" fill="#3a5a5a">Training/OPEX: 3k12k/mo</text>
+  <text x="940" y="562" font-size="10" fill="#1a2a2a" font-weight="bold">Location rules</text>
+  <text x="940" y="580" font-size="9" fill="#3a5a5a">• Near VIP + staff rest</text>
+  <text x="940" y="596" font-size="9" fill="#3a5a5a">• Stretcher path ? 1.1 m</text>
+  <text x="940" y="612" font-size="9" fill="#3a5a5a">• Direct street / lift exit</text>
+  <text x="940" y="628" font-size="9" fill="#3a5a5a">• No robot parking here</text>
 
-  <text x="1030" y="700" text-anchor="middle" font-size="8" fill="#c0392b">*DHA / clinic license if</text>
-  <text x="1030" y="714" text-anchor="middle" font-size="8" fill="#c0392b">medications are stocked</text>
+  <text x="940" y="658" font-size="10" fill="#1a2a2a" font-weight="bold">Indicative cost</text>
+  <text x="940" y="676" font-size="9" fill="#3a5a5a">Fit-out: AED 80k–220k</text>
+  <text x="940" y="692" font-size="9" fill="#3a5a5a">Equipment: 40k–120k</text>
 
   <!-- Legend -->
   <rect x="60" y="80" width="160" height="180" fill="#fff" stroke="#1a2a2a" stroke-width="1"/>

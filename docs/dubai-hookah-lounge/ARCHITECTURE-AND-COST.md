@@ -22,9 +22,10 @@
 | Coal shisha room | *(capacity within 50 via booth rotation; design for ~10 booth seats)* | **Negative pressure, staff-only, no robots** |
 | Massage seats | 6 | Within indoor footprint (shared with lounge dwell) |
 | **Emergency / seizure room** | — | **On-site first-response medical room (non-seating)** |
+| **Staff rest & changing** | — | **Workers only · rest zone · W/M changing · closets C01–C12 (non-seating)** |
 | **Design total** | **50** | Rooftop 28 + indoor 22 (VIP counted in indoor) |
 
-**Assumed net area:** ~410–490 m² (indoor + rooftop usable + ~90 m² VIP unit + emergency room), excluding MEP plant.
+**Assumed net area:** ~440–520 m² (indoor + rooftop usable + ~90 m² VIP unit + emergency + staff rest/changing), excluding MEP plant.
 
 ---
 
@@ -54,7 +55,7 @@
 - Robots do **not** carry hot coals or lit traditional pipes
 - Robots have **no payment slot** (pay is table / VIP / host terminal only)
 - Traditional coal service = **staff only** through airlock vestibule
-- Fountain, stairs, coal vestibule, VIP suite, **emergency room** = **virtual walls** in robot map
+- Fountain, stairs, coal vestibule, VIP suite, **emergency room**, **staff rest/changing** = **virtual walls** in robot map
 - Main aisle clear width ≥ **1.2 m**; stretcher path to emergency room / exit ≥ **1.1 m**
 
 ### Rooftop mode (recommended)
@@ -113,6 +114,7 @@ See drawing [`drawings/07-payment-system.svg`](./drawings/07-payment-system.svg)
 | Premium dining | Limited kitchen/commissary; robot-led FOH |
 | **One VIP unit (e-closed)** | Private ~90 m²; e-lock; **entertainment + office + bedroom**; fountain · fireplace · pole; 3 lounge TVs + bedroom TV + VOD; hostesses |
 | **Emergency / seizure room** | ~18 m² first-response room: treatment bed, O2, suction, AED, seizure kit, stretcher, EMS route |
+| **Staff rest & changing** | ~28 m² BOH: rest sofas, W/M changing booths, **12 worker closets**, uniform closet, shoe rack, staff WC |
 | **EJL brand system** | Pink (#FF2D95 / #FF69B4) + gold (#D4AF37) · logo on robots, VIP plaque, app, tray liners |
 
 ### 4.1 One VIP unit — entertainment + office + bedroom
@@ -155,7 +157,7 @@ Designed as a **first-response medical room** for seizure / collapse / hypoxia s
 
 | Item | Spec |
 |------|------|
-| Area | ~18 m², adjacent to staff / guest WC, near VIP corridor |
+| Area | ~18 m², adjacent to **staff rest/changing (A-06)** / guest WC, near VIP corridor |
 | Bed | Treatment bed with padded side rails; soft floor zone for fall protection |
 | Airway / O2 | Oxygen cylinder + regulator; portable suction |
 | Cardiac | Wall AED with monthly check log |
@@ -168,6 +170,26 @@ Designed as a **first-response medical room** for seizure / collapse / hypoxia s
 | OPEX | Training / consumables / nurse cover AED 3k–12k / month |
 
 **Hard rules:** robots never park or route through the emergency room; stretcher path kept clear; privacy curtain for guest dignity.
+
+### 4.3 Staff resting & changing room (with closets)
+
+Back-of-house room for **workers only** — rest between shifts, change into house uniform, and store personal items in lockable closets.
+
+| Item | Spec |
+|------|------|
+| Area | ~28 m², adjacent to emergency room and kitchen BOH corridor |
+| Access | Staff badge only; no guest entry; robots never enter |
+| **Resting zone** | ~12 m² — 2 sofas, 2 recliners, water/coffee point, fridge, roster table |
+| **Changing · women** | ~7 m² — 2 curtain booths, bench, full mirror |
+| **Changing · men** | ~7 m² — 2 curtain booths, bench, full mirror |
+| **Worker closets** | **C01–C12** lockable personal closets: hang rail (uniform), bag shelf, shoe shelf, name tag |
+| Uniform closet | Locked supervisor stock for hostess / FOH / kitchen spare kits |
+| Shoe rack | Street → house shoes with wet drip tray |
+| Staff WC | Toilet + sink + exhaust (separate from guest WC) |
+| Phone cubbies | Personal phones off FOH; labeled charging shelf |
+| CAPEX | Fit-out AED 80k–180k + lockers/FF&E AED 40k–90k |
+
+**Hard rules:** workers only; phones stay in cubbies on shift; no tips/cash stored here; no robot routing.
 
 ---
 
@@ -200,6 +222,7 @@ Ranges assume a **premium** fit-out in a suitable rooftop-capable building. Land
 | **VIP TVs + on-demand AV (lounge + bedroom)** | **100k–220k** | **180k–320k** |
 | **EJL brand livery (robots + suite plaques + print)** | **25k–80k** | **50k–140k** |
 | **Emergency / seizure room + kit** | **120k–280k** | **200k–400k** |
+| **Staff rest & changing + worker closets** | **120k–250k** | **200k–400k** |
 | Hookah equipment (coal + e-shisha) | 120k–500k | 250k–900k |
 | Kitchen / commissary | 400k–1.3M | 800k–2.4M |
 | **Robots + POS/KDS/QR integration** | **250k–550k** | **450k–1.1M** |
@@ -246,6 +269,7 @@ Ranges assume a **premium** fit-out in a suitable rooftop-capable building. Land
 | [`drawings/04-section-elevation.svg`](./drawings/04-section-elevation.svg) | Cut section: levels, exhaust, fountain, robots |
 | [`drawings/05-vip-room-plan.svg`](./drawings/05-vip-room-plan.svg) | **A-04 One VIP unit:** lounge · **office** · **bedroom + ensuite** · fountain · fireplace · pole · e-lock |
 | [`drawings/06-emergency-room-plan.svg`](./drawings/06-emergency-room-plan.svg) | **A-05 Emergency / seizure room:** bed, O2, AED, EMS route |
+| [`drawings/09-staff-rest-changing-plan.svg`](./drawings/09-staff-rest-changing-plan.svg) | **A-06 Staff rest & changing:** rest zone · W/M booths · **closets C01–C12** |
 | [`drawings/07-payment-system.svg`](./drawings/07-payment-system.svg) | **P-01 Payment:** electronic only · no tip · donations only |
 | [`drawings/08-robot-branding.svg`](./drawings/08-robot-branding.svg) | **B-01 Robot livery:** EJL pink/gold logo on fleet |
 | [`drawings/ejl-lighthouse-logo.svg`](./drawings/ejl-lighthouse-logo.svg) | **Brand logo** (SVG) |
@@ -258,6 +282,10 @@ Ranges assume a **premium** fit-out in a suitable rooftop-capable building. Land
 | [`drawings/10-vip-bedroom-concept.png`](./drawings/10-vip-bedroom-concept.png) | **VIP bedroom** concept (king · pink/gold) |
 | [`drawings/11-vip-office-concept.png`](./drawings/11-vip-office-concept.png) | **VIP private office** concept |
 | [`drawings/12-vip-office-bedroom-suite.png`](./drawings/12-vip-office-bedroom-suite.png) | **One VIP cutaway:** lounge + office + bedroom |
+| [`drawings/13-emergency-room-concept.png`](./drawings/13-emergency-room-concept.png) | **Emergency room** concept render |
+| [`drawings/14-staff-changing-room-concept.png`](./drawings/14-staff-changing-room-concept.png) | **Staff rest & changing** concept (closets) |
+| [`images/23-emergency-room.png`](./images/23-emergency-room.png) | Emergency room |
+| [`images/24-staff-rest-changing.png`](./images/24-staff-rest-changing.png) | Staff rest / changing with closets |
 | [`images/`](./images/) | **All images in one folder** (logo, fountains, fireplaces, pole, VIP office/bedroom, rooftop) |
 | [`images/10-classic-fountain-display.png`](./images/10-classic-fountain-display.png) | Classic fountain display |
 | [`images/12-classic-fireplace.png`](./images/12-classic-fireplace.png) | Classic fireplace |
