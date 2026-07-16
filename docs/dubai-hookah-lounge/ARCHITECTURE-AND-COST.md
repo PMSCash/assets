@@ -6,6 +6,7 @@
 **Offer:** Electronic hookah + traditional coal shisha (Russian / Turkish / Arabic) + dining  
 **Service model:** Table-delivery robots; orders routed digitally → kitchen → robot → table  
 **Payments:** **Strictly electronic · no cash · no tipping · donations only** (optional, separate from bill)  
+**Images (one folder):** [`images/`](./images/) — all classic PNGs compiled together  
 **Drawings:** see [`drawings/`](./drawings/), [`index.html`](./index.html), and [`download/`](./download/) zip pack
 
 ---
