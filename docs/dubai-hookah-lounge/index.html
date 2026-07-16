@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dubai Premium Hookah Lounge — Architecture Drawings</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink: #2c2416;
+      --sand: #f5efe4;
+      --paper: #faf7f2;
+      --brass: #c9a96e;
+      --clay: #8B4513;
+      --smoke: #5a4a32;
+      --line: #d4c4a8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Source Sans 3", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(ellipse at 20% 0%, rgba(201,169,110,0.18), transparent 50%),
+        radial-gradient(ellipse at 80% 20%, rgba(139,69,19,0.08), transparent 45%),
+        linear-gradient(180deg, #efe6d4 0%, var(--paper) 35%, #f3ebe0 100%);
+      line-height: 1.5;
+    }
+    header {
+      padding: 3rem 1.5rem 2rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .eyebrow {
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      font-size: 0.75rem;
+      color: var(--clay);
+      font-weight: 600;
+      margin: 0 0 0.75rem;
+    }
+    h1 {
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-size: clamp(2.4rem, 5vw, 3.8rem);
+      font-weight: 600;
+      line-height: 1.05;
+      margin: 0 0 0.75rem;
+      max-width: 16ch;
+    }
+    .lede {
+      max-width: 58ch;
+      color: var(--smoke);
+      font-size: 1.05rem;
+      margin: 0 0 1.5rem;
+    }
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem 1.25rem;
+      font-size: 0.9rem;
+      color: var(--smoke);
+      border-top: 1px solid var(--line);
+      padding-top: 1rem;
+    }
+    .meta strong { color: var(--ink); font-weight: 600; }
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 1.5rem 4rem;
+      display: grid;
+      gap: 2.5rem;
+    }
+    section h2 {
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-size: 1.85rem;
+      font-weight: 600;
+      margin: 0 0 0.35rem;
+    }
+    section p.note {
+      margin: 0 0 1rem;
+      color: var(--smoke);
+      font-size: 0.95rem;
+    }
+    .frame {
+      background: #fff;
+      border: 1px solid var(--line);
+      padding: 0.75rem;
+      overflow: auto;
+    }
+    .frame img, .frame object {
+      display: block;
+      width: 100%;
+      height: auto;
+      background: #faf7f2;
+    }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+    @media (min-width: 800px) {
+      .grid-2 { grid-template-columns: 1fr 1fr; }
+    }
+    .cost {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    @media (min-width: 700px) {
+      .cost { grid-template-columns: 1fr 1fr; }
+    }
+    .tile {
+      background: rgba(255,255,255,0.65);
+      border: 1px solid var(--line);
+      padding: 1.25rem 1.4rem;
+    }
+    .tile h3 {
+      font-family: "Cormorant Garamond", Georgia, serif;
+      margin: 0 0 0.4rem;
+      font-size: 1.45rem;
+    }
+    .tile .figure {
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: var(--clay);
+      margin: 0.25rem 0 0.5rem;
+    }
+    .tile ul {
+      margin: 0.5rem 0 0;
+      padding-left: 1.1rem;
+      color: var(--smoke);
+      font-size: 0.92rem;
+    }
+    a.doc {
+      color: var(--clay);
+      font-weight: 600;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+    a.doc:hover { border-bottom-color: var(--clay); }
+    footer {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 1.5rem 3rem;
+      font-size: 0.85rem;
+      color: var(--smoke);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <p class="eyebrow">Dubai · Concept Package</p>
+    <h1>Premium Hookah Lounge</h1>
+    <p class="lede">
+      50-seat rooftop and indoor lounge with electronic hookah, traditional coal shisha
+      (Russian / Turkish / Arabic), dining, indoor fountain, massage seats, and
+      table-delivery robots with digital order routing.
+    </p>
+    <div class="meta">
+      <span><strong>Seats:</strong> 50 (28 rooftop + 22 indoor)</span>
+      <span><strong>Robots:</strong> 4 delivery units</span>
+      <span><strong>CAPEX:</strong> AED 10M–28M</span>
+      <span><a class="doc" href="./ARCHITECTURE-AND-COST.md">Full architecture &amp; cost memo →</a></span>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <h2>Concept atmospheres</h2>
+      <p class="note">Visual direction for rooftop lighting and indoor robot service.</p>
+      <div class="grid-2">
+        <div class="frame">
+          <img src="./drawings/01-rooftop-concept.png" alt="Rooftop lounge concept at dusk" />
+        </div>
+        <div class="frame">
+          <img src="./drawings/02-indoor-robot-concept.png" alt="Indoor dining with fountain and delivery robot" />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>A-01 · Indoor floor plan</h2>
+      <p class="note">Dining, fountain, massage seats, kitchen, robot loading bay, coal negative-pressure room.</p>
+      <div class="frame">
+        <object data="./drawings/01-indoor-floor-plan.svg" type="image/svg+xml" aria-label="Indoor floor plan">Indoor floor plan</object>
+      </div>
+    </section>
+
+    <section>
+      <h2>A-02 · Rooftop floor plan</h2>
+      <p class="note">28 lounge seats, bar handoff, exhaust stacks, robot aisle.</p>
+      <div class="frame">
+        <object data="./drawings/02-rooftop-floor-plan.svg" type="image/svg+xml" aria-label="Rooftop floor plan">Rooftop floor plan</object>
+      </div>
+    </section>
+
+    <section>
+      <h2>R-01 · Robot routing &amp; order flow</h2>
+      <p class="note">QR order → KDS → load bay → table delivery. Coal room is a hard no-go zone for robots.</p>
+      <div class="frame">
+        <object data="./drawings/03-robot-routing.svg" type="image/svg+xml" aria-label="Robot routing diagram">Robot routing</object>
+      </div>
+    </section>
+
+    <section>
+      <h2>A-03 · Building section</h2>
+      <p class="note">Indoor + rooftop cut, dedicated coal exhaust to roof stacks, fountain, robot aisle.</p>
+      <div class="grid-2">
+        <div class="frame">
+          <object data="./drawings/04-section-elevation.svg" type="image/svg+xml" aria-label="Section elevation drawing">Section drawing</object>
+        </div>
+        <div class="frame">
+          <img src="./drawings/03-building-section-concept.png" alt="Building section concept render" />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Cost snapshot</h2>
+      <div class="cost">
+        <div class="tile">
+          <h3>Premium fit-out</h3>
+          <p class="figure">AED 10M – 16M</p>
+          <ul>
+            <li>Full coal exhaust + fire strategy</li>
+            <li>4 table-delivery robots + POS/KDS</li>
+            <li>Rooftop lighting + indoor fountain</li>
+          </ul>
+        </div>
+        <div class="tile">
+          <h3>Ultra-premium</h3>
+          <p class="figure">AED 16M – 28M</p>
+          <ul>
+            <li>Heavier rooftop structure &amp; FF&amp;E</li>
+            <li>Higher-spec lighting &amp; furniture</li>
+            <li>Expanded kitchen / brand detailing</li>
+          </ul>
+        </div>
+        <div class="tile">
+          <h3>Robotics package</h3>
+          <p class="figure">AED 270k – 610k</p>
+          <ul>
+            <li>3 indoor + 1 rooftop robots</li>
+            <li>Docks, mapping, QR menus, training</li>
+            <li>Coal service remains staff-only</li>
+          </ul>
+        </div>
+        <div class="tile">
+          <h3>Key constraint</h3>
+          <p class="figure" style="font-size:1.15rem;color:var(--ink)">Coal ≠ robots</p>
+          <ul>
+            <li>Negative-pressure coal room</li>
+            <li>Dedicated roof exhaust stacks</li>
+            <li>Civil Defense + landlord NOC critical</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Concept package for planning only — not construction documents. Costs are indicative Dubai ranges.
+    Full memo: <a class="doc" href="./ARCHITECTURE-AND-COST.md">ARCHITECTURE-AND-COST.md</a>
+  </footer>
+</body>
+</html>
