@@ -1,0 +1,251 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 850" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e8e0d4" stroke-width="0.5"/>
+    </pattern>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#8B4513"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="850" fill="#faf7f2"/>
+  <rect x="40" y="40" width="1120" height="720" fill="url(#grid)" stroke="#2c2416" stroke-width="2"/>
+
+  <!-- Title block -->
+  <rect x="40" y="770" width="1120" height="60" fill="#2c2416"/>
+  <text x="60" y="798" fill="#f5e6c8" font-size="16" font-weight="bold">DUBAI PREMIUM HOOKAH LOUNGE  INDOOR LEVEL FLOOR PLAN</text>
+  <text x="60" y="818" fill="#c9b896" font-size="11">50 seats total · Scale 1:100 approx · Robot-served dining · Coal shisha in sealed negative-pressure room</text>
+  <text x="980" y="805" fill="#f5e6c8" font-size="11">DRAWING A-01</text>
+
+  <!-- ENTRANCE / HOST -->
+  <rect x="60" y="320" width="100" height="160" fill="#efe6d8" stroke="#2c2416" stroke-width="1.5"/>
+  <text x="110" y="390" text-anchor="middle" font-size="12" fill="#2c2416" font-weight="bold">HOST</text>
+  <text x="110" y="408" text-anchor="middle" font-size="10" fill="#5a4a32">ENTRY</text>
+  <text x="110" y="424" text-anchor="middle" font-size="9" fill="#7a6a52">10 m²</text>
+  <!-- Door -->
+  <path d="M160,380 Q185,380 185,400" fill="none" stroke="#2c2416" stroke-width="1.5"/>
+  <line x1="160" y1="360" x2="160" y2="440" stroke="#2c2416" stroke-width="2"/>
+
+  <!-- MAIN DINING HALL -->
+  <rect x="180" y="80" width="520" height="560" fill="#f7f0e4" stroke="#2c2416" stroke-width="2"/>
+  <text x="440" y="105" text-anchor="middle" font-size="14" fill="#2c2416" font-weight="bold">INDOOR DINING · 22 SEATS</text>
+  <text x="440" y="122" text-anchor="middle" font-size="10" fill="#6a5a42">Non-smoking preferred · Robot aisle clearance 1.2m min</text>
+
+  <!-- Indoor fountain -->
+  <ellipse cx="440" cy="360" rx="55" ry="40" fill="#c5dde8" stroke="#3a6a7a" stroke-width="2"/>
+  <ellipse cx="440" cy="360" rx="35" ry="25" fill="#a8cdd9" stroke="#3a6a7a" stroke-width="1"/>
+  <circle cx="440" cy="360" r="8" fill="#7ab0c0"/>
+  <text x="440" y="420" text-anchor="middle" font-size="10" fill="#3a6a7a" font-weight="bold">INDOOR FOUNTAIN</text>
+
+  <!-- Dining tables left -->
+  <g id="tables-left">
+    <!-- T1 -->
+    <rect x="210" y="160" width="70" height="50" rx="4" fill="#fff" stroke="#2c2416" stroke-width="1"/>
+    <circle cx="225" cy="155" r="7" fill="#d4c4a8" stroke="#2c2416"/>
+    <circle cx="265" cy="155" r="7" fill="#d4c4a8" stroke="#2c2416"/>
+    <circle cx="225" cy="215" r="7" fill="#d4c4a8" stroke="#2c2416"/>
+    <circle cx="265" cy="215" r="7" fill="#d4c4a8" stroke="#2c2416"/>
+    <text x="245" y="190" text-anchor="middle" font-size="9" fill="#2c2416">T1</text>
+    <!-- T2 -->
+    <rect x="210" y="250" width="70" height="50" rx="4" fill="#fff" stroke="#2c2416" stroke-width="1"/>
+    <circle cx="225" cy="245" r="7" fill="#d4c4a8" stroke="#2c2416"/>
+    <circle cx="265" cy="245" r="7" fill="#d4c4a8" stroke="#2c2416"/>
+    <circle cx="225" cy="305" r="7" fill="#d4c4a8" stroke="#2c2416"/>
+    <circle cx="265" cy="305" r="7" fill="#d4c4a8" stroke="#2c2416"/>
+    <text x="245" y="280" text-anchor="middle" font-size="9" fill="#2c2416">T2</text>
+    <!-- T3 -->
+    <rect x="210" y="460" width="70" height="50" rx="4" fill="#fff" stroke="#2c2416" stroke-width="1"/>
+    <circle cx="225" cy="455" r="7" fill="#d4c4a8" stroke="#2c2416"/>
+    <circle cx="265" cy="455" r="7" fill="#d4c4a8" stroke="#2c2416"/>
+    <circle cx="225" cy="515" r="7" fill="#d4c4a8" stroke="#2c2416"/>
+    <circle cx="265" cy="515" r="7" fill="#d4c4a8" stroke="#2c2416"/>
+    <text x="245" y="490" text-anchor="middle" font-size="9" fill="#2c2416">T3</text>
+    <!-- T4 -->
+    <rect x="210" y="550" width="70" height="50" rx="4" fill="#fff" stroke="#2c2416" stroke-width="1"/>
+    <circle cx="225" cy="545" r="7" fill="#d4c4a8" stroke="#2c2416"/>
+    <circle cx="265" cy="545" r="7" fill="#d4c4a8" stroke="#2c2416"/>
+    <circle cx="225" cy="605" r="7" fill="#d4c4a8" stroke="#2c2416"/>
+    <circle cx="265" cy="605" r="7" fill="#d4c4a8" stroke="#2c2416"/>
+    <text x="245" y="580" text-anchor="middle" font-size="9" fill="#2c2416">T4</text>
+  </g>
+
+  <!-- Dining tables right -->
+  <g id="tables-right">
+    <rect x="560" y="160" width="70" height="50" rx="4" fill="#fff" stroke="#2c2416" stroke-width="1"/>
+    <circle cx="575" cy="155" r="7" fill="#d4c4a8" stroke="#2c2416"/>
+    <circle cx="615" cy="155" r="7" fill="#d4c4a8" stroke="#2c2416"/>
+    <circle cx="575" cy="215" r="7" fill="#d4c4a8" stroke="#2c2416"/>
+    <circle cx="615" cy="215" r="7" fill="#d4c4a8" stroke="#2c2416"/>
+    <text x="595" y="190" text-anchor="middle" font-size="9" fill="#2c2416">T5</text>
+
+    <rect x="560" y="250" width="70" height="50" rx="4" fill="#fff" stroke="#2c2416" stroke-width="1"/>
+    <circle cx="575" cy="245" r="7" fill="#d4c4a8" stroke="#2c2416"/>
+    <circle cx="615" cy="245" r="7" fill="#d4c4a8" stroke="#2c2416"/>
+    <circle cx="575" cy="305" r="7" fill="#d4c4a8" stroke="#2c2416"/>
+    <circle cx="615" cy="305" r="7" fill="#d4c4a8" stroke="#2c2416"/>
+    <text x="595" y="280" text-anchor="middle" font-size="9" fill="#2c2416">T6</text>
+
+    <!-- 2-top -->
+    <rect x="560" y="460" width="50" height="40" rx="4" fill="#fff" stroke="#2c2416" stroke-width="1"/>
+    <circle cx="575" cy="455" r="7" fill="#d4c4a8" stroke="#2c2416"/>
+    <circle cx="595" cy="505" r="7" fill="#d4c4a8" stroke="#2c2416"/>
+    <text x="585" y="485" text-anchor="middle" font-size="9" fill="#2c2416">T7</text>
+
+    <rect x="560" y="550" width="50" height="40" rx="4" fill="#fff" stroke="#2c2416" stroke-width="1"/>
+    <circle cx="575" cy="545" r="7" fill="#d4c4a8" stroke="#2c2416"/>
+    <circle cx="595" cy="595" r="7" fill="#d4c4a8" stroke="#2c2416"/>
+    <text x="585" y="575" text-anchor="middle" font-size="9" fill="#2c2416">T8</text>
+  </g>
+
+  <!-- Robot primary aisle (dashed) -->
+  <path d="M320 140 L320 620" stroke="#8B4513" stroke-width="3" stroke-dasharray="10,6" fill="none" opacity="0.7"/>
+  <path d="M320 140 L540 140 L540 620 L320 620" stroke="#8B4513" stroke-width="2" stroke-dasharray="8,5" fill="none" opacity="0.5"/>
+  <text x="340" y="145" font-size="9" fill="#8B4513" font-weight="bold">ROBOT AISLE ¶</text>
+
+  <!-- Robot icons -->
+  <g transform="translate(300,380)">
+    <rect x="0" y="0" width="28" height="22" rx="4" fill="#fff" stroke="#8B4513" stroke-width="1.5"/>
+    <circle cx="7" cy="24" r="3" fill="#2c2416"/>
+    <circle cx="21" cy="24" r="3" fill="#2c2416"/>
+    <rect x="6" y="4" width="16" height="10" rx="1" fill="#c9a96e"/>
+    <text x="14" y="-6" text-anchor="middle" font-size="8" fill="#8B4513">R1</text>
+  </g>
+
+  <!-- MASSAGE SEATS -->
+  <rect x="340" y="150" width="200" height="70" fill="#e8dcc8" stroke="#2c2416" stroke-width="1.5"/>
+  <text x="440" y="175" text-anchor="middle" font-size="11" fill="#2c2416" font-weight="bold">MASSAGE SEATS · 6</text>
+  <g>
+    <rect x="355" y="185" width="22" height="28" rx="3" fill="#b8956a" stroke="#2c2416"/>
+    <rect x="385" y="185" width="22" height="28" rx="3" fill="#b8956a" stroke="#2c2416"/>
+    <rect x="415" y="185" width="22" height="28" rx="3" fill="#b8956a" stroke="#2c2416"/>
+    <rect x="445" y="185" width="22" height="28" rx="3" fill="#b8956a" stroke="#2c2416"/>
+    <rect x="475" y="185" width="22" height="28" rx="3" fill="#b8956a" stroke="#2c2416"/>
+    <rect x="505" y="185" width="22" height="28" rx="3" fill="#b8956a" stroke="#2c2416"/>
+  </g>
+
+  <!-- E-SHISHA LOUNGE alcove -->
+  <rect x="340" y="500" width="200" height="120" fill="#ede4d4" stroke="#2c2416" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="440" y="530" text-anchor="middle" font-size="11" fill="#2c2416" font-weight="bold">E-SHISHA LOUNGE · 8 seats</text>
+  <text x="440" y="546" text-anchor="middle" font-size="9" fill="#6a5a42">Electronic only · odor extract</text>
+  <ellipse cx="380" cy="580" rx="28" ry="18" fill="#d4c4a8" stroke="#2c2416"/>
+  <ellipse cx="440" cy="580" rx="28" ry="18" fill="#d4c4a8" stroke="#2c2416"/>
+  <ellipse cx="500" cy="580" rx="28" ry="18" fill="#d4c4a8" stroke="#2c2416"/>
+
+  <!-- KITCHEN / COMMISSARY -->
+  <rect x="720" y="80" width="200" height="200" fill="#e8e4dc" stroke="#2c2416" stroke-width="2"/>
+  <text x="820" y="110" text-anchor="middle" font-size="12" fill="#2c2416" font-weight="bold">KITCHEN / COMMISSARY</text>
+  <text x="820" y="128" text-anchor="middle" font-size="9" fill="#6a5a42">40 m² · prep + hot line</text>
+  <rect x="740" y="150" width="160" height="40" fill="#d0ccc4" stroke="#2c2416"/>
+  <text x="820" y="175" text-anchor="middle" font-size="10" fill="#2c2416">COOK LINE</text>
+  <rect x="740" y="210" width="70" height="50" fill="#c8c4bc" stroke="#2c2416"/>
+  <text x="775" y="240" text-anchor="middle" font-size="9" fill="#2c2416">COLD</text>
+  <rect x="830" y="210" width="70" height="50" fill="#c8c4bc" stroke="#2c2416"/>
+  <text x="865" y="240" text-anchor="middle" font-size="9" fill="#2c2416">WASH</text>
+
+  <!-- ROBOT LOADING BAY -->
+  <rect x="720" y="300" width="200" height="100" fill="#f0e0c8" stroke="#8B4513" stroke-width="2.5"/>
+  <text x="820" y="330" text-anchor="middle" font-size="12" fill="#8B4513" font-weight="bold">ROBOT LOADING BAY</text>
+  <text x="820" y="348" text-anchor="middle" font-size="9" fill="#6a5a42">Staff loads trays · QR scan · dispatch</text>
+  <!-- robots docked -->
+  <g transform="translate(750,360)">
+    <rect width="28" height="22" rx="4" fill="#fff" stroke="#8B4513" stroke-width="1.5"/>
+    <circle cx="7" cy="24" r="3" fill="#2c2416"/>
+    <circle cx="21" cy="24" r="3" fill="#2c2416"/>
+    <text x="14" y="-4" text-anchor="middle" font-size="8" fill="#8B4513">R2</text>
+  </g>
+  <g transform="translate(800,360)">
+    <rect width="28" height="22" rx="4" fill="#fff" stroke="#8B4513" stroke-width="1.5"/>
+    <circle cx="7" cy="24" r="3" fill="#2c2416"/>
+    <circle cx="21" cy="24" r="3" fill="#2c2416"/>
+    <text x="14" y="-4" text-anchor="middle" font-size="8" fill="#8B4513">R3</text>
+  </g>
+  <g transform="translate(850,360)">
+    <rect width="28" height="22" rx="4" fill="#d4d4d4" stroke="#8B4513" stroke-width="1.5"/>
+    <text x="14" y="15" text-anchor="middle" font-size="8" fill="#8B4513">CHG</text>
+  </g>
+  <text x="820" y="390" text-anchor="middle" font-size="8" fill="#8B4513">3 robots + 1 charging dock</text>
+
+  <!-- Door from kitchen to bay -->
+  <line x1="820" y1="280" x2="820" y2="300" stroke="#2c2416" stroke-width="3"/>
+
+  <!-- COAL SHISHA ROOM (negative pressure) -->
+  <rect x="720" y="420" width="200" height="220" fill="#d8c8b0" stroke="#8B0000" stroke-width="3"/>
+  <text x="820" y="450" text-anchor="middle" font-size="12" fill="#8B0000" font-weight="bold">COAL SHISHA ROOM</text>
+  <text x="820" y="468" text-anchor="middle" font-size="9" fill="#5a3020">NEGATIVE PRESSURE · NO ROBOTS</text>
+  <text x="820" y="484" text-anchor="middle" font-size="9" fill="#5a3020">Russian / Turkish / Arabic · 10 seats</text>
+
+  <!-- booths -->
+  <rect x="740" y="500" width="50" height="55" rx="3" fill="#c4a882" stroke="#2c2416"/>
+  <text x="765" y="530" text-anchor="middle" font-size="8">B1</text>
+  <rect x="800" y="500" width="50" height="55" rx="3" fill="#c4a882" stroke="#2c2416"/>
+  <text x="825" y="530" text-anchor="middle" font-size="8">B2</text>
+  <rect x="860" y="500" width="50" height="55" rx="3" fill="#c4a882" stroke="#2c2416"/>
+  <text x="885" y="530" text-anchor="middle" font-size="8">B3</text>
+
+  <rect x="740" y="570" width="70" height="40" fill="#b89870" stroke="#2c2416"/>
+  <text x="775" y="595" text-anchor="middle" font-size="8">COAL BAR</text>
+  <rect x="830" y="570" width="70" height="40" fill="#a88860" stroke="#2c2416"/>
+  <text x="865" y="595" text-anchor="middle" font-size="8">EXHAUST</text>
+
+  <!-- Vestibule airlock -->
+  <rect x="700" y="500" width="20" height="60" fill="#c0a080" stroke="#8B0000" stroke-width="1.5"/>
+  <text x="710" y="490" text-anchor="middle" font-size="7" fill="#8B0000" transform="rotate(-90 710 530)">AIRLOCK</text>
+
+  <!-- PREP / CLEAN -->
+  <rect x="940" y="80" width="200" height="140" fill="#e0dcd4" stroke="#2c2416" stroke-width="1.5"/>
+  <text x="1040" y="110" text-anchor="middle" font-size="11" fill="#2c2416" font-weight="bold">SHISHA PREP</text>
+  <text x="1040" y="128" text-anchor="middle" font-size="9" fill="#6a5a42">&amp; CLEAN ROOM · 18 m²</text>
+  <rect x="960" y="150" width="70" height="50" fill="#ccc8c0" stroke="#2c2416"/>
+  <text x="995" y="180" text-anchor="middle" font-size="9">SINKS</text>
+  <rect x="1050" y="150" width="70" height="50" fill="#ccc8c0" stroke="#2c2416"/>
+  <text x="1085" y="180" text-anchor="middle" font-size="9">DRY</text>
+
+  <!-- STORAGE / STAFF -->
+  <rect x="940" y="240" width="95" height="100" fill="#e0dcd4" stroke="#2c2416" stroke-width="1.5"/>
+  <text x="987" y="285" text-anchor="middle" font-size="10" fill="#2c2416" font-weight="bold">STORE</text>
+  <text x="987" y="300" text-anchor="middle" font-size="9" fill="#6a5a42">12 m²</text>
+
+  <rect x="1045" y="240" width="95" height="100" fill="#e0dcd4" stroke="#2c2416" stroke-width="1.5"/>
+  <text x="1092" y="285" text-anchor="middle" font-size="10" fill="#2c2416" font-weight="bold">STAFF</text>
+  <text x="1092" y="300" text-anchor="middle" font-size="9" fill="#6a5a42">12 m²</text>
+
+  <!-- TOILETS -->
+  <rect x="940" y="360" width="200" height="100" fill="#e8e8e4" stroke="#2c2416" stroke-width="1.5"/>
+  <text x="1040" y="400" text-anchor="middle" font-size="11" fill="#2c2416" font-weight="bold">GUEST WC</text>
+  <text x="1040" y="420" text-anchor="middle" font-size="9" fill="#6a5a42">M / F · accessible</text>
+
+  <!-- STAIRS TO ROOFTOP -->
+  <rect x="940" y="480" width="200" height="160" fill="#d8d0c0" stroke="#2c2416" stroke-width="2"/>
+  <text x="1040" y="520" text-anchor="middle" font-size="12" fill="#2c2416" font-weight="bold">STAIRS + LIFT</text>
+  <text x="1040" y="540" text-anchor="middle" font-size="9" fill="#6a5a42">to ROOFTOP</text>
+  <!-- stair lines -->
+  <line x1="970" y1="560" x2="1110" y2="560" stroke="#2c2416"/>
+  <line x1="970" y1="575" x2="1110" y2="575" stroke="#2c2416"/>
+  <line x1="970" y1="590" x2="1110" y2="590" stroke="#2c2416"/>
+  <line x1="970" y1="605" x2="1110" y2="605" stroke="#2c2416"/>
+  <rect x="1060" y="555" width="40" height="55" fill="#c0b8a8" stroke="#2c2416"/>
+  <text x="1080" y="585" text-anchor="middle" font-size="8">LIFT</text>
+
+  <!-- Legend -->
+  <rect x="60" y="80" width="100" height="200" fill="#fff" stroke="#2c2416" stroke-width="1" opacity="0.95"/>
+  <text x="110" y="100" text-anchor="middle" font-size="10" font-weight="bold" fill="#2c2416">LEGEND</text>
+  <line x1="75" y1="120" x2="105" y2="120" stroke="#8B4513" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="110" y="124" font-size="8" fill="#2c2416">Robot path</text>
+  <rect x="75" y="140" width="20" height="12" fill="#d8c8b0" stroke="#8B0000" stroke-width="2"/>
+  <text x="100" y="150" font-size="8" fill="#2c2416">Coal room</text>
+  <rect x="75" y="165" width="20" height="12" fill="#f0e0c8" stroke="#8B4513" stroke-width="1.5"/>
+  <text x="100" y="175" font-size="8" fill="#2c2416">Robot bay</text>
+  <ellipse cx="85" cy="195" rx="10" ry="7" fill="#c5dde8" stroke="#3a6a7a"/>
+  <text x="100" y="199" font-size="8" fill="#2c2416">Fountain</text>
+  <rect x="75" y="215" width="14" height="16" rx="2" fill="#b8956a" stroke="#2c2416"/>
+  <text x="100" y="227" font-size="8" fill="#2c2416">Massage</text>
+  <circle cx="82" cy="255" r="6" fill="#d4c4a8" stroke="#2c2416"/>
+  <text x="100" y="259" font-size="8" fill="#2c2416">Seat</text>
+
+  <!-- North arrow -->
+  <g transform="translate(1100,100)">
+    <polygon points="0,-20 8,10 -8,10" fill="#2c2416"/>
+    <text x="0" y="28" text-anchor="middle" font-size="10" font-weight="bold">N</text>
+  </g>
+</svg>

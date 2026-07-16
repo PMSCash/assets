@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" font-family="Georgia, 'Times New Roman', serif">
+  <rect width="1200" height="900" fill="#faf7f2"/>
+
+  <!-- Title -->
+  <rect x="0" y="0" width="1200" height="70" fill="#2c2416"/>
+  <text x="40" y="32" fill="#f5e6c8" font-size="18" font-weight="bold">TABLE DELIVERY ROBOT ROUTING &amp; ORDER FLOW</text>
+  <text x="40" y="55" fill="#c9b896" font-size="12">Guest QR order ’ Kitchen KDS ’ Robot load bay ’ Table delivery ’ Return ’ Charge</text>
+  <text x="1050" y="42" fill="#f5e6c8" font-size="11">DRAWING R-01</text>
+
+  <!-- ========== FLOW STEPS ========== -->
+  <text x="40" y="110" font-size="14" font-weight="bold" fill="#2c2416">1. ORDER LIFECYCLE (DIGITAL ’ ROBOT)</text>
+
+  <!-- Flow boxes -->
+  <g font-size="11">
+    <rect x="40" y="130" width="140" height="70" rx="6" fill="#fff" stroke="#2c2416" stroke-width="1.5"/>
+    <text x="110" y="160" text-anchor="middle" font-weight="bold">GUEST</text>
+    <text x="110" y="178" text-anchor="middle" fill="#6a5a42">QR / tablet menu</text>
+
+    <path d="M185 165 L215 165" stroke="#8B4513" stroke-width="2" marker-end="url(#arrow)"/>
+    <polygon points="210,160 220,165 210,170" fill="#8B4513"/>
+
+    <rect x="225" y="130" width="140" height="70" rx="6" fill="#fff" stroke="#2c2416" stroke-width="1.5"/>
+    <text x="295" y="160" text-anchor="middle" font-weight="bold">POS / CLOUD</text>
+    <text x="295" y="178" text-anchor="middle" fill="#6a5a42">Order + table ID</text>
+
+    <polygon points="370,160 380,165 370,170" fill="#8B4513"/>
+    <line x1="365" y1="165" x2="380" y2="165" stroke="#8B4513" stroke-width="2"/>
+
+    <rect x="385" y="130" width="140" height="70" rx="6" fill="#fff" stroke="#2c2416" stroke-width="1.5"/>
+    <text x="455" y="160" text-anchor="middle" font-weight="bold">KITCHEN KDS</text>
+    <text x="455" y="178" text-anchor="middle" fill="#6a5a42">Prep + ticket</text>
+
+    <polygon points="530,160 540,165 530,170" fill="#8B4513"/>
+
+    <rect x="545" y="130" width="160" height="70" rx="6" fill="#f0e0c8" stroke="#8B4513" stroke-width="2"/>
+    <text x="625" y="155" text-anchor="middle" font-weight="bold" fill="#8B4513">LOAD BAY</text>
+    <text x="625" y="173" text-anchor="middle" fill="#6a5a42">Staff places tray</text>
+    <text x="625" y="188" text-anchor="middle" fill="#6a5a42">Scan ’ assign robot</text>
+
+    <polygon points="710,160 720,165 710,170" fill="#8B4513"/>
+
+    <rect x="725" y="130" width="150" height="70" rx="6" fill="#f0e0c8" stroke="#8B4513" stroke-width="2"/>
+    <text x="800" y="160" text-anchor="middle" font-weight="bold" fill="#8B4513">ROBOT</text>
+    <text x="800" y="178" text-anchor="middle" fill="#6a5a42">Navigate to table</text>
+
+    <polygon points="880,160 890,165 880,170" fill="#8B4513"/>
+
+    <rect x="895" y="130" width="140" height="70" rx="6" fill="#fff" stroke="#2c2416" stroke-width="1.5"/>
+    <text x="965" y="160" text-anchor="middle" font-weight="bold">TABLE</text>
+    <text x="965" y="178" text-anchor="middle" fill="#6a5a42">Guest retrieves</text>
+
+    <polygon points="1040,160 1050,165 1040,170" fill="#8B4513"/>
+
+    <rect x="1055" y="130" width="120" height="70" rx="6" fill="#e8e4dc" stroke="#2c2416" stroke-width="1.5"/>
+    <text x="1115" y="160" text-anchor="middle" font-weight="bold">RETURN</text>
+    <text x="1115" y="178" text-anchor="middle" fill="#6a5a42">Bay / charge</text>
+  </g>
+
+  <!-- ========== FLOOR ROUTING MAP ========== -->
+  <text x="40" y="250" font-size="14" font-weight="bold" fill="#2c2416">2. INDOOR ROBOT PATH MAP (PRIMARY + SECONDARY LOOPS)</text>
+
+  <rect x="40" y="270" width="720" height="400" fill="#f7f0e4" stroke="#2c2416" stroke-width="2"/>
+
+  <!-- Simplified rooms -->
+  <rect x="60" y="290" width="80" height="100" fill="#efe6d8" stroke="#2c2416"/>
+  <text x="100" y="340" text-anchor="middle" font-size="10">HOST</text>
+
+  <rect x="160" y="290" width="380" height="360" fill="#faf6ee" stroke="#2c2416"/>
+  <text x="350" y="315" text-anchor="middle" font-size="11" font-weight="bold">DINING FLOOR</text>
+
+  <!-- Fountain -->
+  <ellipse cx="350" cy="470" rx="40" ry="28" fill="#c5dde8" stroke="#3a6a7a" stroke-width="2"/>
+  <text x="350" y="475" text-anchor="middle" font-size="8" fill="#3a6a7a">FOUNTAIN</text>
+  <text x="350" y="510" text-anchor="middle" font-size="8" fill="#8B0000">KEEP-OUT 0.8m</text>
+
+  <!-- Tables as targets -->
+  <rect x="190" y="340" width="40" height="30" fill="#fff" stroke="#2c2416"/><text x="210" y="360" text-anchor="middle" font-size="8">T1</text>
+  <rect x="190" y="400" width="40" height="30" fill="#fff" stroke="#2c2416"/><text x="210" y="420" text-anchor="middle" font-size="8">T2</text>
+  <rect x="190" y="540" width="40" height="30" fill="#fff" stroke="#2c2416"/><text x="210" y="560" text-anchor="middle" font-size="8">T3</text>
+  <rect x="190" y="590" width="40" height="30" fill="#fff" stroke="#2c2416"/><text x="210" y="610" text-anchor="middle" font-size="8">T4</text>
+
+  <rect x="460" y="340" width="40" height="30" fill="#fff" stroke="#2c2416"/><text x="480" y="360" text-anchor="middle" font-size="8">T5</text>
+  <rect x="460" y="400" width="40" height="30" fill="#fff" stroke="#2c2416"/><text x="480" y="420" text-anchor="middle" font-size="8">T6</text>
+  <rect x="460" y="540" width="40" height="30" fill="#fff" stroke="#2c2416"/><text x="480" y="560" text-anchor="middle" font-size="8">T7</text>
+  <rect x="460" y="590" width="40" height="30" fill="#fff" stroke="#2c2416"/><text x="480" y="610" text-anchor="middle" font-size="8">T8</text>
+
+  <!-- Primary loop path -->
+  <path d="M560 380 L270 380 L270 620 L510 620 L510 380 Z"
+        fill="none" stroke="#8B4513" stroke-width="4" stroke-dasharray="12,6" opacity="0.85"/>
+  <text x="300" y="370" font-size="10" fill="#8B4513" font-weight="bold">PRIMARY LOOP (CW)</text>
+
+  <!-- Spurs to tables -->
+  <line x1="270" y1="355" x2="230" y2="355" stroke="#c9a96e" stroke-width="2"/>
+  <line x1="270" y1="415" x2="230" y2="415" stroke="#c9a96e" stroke-width="2"/>
+  <line x1="270" y1="555" x2="230" y2="555" stroke="#c9a96e" stroke-width="2"/>
+  <line x1="270" y1="605" x2="230" y2="605" stroke="#c9a96e" stroke-width="2"/>
+  <line x1="510" y1="355" x2="460" y2="355" stroke="#c9a96e" stroke-width="2"/>
+  <line x1="510" y1="415" x2="460" y2="415" stroke="#c9a96e" stroke-width="2"/>
+  <line x1="510" y1="555" x2="460" y2="555" stroke="#c9a96e" stroke-width="2"/>
+  <line x1="510" y1="605" x2="460" y2="605" stroke="#c9a96e" stroke-width="2"/>
+
+  <!-- Kitchen + bay -->
+  <rect x="560" y="290" width="180" height="120" fill="#e8e4dc" stroke="#2c2416" stroke-width="1.5"/>
+  <text x="650" y="345" text-anchor="middle" font-size="11" font-weight="bold">KITCHEN</text>
+
+  <rect x="560" y="430" width="180" height="100" fill="#f0e0c8" stroke="#8B4513" stroke-width="2.5"/>
+  <text x="650" y="470" text-anchor="middle" font-size="11" font-weight="bold" fill="#8B4513">LOAD BAY</text>
+  <text x="650" y="490" text-anchor="middle" font-size="9" fill="#6a5a42">R1 R2 R3 + CHG</text>
+
+  <!-- Path from bay to loop -->
+  <path d="M560 480 L510 480 L510 380" fill="none" stroke="#8B4513" stroke-width="3"/>
+  <polygon points="505,385 510,375 515,385" fill="#8B4513"/>
+
+  <!-- Coal room NO ENTRY -->
+  <rect x="560" y="550" width="180" height="100" fill="#d8c8b0" stroke="#8B0000" stroke-width="3"/>
+  <text x="650" y="590" text-anchor="middle" font-size="12" font-weight="bold" fill="#8B0000">COAL ROOM</text>
+  <text x="650" y="612" text-anchor="middle" font-size="11" fill="#8B0000">Ô NO ROBOT ENTRY</text>
+  <text x="650" y="632" text-anchor="middle" font-size="9" fill="#5a3020">Staff-only coal service</text>
+
+  <!-- ========== RIGHT PANEL: RULES ========== -->
+  <rect x="780" y="270" width="390" height="400" fill="#fff" stroke="#2c2416" stroke-width="1.5"/>
+  <text x="975" y="300" text-anchor="middle" font-size="13" font-weight="bold" fill="#2c2416">ROUTING RULES</text>
+
+  <text x="800" y="335" font-size="11" fill="#2c2416" font-weight="bold">Aisle clearances</text>
+  <text x="800" y="355" font-size="10" fill="#5a4a32">" Main loop aisle: e 1.2 m clear</text>
+  <text x="800" y="372" font-size="10" fill="#5a4a32">" Table spur stop: 0.40.6 m from edge</text>
+  <text x="800" y="389" font-size="10" fill="#5a4a32">" Fountain keep-out: 0.8 m radius</text>
+
+  <text x="800" y="420" font-size="11" fill="#2c2416" font-weight="bold">Fleet (recommended)</text>
+  <text x="800" y="440" font-size="10" fill="#5a4a32">" 3 indoor robots (active)</text>
+  <text x="800" y="457" font-size="10" fill="#5a4a32">" 1 rooftop robot (or shared via lift)</text>
+  <text x="800" y="474" font-size="10" fill="#5a4a32">" 1 charging dock + spare battery</text>
+
+  <text x="800" y="505" font-size="11" fill="#2c2416" font-weight="bold">What robots carry</text>
+  <text x="800" y="525" font-size="10" fill="#5a4a32"> Food plates, drinks, cold desserts</text>
+  <text x="800" y="542" font-size="10" fill="#5a4a32"> E-shisha devices (sealed, cool)</text>
+  <text x="800" y="559" font-size="10" fill="#5a4a32"> Menus, napkins, bill folders</text>
+  <text x="800" y="580" font-size="10" fill="#8B0000"> Hot coals / lit traditional shisha</text>
+  <text x="800" y="597" font-size="10" fill="#8B0000"> Open liquids without lids</text>
+  <text x="800" y="614" font-size="10" fill="#8B0000"> Heavy glass multi-hose setups</text>
+
+  <text x="800" y="645" font-size="11" fill="#2c2416" font-weight="bold">Rooftop delivery mode</text>
+  <text x="800" y="665" font-size="10" fill="#5a4a32">Kitchen ’ lift cage tray ’ rooftop</text>
+  <text x="800" y="682" font-size="10" fill="#5a4a32">handoff counter ’ rooftop robot ’ table</text>
+
+  <!-- ========== BOTTOM: ROOFTOP HANDOFF ========== -->
+  <text x="40" y="710" font-size="14" font-weight="bold" fill="#2c2416">3. ROOFTOP HANDOFF SEQUENCE</text>
+
+  <g font-size="10">
+    <rect x="40" y="730" width="200" height="55" rx="4" fill="#e8e4dc" stroke="#2c2416"/>
+    <text x="140" y="755" text-anchor="middle" font-weight="bold">1. Kitchen packs tray</text>
+    <text x="140" y="772" text-anchor="middle" fill="#6a5a42">Tag: ROOF-R3</text>
+
+    <polygon points="250,755 260,760 250,765" fill="#8B4513"/>
+
+    <rect x="270" y="730" width="200" height="55" rx="4" fill="#d8d0c0" stroke="#2c2416"/>
+    <text x="370" y="755" text-anchor="middle" font-weight="bold">2. Service lift transfer</text>
+    <text x="370" y="772" text-anchor="middle" fill="#6a5a42">Dedicated cage / dumbwaiter</text>
+
+    <polygon points="480,755 490,760 480,765" fill="#8B4513"/>
+
+    <rect x="500" y="730" width="200" height="55" rx="4" fill="#f0e0c8" stroke="#8B4513" stroke-width="2"/>
+    <text x="600" y="755" text-anchor="middle" font-weight="bold" fill="#8B4513">3. Rooftop pickup</text>
+    <text x="600" y="772" text-anchor="middle" fill="#6a5a42">Bar handoff ’ robot R4</text>
+
+    <polygon points="710,755 720,760 710,765" fill="#8B4513"/>
+
+    <rect x="730" y="730" width="200" height="55" rx="4" fill="#fff" stroke="#2c2416"/>
+    <text x="830" y="755" text-anchor="middle" font-weight="bold">4. Table delivery</text>
+    <text x="830" y="772" text-anchor="middle" fill="#6a5a42">R1R8 rooftop seats</text>
+
+    <polygon points="940,755 950,760 940,765" fill="#8B4513"/>
+
+    <rect x="960" y="730" width="200" height="55" rx="4" fill="#e8e4dc" stroke="#2c2416"/>
+    <text x="1060" y="755" text-anchor="middle" font-weight="bold">5. Empty return</text>
+    <text x="1060" y="772" text-anchor="middle" fill="#6a5a42">Back to bar pickup</text>
+  </g>
+
+  <text x="40" y="820" font-size="10" fill="#6a5a42">Note: If service lift cannot accommodate a robot, keep robots level-bound and transfer trays only (recommended for Dubai Civil Defense simplicity).</text>
+  <text x="40" y="840" font-size="10" fill="#6a5a42">Mapping: LiDAR SLAM map locked after fit-out; virtual walls around fountain, stairs, and coal vestibule.</text>
+  <text x="40" y="870" font-size="11" fill="#2c2416">DRAWING R-01 · Robot Architecture · Dubai Premium Hookah Lounge · Concept</text>
+</svg>
