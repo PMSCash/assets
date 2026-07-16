@@ -243,7 +243,11 @@ Ranges assume a **premium** fit-out in a suitable rooftop-capable building. Land
 | [`drawings/03-building-section-concept.png`](./drawings/03-building-section-concept.png) | Section concept render |
 | [`drawings/04-vip-room-concept.png`](./drawings/04-vip-room-concept.png) | Earlier VIP concept |
 | [`drawings/05-vip-ejl-concept.png`](./drawings/05-vip-ejl-concept.png) | **EJL VIP concept:** fountain · fireplace · pole · pink/gold |
-| [`download/dubai-hookah-lounge-drawings.zip`](./download/dubai-hookah-lounge-drawings.zip) | **Full image set** (all PNG + SVG) for download |
+| [`images/`](./images/) | **All images in one folder** (logo, fountains, fireplaces, pole, VIP, rooftop) |
+| [`images/10-classic-fountain-display.png`](./images/10-classic-fountain-display.png) | Classic fountain display |
+| [`images/12-classic-fireplace.png`](./images/12-classic-fireplace.png) | Classic fireplace |
+| [`images/14-classic-pole-dance.png`](./images/14-classic-pole-dance.png) | Classic pole stage with performers |
+| [`download/dubai-hookah-lounge-drawings.zip`](./download/dubai-hookah-lounge-drawings.zip) | **Full pack** — `images/` + `drawings/` + memo |
 
 Open [`index.html`](./index.html) for a single-page drawing board.
 
