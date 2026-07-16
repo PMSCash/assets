@@ -295,6 +295,7 @@ Ranges assume a **premium** fit-out in a suitable rooftop-capable building. Land
 | [`images/18-vip-office.png`](./images/18-vip-office.png) | VIP office |
 | [`images/19-vip-office-bedroom-suite.png`](./images/19-vip-office-bedroom-suite.png) | One VIP suite cutaway |
 | [`download/dubai-hookah-lounge-drawings.zip`](./download/dubai-hookah-lounge-drawings.zip) | **Full pack** — `images/` + `drawings/` + memo |
+| [`download/EJL-Lighthouse-all-images.pdf`](./download/EJL-Lighthouse-all-images.pdf) | **All images PDF** — cover · contents · every plan SVG + concept PNG |
 
 Open [`index.html`](./index.html) for a single-page drawing board.
 
