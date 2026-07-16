@@ -155,11 +155,13 @@
     <h1>Premium Hookah Lounge</h1>
     <p class="lede">
       50-seat rooftop and indoor lounge with electronic hookah, traditional coal shisha
-      (Russian / Turkish / Arabic), dining, indoor fountain, massage seats, and
+      (Russian / Turkish / Arabic), dining, indoor fountain, massage seats,
+      an electronically locked VIP suite with hostess service, and
       table-delivery robots with digital order routing.
     </p>
     <div class="meta">
-      <span><strong>Seats:</strong> 50 (28 rooftop + 22 indoor)</span>
+      <span><strong>Seats:</strong> 50 (28 rooftop + 22 indoor incl. VIP)</span>
+      <span><strong>VIP:</strong> E-locked suite + hostesses</span>
       <span><strong>Robots:</strong> 4 delivery units</span>
       <span><strong>CAPEX:</strong> AED 10M–28M</span>
       <span><a class="doc" href="./ARCHITECTURE-AND-COST.md">Full architecture &amp; cost memo →</a></span>
@@ -169,7 +171,7 @@
   <main>
     <section>
       <h2>Concept atmospheres</h2>
-      <p class="note">Visual direction for rooftop lighting and indoor robot service.</p>
+      <p class="note">Visual direction for rooftop lighting, indoor robot service, and the sealed VIP suite.</p>
       <div class="grid-2">
         <div class="frame">
           <img src="./drawings/01-rooftop-concept.png" alt="Rooftop lounge concept at dusk" />
@@ -177,6 +179,23 @@
         <div class="frame">
           <img src="./drawings/02-indoor-robot-concept.png" alt="Indoor dining with fountain and delivery robot" />
         </div>
+        <div class="frame">
+          <img src="./drawings/04-vip-room-concept.png" alt="VIP suite with closed electronic door and hostesses" />
+        </div>
+        <div class="frame">
+          <img src="./drawings/03-building-section-concept.png" alt="Building section concept render" />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>A-04 · VIP suite (electronically closed)</h2>
+      <p class="note">
+        Private e-locked room with RFID/app access, hostess station, service pass for robot trays,
+        and e-shisha only. Door stays closed during the booking.
+      </p>
+      <div class="frame">
+        <object data="./drawings/05-vip-room-plan.svg" type="image/svg+xml" aria-label="VIP suite floor plan">VIP suite plan</object>
       </div>
     </section>
 
@@ -207,13 +226,8 @@
     <section>
       <h2>A-03 · Building section</h2>
       <p class="note">Indoor + rooftop cut, dedicated coal exhaust to roof stacks, fountain, robot aisle.</p>
-      <div class="grid-2">
-        <div class="frame">
-          <object data="./drawings/04-section-elevation.svg" type="image/svg+xml" aria-label="Section elevation drawing">Section drawing</object>
-        </div>
-        <div class="frame">
-          <img src="./drawings/03-building-section-concept.png" alt="Building section concept render" />
-        </div>
+      <div class="frame">
+        <object data="./drawings/04-section-elevation.svg" type="image/svg+xml" aria-label="Section elevation drawing">Section drawing</object>
       </div>
     </section>
 
@@ -248,11 +262,20 @@
           </ul>
         </div>
         <div class="tile">
+          <h3>VIP suite add-on</h3>
+          <p class="figure">AED 350k – 1.2M</p>
+          <ul>
+            <li>E-lock door stays closed in session</li>
+            <li>2 VIP hostesses · robot → pass window</li>
+            <li>E-shisha only · acoustic privacy</li>
+          </ul>
+        </div>
+        <div class="tile">
           <h3>Key constraint</h3>
           <p class="figure" style="font-size:1.15rem;color:var(--ink)">Coal ≠ robots</p>
           <ul>
             <li>Negative-pressure coal room</li>
-            <li>Dedicated roof exhaust stacks</li>
+            <li>VIP suite = robot no-go when locked</li>
             <li>Civil Defense + landlord NOC critical</li>
           </ul>
         </div>
