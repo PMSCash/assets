@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 920" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#FF2D95"/>
+    </marker>
+  </defs>
+  <rect width="1400" height="920" fill="#0a1218"/>
+  <rect x="40" y="40" width="1320" height="780" fill="#122028" stroke="#D4AF37" stroke-width="2"/>
+
+  <rect x="40" y="830" width="1320" height="70" fill="#120816"/>
+  <text x="60" y="858" fill="#FF69B4" font-size="16" font-weight="bold">EJL LIGHTHOUSE  MEP SYSTEMS (COAL EXHAUST · HVAC · FIRE)</text>
+  <text x="60" y="880" fill="#D4AF37" font-size="11">Schematic only · Civil Defense path · pressure cascade · dedicated coal stacks · kitchen hood · sprinklers</text>
+  <text x="1220" y="868" fill="#FF69B4" font-size="12">DRAWING M-01</text>
+
+  <text x="700" y="85" text-anchor="middle" font-size="14" fill="#7ec8e3" font-weight="bold">SECTION SCHEMATIC · AIR / EXHAUST / FIRE</text>
+
+  <!-- Roof -->
+  <rect x="120" y="110" width="900" height="80" fill="#1a3040" stroke="#7ec8e3" stroke-width="2"/>
+  <text x="570" y="140" text-anchor="middle" font-size="13" fill="#7ec8e3" font-weight="bold">ROOF PLANT</text>
+  <rect x="160" y="125" width="70" height="50" fill="#3a2034" stroke="#FF2D95"/>
+  <text x="195" y="155" text-anchor="middle" font-size="9" fill="#FF69B4">STACK 1</text>
+  <rect x="250" y="125" width="70" height="50" fill="#3a2034" stroke="#FF2D95"/>
+  <text x="285" y="155" text-anchor="middle" font-size="9" fill="#FF69B4">STACK 2</text>
+  <rect x="360" y="130" width="120" height="40" fill="#2a4050" stroke="#D4AF37"/>
+  <text x="420" y="155" text-anchor="middle" font-size="9" fill="#FFE08A">AHU / MAKE-UP</text>
+  <rect x="520" y="130" width="120" height="40" fill="#2a4050" stroke="#e67e22"/>
+  <text x="580" y="155" text-anchor="middle" font-size="9" fill="#e67e22">KITCHEN FAN</text>
+  <rect x="680" y="130" width="140" height="40" fill="#2a4050" stroke="#c0392b"/>
+  <text x="750" y="155" text-anchor="middle" font-size="9" fill="#c0392b">FIRE PANEL / PUMP</text>
+  <rect x="860" y="130" width="120" height="40" fill="#2a4050" stroke="#7ec8e3"/>
+  <text x="920" y="155" text-anchor="middle" font-size="9" fill="#7ec8e3">VRV / CHILLER</text>
+
+  <!-- arrows down from stacks -->
+  <line x1="195" y1="175" x2="195" y2="320" stroke="#FF2D95" stroke-width="3" marker-end="url(#arr)"/>
+  <line x1="285" y1="175" x2="285" y2="320" stroke="#FF2D95" stroke-width="3" marker-end="url(#arr)"/>
+  <text x="240" y="260" text-anchor="middle" font-size="10" fill="#FF69B4" font-weight="bold">DEDICATED COAL EXHAUST</text>
+
+  <!-- Rooftop lounge -->
+  <rect x="400" y="220" width="400" height="90" fill="#321828" stroke="#FF69B4"/>
+  <text x="600" y="260" text-anchor="middle" font-size="12" fill="#FF69B4" font-weight="bold">ROOFTOP LOUNGE + VIP-2</text>
+  <text x="600" y="285" text-anchor="middle" font-size="9" fill="#D4AF37">e-shisha OK · make-up air · sprinklers</text>
+
+  <!-- Indoor levels -->
+  <rect x="150" y="340" width="280" height="140" fill="#3a2034" stroke="#c0392b" stroke-width="2.5"/>
+  <text x="290" y="380" text-anchor="middle" font-size="13" fill="#c0392b" font-weight="bold">COAL ROOM</text>
+  <text x="290" y="405" text-anchor="middle" font-size="11" fill="#FFB6D9">NEGATIVE PRESSURE</text>
+  <text x="290" y="430" text-anchor="middle" font-size="9" fill="#D4AF37">no robots · airlock · sealed</text>
+  <text x="290" y="455" text-anchor="middle" font-size="9" fill="#FF69B4">’ stacks only (not shared)</text>
+
+  <rect x="450" y="340" width="200" height="140" fill="#2a3040" stroke="#7ec8e3"/>
+  <text x="550" y="390" text-anchor="middle" font-size="12" fill="#7ec8e3" font-weight="bold">AIRLOCK</text>
+  <text x="550" y="415" text-anchor="middle" font-size="9" fill="#FFB6D9">pressure cascade</text>
+
+  <rect x="670" y="340" width="330" height="140" fill="#321828" stroke="#D4AF37"/>
+  <text x="835" y="380" text-anchor="middle" font-size="12" fill="#FFE08A" font-weight="bold">DINING / E-SHISHA / VIP-1</text>
+  <text x="835" y="405" text-anchor="middle" font-size="9" fill="#FFB6D9">make-up air · odor extract</text>
+  <text x="835" y="430" text-anchor="middle" font-size="9" fill="#D4AF37">NOT shared with coal exhaust</text>
+  <text x="835" y="455" text-anchor="middle" font-size="9" fill="#7ec8e3">return air ’ AHU</text>
+
+  <!-- Kitchen -->
+  <rect x="150" y="520" width="400" height="120" fill="#4a3020" stroke="#e67e22" stroke-width="2"/>
+  <text x="350" y="560" text-anchor="middle" font-size="13" fill="#e67e22" font-weight="bold">KITCHEN HOOD EXHAUST</text>
+  <text x="350" y="585" text-anchor="middle" font-size="9" fill="#FFB6D9">grease filters · fire suppression in hood</text>
+  <text x="350" y="610" text-anchor="middle" font-size="9" fill="#D4AF37">separate fan to roof (not coal stacks)</text>
+  <line x1="580" y1="150" x2="350" y2="520" stroke="#e67e22" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <!-- Fire -->
+  <rect x="580" y="520" width="420" height="120" fill="#2a1818" stroke="#c0392b" stroke-width="2"/>
+  <text x="790" y="555" text-anchor="middle" font-size="13" fill="#c0392b" font-weight="bold">FIRE SAFETY</text>
+  <text x="790" y="580" text-anchor="middle" font-size="9" fill="#FFB6D9">sprinklers all zones · detection · fan interlocks</text>
+  <text x="790" y="600" text-anchor="middle" font-size="9" fill="#FFB6D9">VIP e-doors fail-safe OPEN on fire alarm</text>
+  <text x="790" y="620" text-anchor="middle" font-size="9" fill="#D4AF37">emergency room path kept clear · stretcher e1.1 m</text>
+
+  <!-- Legend flow -->
+  <rect x="150" y="670" width="850" height="110" fill="#120816" stroke="#D4AF37"/>
+  <text x="575" y="700" text-anchor="middle" font-size="12" fill="#FFE08A" font-weight="bold">PRESSURE CASCADE (SMOKE STRATEGY)</text>
+  <text x="575" y="730" text-anchor="middle" font-size="11" fill="#FFB6D9">[Dining / e-shisha]  ’  [Airlock]  ’  [Coal NEGATIVE]  ’  ROOF STACKS</text>
+  <text x="575" y="755" text-anchor="middle" font-size="10" fill="#D4AF37">Kitchen hood and coal exhaust NEVER share a duct · Civil Defense pre-consult required</text>
+
+  <rect x="1170" y="80" width="170" height="700" fill="#120816" stroke="#D4AF37"/>
+  <text x="1255" y="120" text-anchor="middle" font-size="12" fill="#FF69B4" font-weight="bold">MEP NOTES</text>
+  <text x="1190" y="170" font-size="10" fill="#FFE08A" font-weight="bold">Coal</text>
+  <text x="1190" y="192" font-size="9" fill="#FFB6D9">" Dedicated stacks</text>
+  <text x="1190" y="210" font-size="9" fill="#FFB6D9">" Negative room</text>
+  <text x="1190" y="228" font-size="9" fill="#FFB6D9">" Fan interlocks</text>
+  <text x="1190" y="260" font-size="10" fill="#FFE08A" font-weight="bold">HVAC</text>
+  <text x="1190" y="282" font-size="9" fill="#FFB6D9">" Separate AHUs</text>
+  <text x="1190" y="300" font-size="9" fill="#FFB6D9">" Make-up air</text>
+  <text x="1190" y="318" font-size="9" fill="#FFB6D9">" Odor extract VIP</text>
+  <text x="1190" y="350" font-size="10" fill="#FFE08A" font-weight="bold">Fire</text>
+  <text x="1190" y="372" font-size="9" fill="#FFB6D9">" Sprinklers</text>
+  <text x="1190" y="390" font-size="9" fill="#FFB6D9">" Hood suppression</text>
+  <text x="1190" y="408" font-size="9" fill="#FFB6D9">" Fail-safe e-doors</text>
+  <text x="1190" y="440" font-size="10" fill="#FFE08A" font-weight="bold">CAPEX band</text>
+  <text x="1190" y="462" font-size="9" fill="#FFB6D9">HVAC+coal 1.46M</text>
+  <text x="1190" y="480" font-size="9" fill="#FFB6D9">Fire 300k1.7M</text>
+  <text x="1190" y="520" font-size="9" fill="#c0392b">Not CD issued</text>
+  <text x="1190" y="538" font-size="9" fill="#c0392b">Concept schematic</text>
+</svg>

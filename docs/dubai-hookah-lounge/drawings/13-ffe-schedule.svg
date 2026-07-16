@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1000" font-family="Georgia, 'Times New Roman', serif">
+  <rect width="1400" height="1000" fill="#1a0f16"/>
+  <rect x="40" y="40" width="1320" height="860" fill="#2a1524" stroke="#D4AF37" stroke-width="2"/>
+
+  <rect x="40" y="910" width="1320" height="70" fill="#120816"/>
+  <text x="60" y="938" fill="#FF69B4" font-size="16" font-weight="bold">EJL LIGHTHOUSE  FF&amp;E SCHEDULE (QUANTITIES)</text>
+  <text x="60" y="960" fill="#D4AF37" font-size="11">Indicative furniture / equipment counts for planning · pink/gold finish · not a purchase order</text>
+  <text x="1220" y="948" fill="#FF69B4" font-size="12">DRAWING F-01</text>
+
+  <text x="700" y="85" text-anchor="middle" font-size="18" fill="#FF69B4" font-weight="bold">FURNITURE &amp; EQUIPMENT SCHEDULE</text>
+  <text x="700" y="110" text-anchor="middle" font-size="11" fill="#D4AF37">VIP-1 + VIP-2 + FOH + BOH + staff · design total ~50 seats + 2 VIP bookings</text>
+
+  <!-- table header -->
+  <rect x="80" y="140" width="1240" height="36" fill="#120816" stroke="#D4AF37"/>
+  <text x="100" y="163" fill="#FFE08A" font-size="12" font-weight="bold">ITEM</text>
+  <text x="520" y="163" fill="#FFE08A" font-size="12" font-weight="bold">ZONE</text>
+  <text x="780" y="163" fill="#FFE08A" font-size="12" font-weight="bold">QTY</text>
+  <text x="920" y="163" fill="#FFE08A" font-size="12" font-weight="bold">NOTES</text>
+
+  <!-- rows -->
+  <g font-size="11" fill="#FFB6D9">
+    <rect x="80" y="176" width="1240" height="28" fill="#321828"/><text x="100" y="195" fill="#fff">Dining seats / chairs</text><text x="520" y="195">Indoor dining</text><text x="780" y="195" fill="#FFE08A" font-weight="bold">10</text><text x="920" y="195">Robot aisle clear e1.2 m</text>
+    <rect x="80" y="204" width="1240" height="28" fill="#2a1524"/><text x="100" y="223" fill="#fff">E-shisha lounge seats</text><text x="520" y="223">Indoor e-shisha</text><text x="780" y="223" fill="#FFE08A" font-weight="bold">4</text><text x="920" y="223">Electronic only</text>
+    <rect x="80" y="232" width="1240" height="28" fill="#321828"/><text x="100" y="251" fill="#fff">Massage seats (powered)</text><text x="520" y="251">Indoor quiet</text><text x="780" y="251" fill="#FFE08A" font-weight="bold">6</text><text x="920" y="251">Service power</text>
+    <rect x="80" y="260" width="1240" height="28" fill="#2a1524"/><text x="100" y="279" fill="#fff">Rooftop lounge seats</text><text x="520" y="279">Rooftop</text><text x="780" y="279" fill="#FFE08A" font-weight="bold">28</text><text x="920" y="279">Pergola under</text>
+    <rect x="80" y="288" width="1240" height="28" fill="#321828"/><text x="100" y="307" fill="#fff">VIP-1 banquettes / seats</text><text x="520" y="307">Indoor VIP-1</text><text x="780" y="307" fill="#FFE08A" font-weight="bold">810</text><text x="920" y="307">Pink/gold</text>
+    <rect x="80" y="316" width="1240" height="28" fill="#2a1524"/><text x="100" y="335" fill="#fff">VIP-1 king bed + wardrobe</text><text x="520" y="335">VIP bedroom</text><text x="780" y="335" fill="#FFE08A" font-weight="bold">1</text><text x="920" y="335">+ ensuite fittings</text>
+    <rect x="80" y="344" width="1240" height="28" fill="#321828"/><text x="100" y="363" fill="#fff">VIP-1 exec desk + sofa + safe</text><text x="520" y="363">VIP office</text><text x="780" y="363" fill="#FFE08A" font-weight="bold">1 set</text><text x="920" y="363">Sound-sealed</text>
+    <rect x="80" y="372" width="1240" height="28" fill="#2a1524"/><text x="100" y="391" fill="#fff">VIP-2 rooftop banquettes</text><text x="520" y="391">Rooftop VIP-2</text><text x="780" y="391" fill="#FFE08A" font-weight="bold">8</text><text x="920" y="391">Weather fabrics</text>
+    <rect x="80" y="400" width="1240" height="28" fill="#321828"/><text x="100" y="419" fill="#fff">Indoor fountain feature</text><text x="520" y="419">Dining + VIP-1</text><text x="780" y="419" fill="#FFE08A" font-weight="bold">2</text><text x="920" y="419">Pink LED · drain</text>
+    <rect x="80" y="428" width="1240" height="28" fill="#2a1524"/><text x="100" y="447" fill="#fff">Gas / outdoor fireplaces</text><text x="520" y="447">VIP-1 + VIP-2</text><text x="780" y="447" fill="#FFE08A" font-weight="bold">2</text><text x="920" y="447">Guards · CD ok</text>
+    <rect x="80" y="456" width="1240" height="28" fill="#321828"/><text x="100" y="475" fill="#fff">Chrome pole stage</text><text x="520" y="475">VIP-1 only</text><text x="780" y="475" fill="#FFE08A" font-weight="bold">1</text><text x="920" y="475">2.4 m clear</text>
+    <rect x="80" y="484" width="1240" height="28" fill="#2a1524"/><text x="100" y="503" fill="#fff">TVs (75" / 55")</text><text x="520" y="503">VIP + FOH</text><text x="780" y="503" fill="#FFE08A" font-weight="bold">7</text><text x="920" y="503">1×75 VIP1 + 3×55 VIP1/bed + 1×75 VIP2 + 2 spare/FOH</text>
+    <rect x="80" y="512" width="1240" height="28" fill="#321828"/><text x="100" y="531" fill="#fff">Delivery robots + docks</text><text x="520" y="531">Fleet</text><text x="780" y="531" fill="#FFE08A" font-weight="bold">4 + 2</text><text x="920" y="531">EJL pink/gold livery</text>
+    <rect x="80" y="540" width="1240" height="28" fill="#2a1524"/><text x="100" y="559" fill="#fff">Worker closets C01C12</text><text x="520" y="559">Staff rest</text><text x="780" y="559" fill="#FFE08A" font-weight="bold">12</text><text x="920" y="559">+ uniform closet</text>
+    <rect x="80" y="568" width="1240" height="28" fill="#321828"/><text x="100" y="587" fill="#fff">Staff rest sofas / recliners</text><text x="520" y="587">Staff rest</text><text x="780" y="587" fill="#FFE08A" font-weight="bold">2 + 2</text><text x="920" y="587">BOH only</text>
+    <rect x="80" y="596" width="1240" height="28" fill="#2a1524"/><text x="100" y="615" fill="#fff">Emergency treatment bed</text><text x="520" y="615">A-05</text><text x="780" y="615" fill="#FFE08A" font-weight="bold">1</text><text x="920" y="615">+ stretcher + AED + O2</text>
+    <rect x="80" y="624" width="1240" height="28" fill="#321828"/><text x="100" y="643" fill="#fff">E-pay NFC / QR terminals</text><text x="520" y="643">All zones</text><text x="780" y="643" fill="#FFE08A" font-weight="bold">8</text><text x="920" y="643">Tip fields disabled</text>
+    <rect x="80" y="652" width="1240" height="28" fill="#2a1524"/><text x="100" y="671" fill="#fff">Kitchen cook line modules</text><text x="520" y="671">BOH A-08</text><text x="780" y="671" fill="#FFE08A" font-weight="bold">1 set</text><text x="920" y="671">+ dish + cold/dry</text>
+    <rect x="80" y="680" width="1240" height="28" fill="#321828"/><text x="100" y="699" fill="#fff">Coal booth furniture</text><text x="520" y="699">Coal room</text><text x="780" y="699" fill="#FFE08A" font-weight="bold">10 seats</text><text x="920" y="699">Staff-served only</text>
+  </g>
+
+  <rect x="80" y="730" width="600" height="140" fill="#120816" stroke="#D4AF37"/>
+  <text x="100" y="760" fill="#FFE08A" font-size="12" font-weight="bold">SEAT CHECK</text>
+  <text x="100" y="790" fill="#FFB6D9" font-size="11">Rooftop 28 + indoor dining 10 + e-shisha 4 + VIP-1 (counted in indoor 22) = 50 design seats</text>
+  <text x="100" y="815" fill="#FFB6D9" font-size="11">VIP-2 rooftop is an add-on booking (8 seats)  may share rooftop capacity or expand total</text>
+  <text x="100" y="840" fill="#D4AF37" font-size="11">Recommend: VIP-2 replaces 8 of the 28 general rooftop seats when booked</text>
+
+  <rect x="720" y="730" width="600" height="140" fill="#120816" stroke="#FF2D95"/>
+  <text x="740" y="760" fill="#FF69B4" font-size="12" font-weight="bold">FINISH STANDARD</text>
+  <text x="740" y="790" fill="#FFB6D9" font-size="11">Palette: pink #FF2D95 / #FF69B4 · gold #D4AF37 · near-black #120816</text>
+  <text x="740" y="815" fill="#FFB6D9" font-size="11">Metals: brushed gold + chrome pole · soft goods: velvet / performance outdoor</text>
+  <text x="740" y="840" fill="#D4AF37" font-size="11">EJL logo on robots, VIP plaques, tray liners, staff closet tags</text>
+</svg>

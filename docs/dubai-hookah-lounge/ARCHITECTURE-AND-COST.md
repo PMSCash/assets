@@ -16,17 +16,19 @@
 
 | Zone | Seats | Notes |
 |------|------:|-------|
-| Rooftop lounge | 28 | Pergola, reflective linear ceiling lighting, e-shisha OK |
+| Rooftop lounge | 28 | Pergola, reflective linear ceiling lighting, e-shisha OK; **8 seats become VIP-2 when booked** |
 | Indoor dining | 10 | Food-led, robot-primary aisles |
 | Indoor e-shisha lounge | 4 | Electronic only, odor extract |
-| **One VIP unit** | **8–10** | **E-locked · entertainment lounge · private office · bedroom + ensuite · fountain · fireplace · pole · TVs/VOD · hostesses** |
+| **VIP-1 (indoor)** | **8–10** | **E-locked · lounge · office · bedroom + ensuite · fountain · fireplace · pole · TVs/VOD · hostesses** |
+| **VIP-2 (rooftop add-on)** | **8** | **E-locked terrace · pergola · outdoor fireplace · weather TV · hostesses · no bedroom** |
 | Coal shisha room | *(capacity within 50 via booth rotation; design for ~10 booth seats)* | **Negative pressure, staff-only, no robots** |
 | Massage seats | 6 | Within indoor footprint (shared with lounge dwell) |
 | **Emergency / seizure room** | — | **On-site first-response medical room (non-seating)** |
 | **Staff rest & changing** | — | **Workers only · rest zone · W/M changing · closets C01–C12 (non-seating)** |
-| **Design total** | **50** | Rooftop 28 + indoor 22 (VIP counted in indoor) |
+| **Kitchen / BOH** | — | **Prep · cook · dish · cold/dry stores · robot bay (non-seating)** |
+| **Design total** | **50** | Rooftop 28 + indoor 22 (VIP-1 in indoor; VIP-2 shares rooftop seats) |
 
-**Assumed net area:** ~440–520 m² (indoor + rooftop usable + ~90 m² VIP unit + emergency + staff rest/changing), excluding MEP plant.
+**Assumed net area:** ~480–580 m² (indoor + rooftop + VIP-1 ~90 m² + VIP-2 ~55 m² + emergency + staff + kitchen BOH detail), excluding MEP plant.
 
 ---
 
@@ -192,6 +194,42 @@ Back-of-house room for **workers only** — rest between shifts, change into hou
 
 **Hard rules:** workers only; phones stay in cubbies on shift; no tips/cash stored here; no robot routing.
 
+### 4.4 Rooftop VIP-2 (second VIP add-on)
+
+| Item | Spec |
+|------|------|
+| Area | ~55 m² e-locked terrace suite on rooftop |
+| Capacity | 8 seats (replaces 8 general rooftop seats when booked) |
+| Features | Pergola + reflective linear lights · outdoor fireplace · weatherproof 75" TV · VOD · powder WC · hostess ×2 |
+| Service | Rooftop robot **R4** → service pass (robots never enter while locked) |
+| Difference vs VIP-1 | No office / bedroom / pole / indoor fountain — open-air entertainment only |
+| CAPEX add-on | AED 350k–900k (fit-out + e-lock + FF&E) |
+
+### 4.5 Kitchen / BOH (prep · cook · dish · storage)
+
+| Zone | Area | Spec |
+|------|-----:|------|
+| Prep | ~12 m² | Cold prep tables, sinks, cutting |
+| Cook line | ~16 m² | Range/grill/fry under hood · KDS · pass shelf |
+| Dish | ~10 m² | Dishwasher · dirty/clean landing |
+| Cold store | ~6 m² | +2 to +5 °C |
+| Dry store | ~6 m² | Shelving |
+| Robot loading bay | ~14 m² | R1–R3 + charger · tray pass to aisle |
+| Dumbwaiter | — | Tray lift to rooftop bar handoff |
+| **Total BOH** | **~55 m²** | Staff only · no guests · robots only in bay |
+
+### 4.6 MEP schematic (coal · HVAC · fire)
+
+See drawing **M-01**. Hard rules: coal exhaust on **dedicated roof stacks**; kitchen hood on **separate fan**; dining return air never shared with coal; sprinklers + detection + fan interlocks; VIP e-doors **fail-safe open** on fire alarm. Concept schematic only — not Civil Defense issued documents.
+
+### 4.7 Guest journey
+
+See drawing **G-01**: Arrive → Escort → VIP unlock → Experience → Service → Electronic pay → Optional donation → Depart. Alternates for general guests, rooftop VIP-2, and medical panic → A-05.
+
+### 4.8 FF&E schedule
+
+See drawing **F-01** for quantities (seats, TVs, robots, closets, kitchen modules, clinical kit). Finish: pink/gold/near-black EJL standard.
+
 ---
 
 ## 5. CAPEX cost model (Dubai, AED)
@@ -224,6 +262,7 @@ Ranges assume a **premium** fit-out in a suitable rooftop-capable building. Land
 | **EJL brand livery (robots + suite plaques + print)** | **25k–80k** | **50k–140k** |
 | **Emergency / seizure room + kit** | **120k–280k** | **200k–400k** |
 | **Staff rest & changing + worker closets** | **120k–250k** | **200k–400k** |
+| **Rooftop VIP-2 terrace suite (add-on)** | **350k–650k** | **550k–900k** |
 | Hookah equipment (coal + e-shisha) | 120k–500k | 250k–900k |
 | Kitchen / commissary | 400k–1.3M | 800k–2.4M |
 | **Robots + POS/KDS/QR integration** | **250k–550k** | **450k–1.1M** |
@@ -271,6 +310,11 @@ Ranges assume a **premium** fit-out in a suitable rooftop-capable building. Land
 | [`drawings/05-vip-room-plan.svg`](./drawings/05-vip-room-plan.svg) | **A-04 One VIP unit:** lounge · **office** · **bedroom + ensuite** · fountain · fireplace · pole · e-lock |
 | [`drawings/06-emergency-room-plan.svg`](./drawings/06-emergency-room-plan.svg) | **A-05 Emergency / seizure room:** bed, O2, AED, EMS route |
 | [`drawings/09-staff-rest-changing-plan.svg`](./drawings/09-staff-rest-changing-plan.svg) | **A-06 Staff rest & changing:** rest zone · W/M booths · **closets C01–C12** |
+| [`drawings/10-rooftop-vip-plan.svg`](./drawings/10-rooftop-vip-plan.svg) | **A-07 Rooftop VIP-2:** terrace suite · fireplace · e-lock |
+| [`drawings/11-kitchen-boh-plan.svg`](./drawings/11-kitchen-boh-plan.svg) | **A-08 Kitchen / BOH:** prep · cook · dish · stores · robot bay |
+| [`drawings/12-mep-systems.svg`](./drawings/12-mep-systems.svg) | **M-01 MEP:** coal exhaust · HVAC · fire |
+| [`drawings/13-ffe-schedule.svg`](./drawings/13-ffe-schedule.svg) | **F-01 FF&E schedule:** quantities |
+| [`drawings/14-guest-journey.svg`](./drawings/14-guest-journey.svg) | **G-01 Guest journey:** entry → VIP → pay |
 | [`drawings/07-payment-system.svg`](./drawings/07-payment-system.svg) | **P-01 Payment:** electronic only · no tip · donations only |
 | [`drawings/08-robot-branding.svg`](./drawings/08-robot-branding.svg) | **B-01 Robot livery:** EJL pink/gold logo on fleet |
 | [`drawings/ejl-lighthouse-logo.svg`](./drawings/ejl-lighthouse-logo.svg) | **Brand logo** (SVG) |
@@ -296,6 +340,8 @@ Ranges assume a **premium** fit-out in a suitable rooftop-capable building. Land
 | [`images/19-vip-office-bedroom-suite.png`](./images/19-vip-office-bedroom-suite.png) | One VIP suite cutaway |
 | [`download/dubai-hookah-lounge-drawings.zip`](./download/dubai-hookah-lounge-drawings.zip) | **Full pack** — `images/` + `drawings/` + memo |
 | [`download/EJL-Lighthouse-all-images.pdf`](./download/EJL-Lighthouse-all-images.pdf) | **All images PDF** — cover · contents · every plan SVG + concept PNG |
+| [`download/EJL-Lighthouse-A1-boards.pdf`](./download/EJL-Lighthouse-A1-boards.pdf) | **Print-ready A1 boards** — key plans at large format |
+| [`images/25-rooftop-vip.png`](./images/25-rooftop-vip.png) … [`29-guest-journey.png`](./images/29-guest-journey.png) | Add-on concept renders |
 
 Open [`index.html`](./index.html) for a single-page drawing board.
 
