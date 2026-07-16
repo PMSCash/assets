@@ -18,13 +18,13 @@
 | Rooftop lounge | 28 | Pergola, reflective linear ceiling lighting, e-shisha OK |
 | Indoor dining | 10 | Food-led, robot-primary aisles |
 | Indoor e-shisha lounge | 4 | Electronic only, odor extract |
-| **VIP suite** | **8–10** | **E-locked · indoor fountain · fireplace · pole dance · TVs/VOD · hostesses** |
+| **One VIP unit** | **8–10** | **E-locked · entertainment lounge · private office · bedroom + ensuite · fountain · fireplace · pole · TVs/VOD · hostesses** |
 | Coal shisha room | *(capacity within 50 via booth rotation; design for ~10 booth seats)* | **Negative pressure, staff-only, no robots** |
 | Massage seats | 6 | Within indoor footprint (shared with lounge dwell) |
 | **Emergency / seizure room** | — | **On-site first-response medical room (non-seating)** |
 | **Design total** | **50** | Rooftop 28 + indoor 22 (VIP counted in indoor) |
 
-**Assumed net area:** ~370–440 m² (indoor + rooftop usable + emergency room), excluding MEP plant.
+**Assumed net area:** ~410–490 m² (indoor + rooftop usable + ~90 m² VIP unit + emergency room), excluding MEP plant.
 
 ---
 
@@ -111,30 +111,42 @@ See drawing [`drawings/07-payment-system.svg`](./drawings/07-payment-system.svg)
 | Indoor fountain | Central calm anchor; waterproofing + drain + 0.8 m robot keep-out |
 | Massage seats | 6 powered seats; quiet zone lighting; service power + maintenance access |
 | Premium dining | Limited kitchen/commissary; robot-led FOH |
-| **VIP suite (e-closed)** | Private ~50 m²; e-lock; **indoor fountain · fireplace · pole dance**; 3 TVs + VOD; hostesses |
+| **One VIP unit (e-closed)** | Private ~90 m²; e-lock; **entertainment + office + bedroom**; fountain · fireplace · pole; 3 lounge TVs + bedroom TV + VOD; hostesses |
 | **Emergency / seizure room** | ~18 m² first-response room: treatment bed, O2, suction, AED, seizure kit, stretcher, EMS route |
 | **EJL brand system** | Pink (#FF2D95 / #FF69B4) + gold (#D4AF37) · logo on robots, VIP plaque, app, tray liners |
 
-### 4.1 VIP suite — fountain, fireplace, pole + hostess + TVs
+### 4.1 One VIP unit — entertainment + office + bedroom
+
+**Program:** a single principal VIP booking containing three rooms behind one e-locked vestibule.
+
+| Room | Area | Spec |
+|------|-----:|------|
+| Entertainment lounge | ~40 m² | 8–10 seats; fountain · fireplace · pole; 3 TVs + VOD; hostess; guest WC; service pass |
+| Private office | ~14 m² | Exec desk, monitor wall, meeting sofa, in-room safe; sound-sealed door from lounge |
+| Bedroom | ~18 m² | King bed, blackout, wardrobe, 55" TV |
+| Ensuite | ~8 m² | Shower · vanity · WC · gold fittings |
+| **Unit total** | **~90 m²** | Corridor vestibule outside unit footprint |
 
 | Item | Spec |
 |------|------|
-| Capacity | 8–10 guests |
+| Capacity | 8–10 guests in lounge; office + bedroom for principal / overnight stay |
 | Door | Flush electronic door; magnetic lock (~600 kg); fail-safe open on fire alarm; LED LOCKED status |
 | Access | RFID / booking app unlock; hostess can badge guests in |
-| Privacy | Vestibule sound lock; door remains closed for the booking window |
+| Privacy | Vestibule sound lock; door remains closed for the booking window; office & bedroom internal doors |
 | **Indoor fountain** | Feature fountain with pink LED wash; waterproofing + drain; guest keep-clear ring |
 | **Fireplace** | Gas fireplace with gold surround + guard; Civil Defense–compliant flue / sealed unit |
 | **Pole dance** | Chrome pole on circular stage; pink uplight; soft floor; **2.4 m clear height** |
-| **Displays** | **1× 75" main wall TV + 2× 55" side TVs**; matrix switcher; mirror or solo modes |
-| **On-demand** | Guest **VOD pad** on low table; sports / film / karaoke catalogs; no lobby CCTV feed into suite |
+| **Displays** | Lounge: **1× 75" + 2× 55"**; bedroom: **1× 55"**; matrix switcher; mirror or solo modes |
+| **On-demand** | Guest **VOD pad** on lounge low table; sports / film / karaoke catalogs; no lobby CCTV feed into suite |
+| **Office** | Private work room for principal — not a public meeting room; robots never enter |
+| **Bedroom** | Overnight / rest suite with ensuite; panic button at bedside |
 | AV rack | Streaming players + scene lighting control in suite AV closet |
 | Service | 2 VIP hostesses (greeting, ordering aid, e-shisha assist, media assist, privacy etiquette) |
 | Pay | In-room NFC + VOD pad — **electronic only**; hostesses **cannot** take tips or cash |
 | F&B path | Robot → corridor stop → **service pass window** → hostess handoff inside |
 | Smoke | E-shisha only inside VIP (no coal) |
-| Panic | In-suite panic → FOH + **emergency room** + EMS call |
-| Add-on CAPEX | Fit-out AED 450k–1.1M (incl. fountain/fireplace/pole); e-lock AED 40k–120k; **TVs + VOD AED 80k–220k** |
+| Panic | Lounge + bedroom panic → FOH + **emergency room** + EMS call |
+| Add-on CAPEX | Fit-out AED 700k–1.6M (incl. fountain/fireplace/pole + office + bedroom); e-lock AED 40k–120k; **TVs + VOD AED 100k–280k** |
 | Hostess OPEX | AED 18k–40k / month (2 FTE equivalent, shift cover) |
 
 ### 4.2 On-site emergency / seizure treatment room
@@ -184,8 +196,8 @@ Ranges assume a **premium** fit-out in a suitable rooftop-capable building. Land
 | Fountain plumbing + waterproofing | 150k–550k | 300k–1.0M |
 | Interior fit-out | 1.6M–3.8M | 3.2M–7.0M |
 | Furniture + massage seats | 350k–1.4M | 900k–2.2M |
-| **VIP suite fit-out + e-lock + fountain/fireplace/pole** | **450k–900k** | **800k–1.5M** |
-| **VIP TVs + on-demand AV** | **80k–180k** | **150k–280k** |
+| **One VIP unit fit-out + e-lock + fountain/fireplace/pole + office + bedroom** | **700k–1.3M** | **1.1M–2.0M** |
+| **VIP TVs + on-demand AV (lounge + bedroom)** | **100k–220k** | **180k–320k** |
 | **EJL brand livery (robots + suite plaques + print)** | **25k–80k** | **50k–140k** |
 | **Emergency / seizure room + kit** | **120k–280k** | **200k–400k** |
 | Hookah equipment (coal + e-shisha) | 120k–500k | 250k–900k |
@@ -232,7 +244,7 @@ Ranges assume a **premium** fit-out in a suitable rooftop-capable building. Land
 | [`drawings/02-rooftop-floor-plan.svg`](./drawings/02-rooftop-floor-plan.svg) | Rooftop plan: 28 seats, bar handoff, exhaust stacks |
 | [`drawings/03-robot-routing.svg`](./drawings/03-robot-routing.svg) | Order lifecycle + indoor path loops + rooftop handoff |
 | [`drawings/04-section-elevation.svg`](./drawings/04-section-elevation.svg) | Cut section: levels, exhaust, fountain, robots |
-| [`drawings/05-vip-room-plan.svg`](./drawings/05-vip-room-plan.svg) | **A-04 VIP suite:** fountain · fireplace · pole · e-lock · TVs · hostess |
+| [`drawings/05-vip-room-plan.svg`](./drawings/05-vip-room-plan.svg) | **A-04 One VIP unit:** lounge · **office** · **bedroom + ensuite** · fountain · fireplace · pole · e-lock |
 | [`drawings/06-emergency-room-plan.svg`](./drawings/06-emergency-room-plan.svg) | **A-05 Emergency / seizure room:** bed, O2, AED, EMS route |
 | [`drawings/07-payment-system.svg`](./drawings/07-payment-system.svg) | **P-01 Payment:** electronic only · no tip · donations only |
 | [`drawings/08-robot-branding.svg`](./drawings/08-robot-branding.svg) | **B-01 Robot livery:** EJL pink/gold logo on fleet |
@@ -242,11 +254,17 @@ Ranges assume a **premium** fit-out in a suitable rooftop-capable building. Land
 | [`drawings/02-indoor-robot-concept.png`](./drawings/02-indoor-robot-concept.png) | Indoor robot + fountain concept |
 | [`drawings/03-building-section-concept.png`](./drawings/03-building-section-concept.png) | Section concept render |
 | [`drawings/04-vip-room-concept.png`](./drawings/04-vip-room-concept.png) | Earlier VIP concept |
-| [`drawings/05-vip-ejl-concept.png`](./drawings/05-vip-ejl-concept.png) | **EJL VIP concept:** fountain · fireplace · pole · pink/gold |
-| [`images/`](./images/) | **All images in one folder** (logo, fountains, fireplaces, pole, VIP, rooftop) |
+| [`drawings/05-vip-ejl-concept.png`](./drawings/05-vip-ejl-concept.png) | EJL VIP lounge concept: fountain · fireplace · pole |
+| [`drawings/10-vip-bedroom-concept.png`](./drawings/10-vip-bedroom-concept.png) | **VIP bedroom** concept (king · pink/gold) |
+| [`drawings/11-vip-office-concept.png`](./drawings/11-vip-office-concept.png) | **VIP private office** concept |
+| [`drawings/12-vip-office-bedroom-suite.png`](./drawings/12-vip-office-bedroom-suite.png) | **One VIP cutaway:** lounge + office + bedroom |
+| [`images/`](./images/) | **All images in one folder** (logo, fountains, fireplaces, pole, VIP office/bedroom, rooftop) |
 | [`images/10-classic-fountain-display.png`](./images/10-classic-fountain-display.png) | Classic fountain display |
 | [`images/12-classic-fireplace.png`](./images/12-classic-fireplace.png) | Classic fireplace |
 | [`images/14-classic-pole-dance.png`](./images/14-classic-pole-dance.png) | Classic pole stage with performers |
+| [`images/17-vip-bedroom.png`](./images/17-vip-bedroom.png) | VIP bedroom |
+| [`images/18-vip-office.png`](./images/18-vip-office.png) | VIP office |
+| [`images/19-vip-office-bedroom-suite.png`](./images/19-vip-office-bedroom-suite.png) | One VIP suite cutaway |
 | [`download/dubai-hookah-lounge-drawings.zip`](./download/dubai-hookah-lounge-drawings.zip) | **Full pack** — `images/` + `drawings/` + memo |
 
 Open [`index.html`](./index.html) for a single-page drawing board.

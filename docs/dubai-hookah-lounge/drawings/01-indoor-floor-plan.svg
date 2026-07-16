@@ -15,7 +15,7 @@
   <!-- Title block -->
   <rect x="40" y="770" width="1120" height="60" fill="#2c2416"/>
   <text x="60" y="798" fill="#FF69B4" font-size="16" font-weight="bold">EJL LIGHTHOUSE — INDOOR LEVEL FLOOR PLAN</text>
-  h seats · EJL pink/gold robots · VIP (fountain·fireplace·pole) · e-pay no tip · coal sealed room</text>
+  <text x="60" y="818" fill="#D4AF37" font-size="11">50 seats · EJL pink/gold robots · one VIP (lounge·office·bedroom) · e-pay no tip · coal sealed room</text>
   <text x="980" y="805" fill="#f5e6c8" font-size="11">DRAWING A-01</text>
 
   <!-- ENTRANCE / HOST -->
@@ -132,21 +132,28 @@
   <ellipse cx="370" cy="580" rx="22" ry="16" fill="#d4c4a8" stroke="#2c2416"/>
   <ellipse cx="420" cy="580" rx="22" ry="16" fill="#d4c4a8" stroke="#2c2416"/>
 
-  <!-- VIP SUITE (electronically locked) � fountain � fireplace � pole -->
-  <rect x="460" y="500" width="220" height="120" fill="#3a1528" stroke="#FF2D95" stroke-width="2.5"/>
-  <text x="570" y="520" text-anchor="middle" font-size="10" fill="#FF69B4" font-weight="bold">EJL VIP � E-LOCKED</text>
-  <text x="570" y="535" text-anchor="middle" font-size="8" fill="#D4AF37">fountain � fireplace � pole � see A-04</text>
-  <rect x="460" y="545" width="10" height="40" fill="#120816" stroke="#D4AF37" stroke-width="1.5"/>
-  <circle cx="465" cy="565" r="3" fill="#2ecc71"/>
+  <!-- ONE VIP: entertainment + office + bedroom (e-locked) -->
+  <rect x="460" y="480" width="240" height="160" fill="#3a1528" stroke="#FF2D95" stroke-width="2.5"/>
+  <text x="580" y="500" text-anchor="middle" font-size="10" fill="#FF69B4" font-weight="bold">ONE EJL VIP · E-LOCKED</text>
+  <text x="580" y="515" text-anchor="middle" font-size="8" fill="#D4AF37">lounge · office · bedroom · see A-04</text>
+  <rect x="460" y="530" width="10" height="40" fill="#120816" stroke="#D4AF37" stroke-width="1.5"/>
+  <circle cx="465" cy="550" r="3" fill="#2ecc71"/>
   <!-- mini fountain -->
-  <ellipse cx="510" cy="575" rx="16" ry="12" fill="#5a9ab0" stroke="#7ec8e3"/>
+  <ellipse cx="505" cy="555" rx="14" ry="10" fill="#5a9ab0" stroke="#7ec8e3"/>
   <!-- mini fireplace -->
-  <rect x="545" y="560" width="22" height="30" fill="#FF2D95" stroke="#D4AF37"/>
+  <rect x="535" y="540" width="18" height="26" fill="#FF2D95" stroke="#D4AF37"/>
   <!-- mini pole -->
-  <circle cx="600" cy="575" r="14" fill="#4a2040" stroke="#FF69B4"/>
-  <line x1="600" y1="560" x2="600" y2="595" stroke="#C0C0C0" stroke-width="2"/>
-  <rect x="630" y="555" width="36" height="40" fill="#6a3058" stroke="#D4AF37"/>
-  <text x="648" y="578" text-anchor="middle" font-size="7" fill="#FFE08A">HOST</text>
+  <circle cx="580" cy="555" r="12" fill="#4a2040" stroke="#FF69B4"/>
+  <line x1="580" y1="542" x2="580" y2="572" stroke="#C0C0C0" stroke-width="2"/>
+  <rect x="605" y="535" width="32" height="36" fill="#6a3058" stroke="#D4AF37"/>
+  <text x="621" y="556" text-anchor="middle" font-size="6" fill="#FFE08A">HOST</text>
+  <!-- office + bedroom mini zones -->
+  <rect x="470" y="590" width="70" height="40" fill="#2a1830" stroke="#D4AF37"/>
+  <text x="505" y="614" text-anchor="middle" font-size="7" fill="#FFE08A">OFFICE</text>
+  <rect x="550" y="590" width="90" height="40" fill="#321828" stroke="#FF69B4"/>
+  <text x="595" y="614" text-anchor="middle" font-size="7" fill="#FF69B4">BEDROOM</text>
+  <rect x="650" y="590" width="40" height="40" fill="#3a3040" stroke="#D4AF37"/>
+  <text x="670" y="614" text-anchor="middle" font-size="6" fill="#FFE08A">ENS</text>
 
   <!-- KITCHEN / COMMISSARY -->
   <rect x="720" y="80" width="200" height="200" fill="#e8e4dc" stroke="#2c2416" stroke-width="2"/>
@@ -261,7 +268,7 @@
   <rect x="75" y="215" width="14" height="16" rx="2" fill="#b8956a" stroke="#2c2416"/>
   <text x="100" y="227" font-size="8" fill="#2c2416">Massage</text>
   <rect x="75" y="240" width="14" height="12" fill="#e8d4b8" stroke="#8B4513" stroke-width="1.5"/>
-  <text x="100" y="250" font-size="8" fill="#2c2416">VIP suite</text>
+  <text x="100" y="250" font-size="8" fill="#2c2416">VIP office+bed</text>
   <rect x="75" y="258" width="14" height="10" fill="#fff0f0" stroke="#c0392b" stroke-width="1.5"/>
   <text x="100" y="267" font-size="8" fill="#2c2416">Emergency</text>
   <circle cx="82" cy="282" r="5" fill="#d4c4a8" stroke="#2c2416"/>
