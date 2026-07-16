@@ -14,12 +14,13 @@
 | Rooftop lounge | 28 | Pergola, reflective linear ceiling lighting, e-shisha OK |
 | Indoor dining | 10 | Food-led, robot-primary aisles |
 | Indoor e-shisha lounge | 4 | Electronic only, odor extract |
-| **VIP suite** | **8–10** | **Electronically locked private room + VIP hostesses** |
+| **VIP suite** | **8–10** | **E-locked private room + TVs / on-demand + VIP hostesses** |
 | Coal shisha room | *(capacity within 50 via booth rotation; design for ~10 booth seats)* | **Negative pressure, staff-only, no robots** |
 | Massage seats | 6 | Within indoor footprint (shared with lounge dwell) |
+| **Emergency / seizure room** | — | **On-site first-response medical room (non-seating)** |
 | **Design total** | **50** | Rooftop 28 + indoor 22 (VIP counted in indoor) |
 
-**Assumed net area:** ~350–420 m² (indoor + rooftop usable), excluding MEP plant.
+**Assumed net area:** ~370–440 m² (indoor + rooftop usable + emergency room), excluding MEP plant.
 
 ---
 
@@ -45,8 +46,8 @@
 - Robots **never enter VIP suite** while e-door is locked — trays stop at **service pass**
 - Robots do **not** carry hot coals or lit traditional pipes
 - Traditional coal service = **staff only** through airlock vestibule
-- Fountain, stairs, coal vestibule, VIP suite = **virtual walls** in robot map
-- Main aisle clear width ≥ **1.2 m**
+- Fountain, stairs, coal vestibule, VIP suite, **emergency room** = **virtual walls** in robot map
+- Main aisle clear width ≥ **1.2 m**; stretcher path to emergency room / exit ≥ **1.1 m**
 
 ### Rooftop mode (recommended)
 Kitchen → **service lift / dumbwaiter tray** → rooftop bar handoff → **R4** → table  
@@ -84,9 +85,10 @@ Kitchen → **service lift / dumbwaiter tray** → rooftop bar handoff → **R4*
 | Indoor fountain | Central calm anchor; waterproofing + drain + 0.8 m robot keep-out |
 | Massage seats | 6 powered seats; quiet zone lighting; service power + maintenance access |
 | Premium dining | Limited kitchen/commissary; robot-led FOH |
-| **VIP suite (e-closed)** | Private ~45 m² room; magnetic e-lock + RFID/app; stays **closed** during booking; acoustic walls; e-shisha only; dedicated climate; hostess station |
+| **VIP suite (e-closed)** | Private ~45 m²; e-lock; **3 TVs + on-demand VOD**; hostess station; e-shisha only |
+| **Emergency / seizure room** | ~18 m² first-response room: treatment bed, O2, suction, AED, seizure kit, stretcher, EMS route |
 
-### 4.1 VIP suite — electronic close + hostess model
+### 4.1 VIP suite — electronic close + hostess + TVs / on-demand
 
 | Item | Spec |
 |------|------|
@@ -94,11 +96,35 @@ Kitchen → **service lift / dumbwaiter tray** → rooftop bar handoff → **R4*
 | Door | Flush electronic door; magnetic lock (~600 kg); fail-safe open on fire alarm; LED LOCKED status |
 | Access | RFID / booking app unlock; hostess can badge guests in |
 | Privacy | Vestibule sound lock; door remains closed for the booking window |
-| Service | 2 VIP hostesses (greeting, ordering aid, e-shisha assist, privacy etiquette) |
+| **Displays** | **1× 75" main wall TV + 2× 55" side TVs**; matrix switcher; mirror or solo modes |
+| **On-demand** | Guest **VOD pad** on low table; sports / film / karaoke catalogs; no lobby CCTV feed into suite |
+| AV rack | Streaming players + scene lighting control in suite AV closet |
+| Service | 2 VIP hostesses (greeting, ordering aid, e-shisha assist, media assist, privacy etiquette) |
 | F&B path | Robot → corridor stop → **service pass window** → hostess handoff inside |
 | Smoke | E-shisha only inside VIP (no coal) |
-| Add-on CAPEX | Fit-out AED 350k–900k; e-lock + AV AED 40k–120k |
+| Panic | In-suite panic → FOH + **emergency room** + EMS call |
+| Add-on CAPEX | Fit-out AED 350k–900k; e-lock AED 40k–120k; **TVs + VOD AED 80k–220k** |
 | Hostess OPEX | AED 18k–40k / month (2 FTE equivalent, shift cover) |
+
+### 4.2 On-site emergency / seizure treatment room
+
+Designed as a **first-response medical room** for seizure / collapse / hypoxia stabilization until EMS arrives — not a hospital ER. Stocking prescription meds requires **DHA clinic / pharmacy pathway**.
+
+| Item | Spec |
+|------|------|
+| Area | ~18 m², adjacent to staff / guest WC, near VIP corridor |
+| Bed | Treatment bed with padded side rails; soft floor zone for fall protection |
+| Airway / O2 | Oxygen cylinder + regulator; portable suction |
+| Cardiac | Wall AED with monthly check log |
+| Seizure kit | Timing clock, gloves, bite protection per protocol, first-aid; meds only if licensed |
+| Transfer | Folding stretcher park; clear EMS route to lift / street |
+| Call system | Panic buttons from VIP + FOH linked to room + **998** / private ambulance |
+| Posted protocol | Protect → Time → Recovery position → Airway → EMS if &gt;5 min / injury / first seizure |
+| Staffing | Trained first-aiders every shift; optional on-call nurse on peak VIP nights |
+| CAPEX | Fit-out AED 80k–220k + equipment AED 40k–120k |
+| OPEX | Training / consumables / nurse cover AED 3k–12k / month |
+
+**Hard rules:** robots never park or route through the emergency room; stretcher path kept clear; privacy curtain for guest dignity.
 
 ---
 
@@ -127,7 +153,9 @@ Ranges assume a **premium** fit-out in a suitable rooftop-capable building. Land
 | Fountain plumbing + waterproofing | 150k–550k | 300k–1.0M |
 | Interior fit-out | 1.6M–3.8M | 3.2M–7.0M |
 | Furniture + massage seats | 350k–1.4M | 900k–2.2M |
-| **VIP suite fit-out + e-lock + AV** | **350k–700k** | **700k–1.2M** |
+| **VIP suite fit-out + e-lock** | **350k–700k** | **700k–1.2M** |
+| **VIP TVs + on-demand AV** | **80k–180k** | **150k–280k** |
+| **Emergency / seizure room + kit** | **120k–280k** | **200k–400k** |
 | Hookah equipment (coal + e-shisha) | 120k–500k | 250k–900k |
 | Kitchen / commissary | 400k–1.3M | 800k–2.4M |
 | **Robots + POS/KDS/QR integration** | **250k–550k** | **450k–1.1M** |
@@ -153,8 +181,10 @@ Ranges assume a **premium** fit-out in a suitable rooftop-capable building. Land
 |------|------------:|
 | Rent (highly location-dependent) | 150k–450k+ |
 | Staff (FOH + kitchen + shisha + VIP hostesses + supervisor) | 98k–200k |
+| First-aid / optional nurse cover + medical consumables | 3k–12k |
 | Utilities (HVAC-heavy) | 25k–60k |
 | Consumables (tobacco, coals, e-liquid, F&B) | 40k–100k |
+| VIP VOD / streaming licenses | 1k–5k |
 | Robot maintenance / SaaS | 3k–10k |
 | Marketing | 15k–40k |
 
@@ -168,7 +198,8 @@ Ranges assume a **premium** fit-out in a suitable rooftop-capable building. Land
 | [`drawings/02-rooftop-floor-plan.svg`](./drawings/02-rooftop-floor-plan.svg) | Rooftop plan: 28 seats, bar handoff, exhaust stacks |
 | [`drawings/03-robot-routing.svg`](./drawings/03-robot-routing.svg) | Order lifecycle + indoor path loops + rooftop handoff |
 | [`drawings/04-section-elevation.svg`](./drawings/04-section-elevation.svg) | Cut section: levels, exhaust, fountain, robots |
-| [`drawings/05-vip-room-plan.svg`](./drawings/05-vip-room-plan.svg) | **A-04 VIP suite:** e-locked door, hostess station, service pass |
+| [`drawings/05-vip-room-plan.svg`](./drawings/05-vip-room-plan.svg) | **A-04 VIP suite:** e-lock, TVs + on-demand, hostess, service pass |
+| [`drawings/06-emergency-room-plan.svg`](./drawings/06-emergency-room-plan.svg) | **A-05 Emergency / seizure room:** bed, O2, AED, EMS route |
 | [`drawings/01-rooftop-concept.png`](./drawings/01-rooftop-concept.png) | Rooftop atmosphere concept |
 | [`drawings/02-indoor-robot-concept.png`](./drawings/02-indoor-robot-concept.png) | Indoor robot + fountain concept |
 | [`drawings/03-building-section-concept.png`](./drawings/03-building-section-concept.png) | Section concept render |
@@ -185,6 +216,8 @@ Open [`index.html`](./index.html) for a single-page drawing board.
 3. Civil Defense pre-consult on coal room negative pressure + fire strategy  
 4. DTCM / municipality licensing path for lounge + dining concept  
 5. Robot vendor site survey after preliminary FF&E freeze  
+6. Confirm **DHA / first-aid** pathway for on-site seizure room (clinic license only if stocking meds)  
+7. Spec VIP **VOD / IPTV** vendor + content licensing for private suites  
 
 ---
 

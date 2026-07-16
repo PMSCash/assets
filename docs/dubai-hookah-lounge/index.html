@@ -156,12 +156,14 @@
     <p class="lede">
       50-seat rooftop and indoor lounge with electronic hookah, traditional coal shisha
       (Russian / Turkish / Arabic), dining, indoor fountain, massage seats,
-      an electronically locked VIP suite with hostess service, and
+      an electronically locked VIP suite with TVs and on-demand display plus hostess service,
+      an on-site emergency room for seizure first response, and
       table-delivery robots with digital order routing.
     </p>
     <div class="meta">
       <span><strong>Seats:</strong> 50 (28 rooftop + 22 indoor incl. VIP)</span>
-      <span><strong>VIP:</strong> E-locked suite + hostesses</span>
+      <span><strong>VIP:</strong> E-lock · TVs · VOD · hostesses</span>
+      <span><strong>Medical:</strong> Seizure / emergency room</span>
       <span><strong>Robots:</strong> 4 delivery units</span>
       <span><strong>CAPEX:</strong> AED 10M–28M</span>
       <span><a class="doc" href="./ARCHITECTURE-AND-COST.md">Full architecture &amp; cost memo →</a></span>
@@ -191,8 +193,8 @@
     <section>
       <h2>A-04 · VIP suite (electronically closed)</h2>
       <p class="note">
-        Private e-locked room with RFID/app access, hostess station, service pass for robot trays,
-        and e-shisha only. Door stays closed during the booking.
+        Private e-locked room with RFID/app access, 3 TVs + on-demand VOD pad, hostess station,
+        service pass for robot trays, and e-shisha only. Door stays closed during the booking.
       </p>
       <div class="frame">
         <object data="./drawings/05-vip-room-plan.svg" type="image/svg+xml" aria-label="VIP suite floor plan">VIP suite plan</object>
@@ -200,8 +202,19 @@
     </section>
 
     <section>
+      <h2>A-05 · Emergency / seizure treatment room</h2>
+      <p class="note">
+        On-site first-response room: treatment bed, oxygen, suction, AED, seizure kit, stretcher park,
+        and EMS route. Stabilizes guests until ambulance transfer — DHA pathway if stocking meds.
+      </p>
+      <div class="frame">
+        <object data="./drawings/06-emergency-room-plan.svg" type="image/svg+xml" aria-label="Emergency seizure room plan">Emergency room plan</object>
+      </div>
+    </section>
+
+    <section>
       <h2>A-01 · Indoor floor plan</h2>
-      <p class="note">Dining, fountain, massage seats, kitchen, robot loading bay, coal negative-pressure room.</p>
+      <p class="note">Dining, fountain, massage, VIP suite, kitchen, robot bay, coal room, emergency / seizure room.</p>
       <div class="frame">
         <object data="./drawings/01-indoor-floor-plan.svg" type="image/svg+xml" aria-label="Indoor floor plan">Indoor floor plan</object>
       </div>
@@ -262,12 +275,21 @@
           </ul>
         </div>
         <div class="tile">
-          <h3>VIP suite add-on</h3>
-          <p class="figure">AED 350k – 1.2M</p>
+          <h3>VIP suite + TVs</h3>
+          <p class="figure">AED 430k – 1.5M</p>
           <ul>
-            <li>E-lock door stays closed in session</li>
+            <li>E-lock · 75" + 2×55" · on-demand pad</li>
             <li>2 VIP hostesses · robot → pass window</li>
-            <li>E-shisha only · acoustic privacy</li>
+            <li>Panic linked to emergency room</li>
+          </ul>
+        </div>
+        <div class="tile">
+          <h3>Emergency / seizure room</h3>
+          <p class="figure">AED 120k – 400k</p>
+          <ul>
+            <li>Bed · O2 · suction · AED · stretcher</li>
+            <li>Posted seizure protocol · EMS route</li>
+            <li>Trained first-aiders every shift</li>
           </ul>
         </div>
         <div class="tile">
@@ -275,7 +297,7 @@
           <p class="figure" style="font-size:1.15rem;color:var(--ink)">Coal ≠ robots</p>
           <ul>
             <li>Negative-pressure coal room</li>
-            <li>VIP suite = robot no-go when locked</li>
+            <li>VIP + emergency = robot no-go</li>
             <li>Civil Defense + landlord NOC critical</li>
           </ul>
         </div>

@@ -15,7 +15,7 @@
   <!-- Title block -->
   <rect x="40" y="770" width="1120" height="60" fill="#2c2416"/>
   <text x="60" y="798" fill="#f5e6c8" font-size="16" font-weight="bold">DUBAI PREMIUM HOOKAH LOUNGE  VIP SUITE PLAN</text>
-  <text x="60" y="818" fill="#c9b896" font-size="11">Electronically locked private room · 810 guests · Hostess service · E-shisha only · No robot entry when sealed</text>
+  <text x="60" y="818" fill="#c9b896" font-size="11">E-locked VIP ï¿½ TVs + on-demand display ï¿½ Hostess service ï¿½ E-shisha only ï¿½ No robot entry when sealed</text>
   <text x="980" y="805" fill="#f5e6c8" font-size="11">DRAWING A-04</text>
 
   <!-- Corridor / approach from main lounge -->
@@ -49,18 +49,36 @@
 
   <!-- VIP SUITE main room -->
   <rect x="360" y="80" width="560" height="640" fill="#f0e6d4" stroke="#2c2416" stroke-width="3"/>
-  <text x="640" y="110" text-anchor="middle" font-size="16" fill="#2c2416" font-weight="bold">VIP SUITE · ELECTRONICALLY CLOSED</text>
-  <text x="640" y="130" text-anchor="middle" font-size="11" fill="#6a5a42">~45 m² · acoustic walls · e-shisha · private climate · hostess call</text>
+  <text x="640" y="110" text-anchor="middle" font-size="16" fill="#2c2416" font-weight="bold">VIP SUITE ï¿½ ELECTRONICALLY CLOSED</text>
+  <text x="640" y="130" text-anchor="middle" font-size="11" fill="#6a5a42">~45 mï¿½ ï¿½ 3ï¿½ TVs ï¿½ on-demand VOD ï¿½ e-shisha ï¿½ private climate ï¿½ hostess call</text>
 
   <!-- Banquette U-shape -->
   <path d="M420 200 L860 200 L860 520 L780 520 L780 280 L500 280 L500 520 L420 520 Z"
         fill="#c9a96e" stroke="#2c2416" stroke-width="1.5" opacity="0.55"/>
-  <text x="640" y="250" text-anchor="middle" font-size="11" fill="#2c2416" font-weight="bold">U-BANQUETTE · 810 SEATS</text>
+  <text x="640" y="250" text-anchor="middle" font-size="11" fill="#2c2416" font-weight="bold">U-BANQUETTE ï¿½ 8ï¿½10 SEATS</text>
+
+  <!-- TV 1 main wall (above banquette) -->
+  <rect x="560" y="155" width="160" height="38" rx="2" fill="#1a1510" stroke="#c9a96e" stroke-width="1.5"/>
+  <rect x="568" y="161" width="144" height="26" fill="#0d3a4a"/>
+  <text x="640" y="179" text-anchor="middle" font-size="9" fill="#7ec8e3" font-weight="bold">TV-1 ï¿½ 75" MAIN</text>
+  <text x="640" y="148" text-anchor="middle" font-size="8" fill="#2c2416">ON-DEMAND DISPLAY</text>
+
+  <!-- TV 2 left wall -->
+  <rect x="375" y="300" width="28" height="100" rx="2" fill="#1a1510" stroke="#c9a96e" stroke-width="1.5"/>
+  <rect x="379" y="308" width="20" height="84" fill="#0d3a4a"/>
+  <text x="389" y="355" text-anchor="middle" font-size="7" fill="#7ec8e3" font-weight="bold" transform="rotate(-90 389 350)">TV-2 55"</text>
+
+  <!-- TV 3 right wall -->
+  <rect x="875" y="300" width="28" height="100" rx="2" fill="#1a1510" stroke="#c9a96e" stroke-width="1.5"/>
+  <rect x="879" y="308" width="20" height="84" fill="#0d3a4a"/>
+  <text x="889" y="355" text-anchor="middle" font-size="7" fill="#7ec8e3" font-weight="bold" transform="rotate(-90 889 350)">TV-3 55"</text>
 
   <!-- Low center table -->
   <ellipse cx="640" cy="380" rx="70" ry="45" fill="#fff" stroke="#2c2416" stroke-width="1.5"/>
-  <text x="640" y="375" text-anchor="middle" font-size="10" fill="#2c2416" font-weight="bold">LOW TABLE</text>
-  <text x="640" y="392" text-anchor="middle" font-size="9" fill="#6a5a42">e-shisha · charger</text>
+  <text x="640" y="368" text-anchor="middle" font-size="10" fill="#2c2416" font-weight="bold">LOW TABLE</text>
+  <text x="640" y="384" text-anchor="middle" font-size="9" fill="#6a5a42">e-shisha ï¿½ charger</text>
+  <rect x="610" y="390" width="60" height="16" rx="2" fill="#2c2416" stroke="#c9a96e"/>
+  <text x="640" y="402" text-anchor="middle" font-size="7" fill="#c9a96e">VOD PAD</text>
 
   <!-- Guest seat markers -->
   <circle cx="460" cy="240" r="10" fill="#d4c4a8" stroke="#2c2416"/>
@@ -77,36 +95,38 @@
   <!-- Hostess station -->
   <rect x="400" y="560" width="160" height="120" fill="#e8dcc8" stroke="#8B4513" stroke-width="2"/>
   <text x="480" y="595" text-anchor="middle" font-size="12" fill="#8B4513" font-weight="bold">HOSTESS STATION</text>
-  <text x="480" y="615" text-anchor="middle" font-size="9" fill="#5a4a32">VIP girls · greeting &amp; service</text>
-  <text x="480" y="632" text-anchor="middle" font-size="9" fill="#5a4a32">tablet · call button · cloak</text>
+  <text x="480" y="615" text-anchor="middle" font-size="9" fill="#5a4a32">VIP girls ï¿½ greeting &amp; service</text>
+  <text x="480" y="632" text-anchor="middle" font-size="9" fill="#5a4a32">tablet ï¿½ call button ï¿½ cloak</text>
   <!-- stylized figures -->
   <circle cx="450" cy="655" r="8" fill="#b8956a" stroke="#2c2416"/>
   <rect x="443" y="663" width="14" height="20" rx="3" fill="#8B4513" stroke="#2c2416"/>
   <circle cx="510" cy="655" r="8" fill="#b8956a" stroke="#2c2416"/>
   <rect x="503" y="663" width="14" height="20" rx="3" fill="#8B4513" stroke="#2c2416"/>
-  <text x="480" y="670" text-anchor="middle" font-size="8" fill="#2c2416">×2 on duty</text>
+  <text x="480" y="670" text-anchor="middle" font-size="8" fill="#2c2416">ï¿½2 on duty</text>
 
   <!-- Private WC -->
   <rect x="580" y="560" width="120" height="120" fill="#e8e8e4" stroke="#2c2416" stroke-width="1.5"/>
   <text x="640" y="610" text-anchor="middle" font-size="11" fill="#2c2416" font-weight="bold">PRIVATE WC</text>
-  <text x="640" y="628" text-anchor="middle" font-size="9" fill="#6a5a42">ensuite · 6 m²</text>
+  <text x="640" y="628" text-anchor="middle" font-size="9" fill="#6a5a42">ensuite ï¿½ 6 mï¿½</text>
 
   <!-- Service pantry / pass -->
   <rect x="720" y="560" width="160" height="120" fill="#f0e0c8" stroke="#8B4513" stroke-width="2"/>
   <text x="800" y="595" text-anchor="middle" font-size="11" fill="#8B4513" font-weight="bold">SERVICE PASS</text>
   <text x="800" y="615" text-anchor="middle" font-size="9" fill="#5a4a32">staff / hostess tray handoff</text>
-  <text x="800" y="632" text-anchor="middle" font-size="9" fill="#5a4a32">robot deliver ’ pass only</text>
+  <text x="800" y="632" text-anchor="middle" font-size="9" fill="#5a4a32">robot deliver ï¿½ pass only</text>
   <rect x="750" y="645" width="100" height="22" fill="#fff" stroke="#8B4513" stroke-width="1.5"/>
   <text x="800" y="660" text-anchor="middle" font-size="8" fill="#8B4513">PASS WINDOW</text>
 
-  <!-- AV / controls -->
-  <rect x="400" y="160" width="100" height="50" fill="#2c2416" stroke="#c9a96e" stroke-width="1.5"/>
-  <text x="450" y="182" text-anchor="middle" font-size="9" fill="#f5e6c8" font-weight="bold">AV / LIGHT</text>
-  <text x="450" y="198" text-anchor="middle" font-size="8" fill="#c9a96e">scene control</text>
+  <!-- AV / on-demand rack -->
+  <rect x="400" y="155" width="100" height="55" fill="#2c2416" stroke="#c9a96e" stroke-width="1.5"/>
+  <text x="450" y="175" text-anchor="middle" font-size="9" fill="#f5e6c8" font-weight="bold">AV / VOD RACK</text>
+  <text x="450" y="190" text-anchor="middle" font-size="8" fill="#c9a96e">matrix ï¿½ streaming</text>
+  <text x="450" y="202" text-anchor="middle" font-size="8" fill="#c9a96e">scene lighting</text>
 
-  <rect x="780" y="160" width="100" height="50" fill="#2c2416" stroke="#c9a96e" stroke-width="1.5"/>
-  <text x="830" y="182" text-anchor="middle" font-size="9" fill="#f5e6c8" font-weight="bold">CLIMATE</text>
-  <text x="830" y="198" text-anchor="middle" font-size="8" fill="#c9a96e">dedicated AHU</text>
+  <rect x="780" y="155" width="100" height="55" fill="#2c2416" stroke="#c9a96e" stroke-width="1.5"/>
+  <text x="830" y="175" text-anchor="middle" font-size="9" fill="#f5e6c8" font-weight="bold">CLIMATE</text>
+  <text x="830" y="190" text-anchor="middle" font-size="8" fill="#c9a96e">dedicated AHU</text>
+  <text x="830" y="202" text-anchor="middle" font-size="8" fill="#c9a96e">quiet mode</text>
 
   <!-- Status callouts -->
   <rect x="940" y="80" width="200" height="640" fill="#fff" stroke="#2c2416" stroke-width="1.5"/>
@@ -117,34 +137,37 @@
   <text x="1040" y="188" text-anchor="middle" font-size="9" fill="#c9b896">RFID / app unlock</text>
 
   <text x="960" y="240" font-size="10" fill="#2c2416" font-weight="bold">Door hardware</text>
-  <text x="960" y="258" font-size="9" fill="#5a4a32">" Magnetic lock 600kg</text>
-  <text x="960" y="274" font-size="9" fill="#5a4a32">" Fail-safe to open</text>
-  <text x="960" y="290" font-size="9" fill="#5a4a32">" Fire alarm release</text>
-  <text x="960" y="306" font-size="9" fill="#5a4a32">" Status LED + CCTV</text>
+  <text x="960" y="258" font-size="9" fill="#5a4a32>â€¢ Magnetic lock 600kg</text>
+  <text x="960" y="274" font-size="9" fill="#5a4a32>â€¢ Fail-safe to open</text>
+  <text x="960" y="290" font-size="9" fill="#5a4a32>â€¢ Fire alarm release</text>
+  <text x="960" y="306" font-size="9" fill="#5a4a32>â€¢ Status LED + CCTV</text>
 
   <text x="960" y="340" font-size="10" fill="#2c2416" font-weight="bold">VIP hostess model</text>
-  <text x="960" y="358" font-size="9" fill="#5a4a32">" 2 hostesses assigned</text>
-  <text x="960" y="374" font-size="9" fill="#5a4a32">" Greeting at vestibule</text>
-  <text x="960" y="390" font-size="9" fill="#5a4a32">" In-suite ordering aid</text>
-  <text x="960" y="406" font-size="9" fill="#5a4a32">" E-shisha setup assist</text>
-  <text x="960" y="422" font-size="9" fill="#5a4a32">" Privacy etiquette</text>
+  <text x="960" y="358" font-size="9" fill="#5a4a32>â€¢ 2 hostesses assigned</text>
+  <text x="960" y="374" font-size="9" fill="#5a4a32>â€¢ Greeting at vestibule</text>
+  <text x="960" y="390" font-size="9" fill="#5a4a32>â€¢ In-suite ordering aid</text>
+  <text x="960" y="406" font-size="9" fill="#5a4a32>â€¢ E-shisha setup assist</text>
+  <text x="960" y="422" font-size="9" fill="#5a4a32>â€¢ Privacy etiquette</text>
 
-  <text x="960" y="456" font-size="10" fill="#2c2416" font-weight="bold">Service rules</text>
-  <text x="960" y="474" font-size="9" fill="#5a4a32">" Door stays CLOSED</text>
-  <text x="960" y="490" font-size="9" fill="#5a4a32">  during booking</text>
-  <text x="960" y="506" font-size="9" fill="#5a4a32">" Robots stop at pass</text>
-  <text x="960" y="522" font-size="9" fill="#5a4a32">" No coal inside VIP</text>
-  <text x="960" y="538" font-size="9" fill="#5a4a32">" E-shisha + dining only</text>
+  <text x="960" y="456" font-size="10" fill="#2c2416" font-weight="bold">TVs ï¿½ on-demand</text>
+  <text x="960" y="474" font-size="9" fill="#5a4a32">ï¿½ 1ï¿½ 75" main + 2ï¿½ 55"</text>
+  <text x="960" y="490" font-size="9" fill="#5a4a32">ï¿½ Guest VOD pad on table</text>
+  <text x="960" y="506" font-size="9" fill="#5a4a32">ï¿½ Sports / film / karaoke</text>
+  <text x="960" y="522" font-size="9" fill="#5a4a32">ï¿½ Mirror or solo screen</text>
+  <text x="960" y="538" font-size="9" fill="#5a4a32">ï¿½ Privacy: no lobby feed</text>
 
-  <text x="960" y="572" font-size="10" fill="#2c2416" font-weight="bold">Indicative add-on</text>
-  <text x="960" y="590" font-size="9" fill="#5a4a32">Fit-out: AED 350k900k</text>
-  <text x="960" y="606" font-size="9" fill="#5a4a32">E-lock + AV: 40k120k</text>
-  <text x="960" y="622" font-size="9" fill="#5a4a32">Hostess OPEX/mo: 18k40k</text>
+  <text x="960" y="572" font-size="10" fill="#2c2416" font-weight="bold">Service rules</text>
+  <text x="960" y="590" font-size="9" fill="#5a4a32">ï¿½ Door stays CLOSED</text>
+  <text x="960" y="606" font-size="9" fill="#5a4a32">ï¿½ Robots stop at pass</text>
+  <text x="960" y="622" font-size="9" fill="#5a4a32">ï¿½ E-shisha only ï¿½ no coal</text>
+  <text x="960" y="638" font-size="9" fill="#5a4a32">ï¿½ Panic to emerg. room</text>
 
-  <text x="1040" y="680" text-anchor="middle" font-size="9" fill="#8B0000" font-weight="bold">PRIVACY MODE ON</text>
+  <text x="960" y="668" font-size="9" fill="#5a4a32">AV/VOD add: 80kï¿½220k</text>
+
+  <text x="1040" y="700" text-anchor="middle" font-size="9" fill="#8B0000" font-weight="bold">PRIVACY MODE ON</text>
 
   <!-- Legend -->
-  <rect x="60" y="80" width="160" height="160" fill="#fff" stroke="#2c2416" stroke-width="1" opacity="0.95"/>
+  <rect x="60" y="80" width="160" height="180" fill="#fff" stroke="#2c2416" stroke-width="1" opacity="0.95"/>
   <text x="140" y="105" text-anchor="middle" font-size="10" font-weight="bold" fill="#2c2416">LEGEND</text>
   <rect x="75" y="120" width="14" height="28" fill="#1a1510" stroke="#c9a96e"/>
   <text x="100" y="140" font-size="8" fill="#2c2416">E-door closed</text>
@@ -154,6 +177,8 @@
   <text x="100" y="199" font-size="8" fill="#2c2416">Guest seat</text>
   <rect x="75" y="215" width="20" height="12" fill="#f0e0c8" stroke="#8B4513"/>
   <text x="100" y="225" font-size="8" fill="#2c2416">Service pass</text>
+  <rect x="75" y="235" width="20" height="10" fill="#0d3a4a" stroke="#c9a96e"/>
+  <text x="100" y="244" font-size="8" fill="#2c2416">TV / VOD</text>
 
   <!-- North arrow -->
   <g transform="translate(200,100)">
