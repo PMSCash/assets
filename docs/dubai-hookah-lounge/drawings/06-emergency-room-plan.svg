@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 850" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e0e8e8" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="850" fill="#f4f7f7"/>
+  <rect x="40" y="40" width="1120" height="720" fill="url(#grid)" stroke="#1a2a2a" stroke-width="2"/>
+
+  <!-- Title block -->
+  <rect x="40" y="770" width="1120" height="60" fill="#1a2a2a"/>
+  <text x="60" y="798" fill="#e8f4f4" font-size="16" font-weight="bold">DUBAI PREMIUM HOOKAH LOUNGE  ON-SITE EMERGENCY / SEIZURE ROOM</text>
+  <text x="60" y="818" fill="#9ab8b8" font-size="11">First-response medical room · seizure stabilization · AED · oxygen · EMS handoff · staff-trained protocol</text>
+  <text x="980" y="805" fill="#e8f4f4" font-size="11">DRAWING A-05</text>
+
+  <!-- Corridor approach -->
+  <rect x="60" y="300" width="160" height="220" fill="#e8eeee" stroke="#1a2a2a" stroke-width="1.5"/>
+  <text x="140" y="390" text-anchor="middle" font-size="12" fill="#1a2a2a" font-weight="bold">CORRIDOR</text>
+  <text x="140" y="410" text-anchor="middle" font-size="10" fill="#3a5a5a">from VIP / dining</text>
+  <text x="140" y="430" text-anchor="middle" font-size="9" fill="#5a7a7a">clear stretcher path</text>
+  <path d="M100 520 L220 520" stroke="#c0392b" stroke-width="3" stroke-dasharray="8,4" fill="none"/>
+  <text x="140" y="545" text-anchor="middle" font-size="8" fill="#c0392b" font-weight="bold">EMS ROUTE ’</text>
+
+  <!-- Double swing / wide door -->
+  <rect x="220" y="380" width="40" height="60" fill="#fff" stroke="#c0392b" stroke-width="2"/>
+  <path d="M240,380 Q270,380 270,410" fill="none" stroke="#c0392b" stroke-width="1.5"/>
+  <path d="M240,440 Q270,440 270,410" fill="none" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="240" y="370" text-anchor="middle" font-size="8" fill="#c0392b" font-weight="bold">WIDE DOOR</text>
+
+  <!-- Main emergency room -->
+  <rect x="260" y="100" width="620" height="600" fill="#eef5f5" stroke="#c0392b" stroke-width="3"/>
+  <text x="570" y="135" text-anchor="middle" font-size="16" fill="#c0392b" font-weight="bold">EMERGENCY ROOM · SEIZURE TREATMENT</text>
+  <text x="570" y="155" text-anchor="middle" font-size="11" fill="#3a5a5a">~18 m² · stabilize on site · call 998 / private ambulance · transfer ready</text>
+
+  <!-- Treatment bed -->
+  <rect x="360" y="220" width="280" height="140" rx="6" fill="#fff" stroke="#1a2a2a" stroke-width="2"/>
+  <rect x="370" y="230" width="260" height="100" rx="4" fill="#dce8f0" stroke="#2a4a5a"/>
+  <rect x="360" y="220" width="12" height="140" fill="#7a9aaa" stroke="#1a2a2a"/>
+  <rect x="628" y="220" width="12" height="140" fill="#7a9aaa" stroke="#1a2a2a"/>
+  <text x="500" y="280" text-anchor="middle" font-size="13" fill="#1a2a2a" font-weight="bold">TREATMENT BED</text>
+  <text x="500" y="300" text-anchor="middle" font-size="10" fill="#3a5a5a">padded rails · recovery position space</text>
+  <text x="500" y="340" text-anchor="middle" font-size="9" fill="#5a7a7a">clear 1.0 m aisle on both sides</text>
+
+  <!-- Soft floor / mat zone -->
+  <rect x="340" y="380" width="320" height="40" fill="#c8d8d0" stroke="#2a5a4a" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="500" y="405" text-anchor="middle" font-size="9" fill="#2a5a4a">SOFT FLOOR ZONE · seizure fall protection</text>
+
+  <!-- Oxygen + suction wall -->
+  <rect x="300" y="200" width="40" height="160" fill="#d0e8f0" stroke="#2980b9" stroke-width="2"/>
+  <circle cx="320" cy="240" r="10" fill="#2980b9"/>
+  <text x="320" y="245" text-anchor="middle" font-size="7" fill="#fff" font-weight="bold">O2</text>
+  <circle cx="320" cy="290" r="10" fill="#16a085"/>
+  <text x="320" y="294" text-anchor="middle" font-size="6" fill="#fff" font-weight="bold">SUC</text>
+  <text x="320" y="340" text-anchor="middle" font-size="8" fill="#2980b9" font-weight="bold">MED</text>
+  <text x="320" y="352" text-anchor="middle" font-size="8" fill="#2980b9">GAS</text>
+
+  <!-- Crash / seizure kit cabinet -->
+  <rect x="680" y="200" width="160" height="120" fill="#fff0f0" stroke="#c0392b" stroke-width="2"/>
+  <text x="760" y="230" text-anchor="middle" font-size="11" fill="#c0392b" font-weight="bold">SEIZURE KIT</text>
+  <text x="760" y="248" text-anchor="middle" font-size="9" fill="#5a3a3a">+ crash cart</text>
+  <text x="760" y="270" text-anchor="middle" font-size="8" fill="#5a3a3a">padded tongue guard*</text>
+  <text x="760" y="286" text-anchor="middle" font-size="8" fill="#5a3a3a">timing clock · gloves</text>
+  <text x="760" y="302" text-anchor="middle" font-size="8" fill="#5a3a3a">meds per DHA protocol</text>
+
+  <!-- AED wall mount -->
+  <rect x="680" y="340" width="160" height="70" fill="#fff8e8" stroke="#e67e22" stroke-width="2"/>
+  <text x="760" y="370" text-anchor="middle" font-size="12" fill="#e67e22" font-weight="bold">AED</text>
+  <text x="760" y="390" text-anchor="middle" font-size="9" fill="#5a4a2a">wall mount · monthly check</text>
+
+  <!-- Hand wash + sink -->
+  <rect x="300" y="480" width="120" height="90" fill="#e0ecec" stroke="#1a2a2a" stroke-width="1.5"/>
+  <ellipse cx="360" cy="520" rx="30" ry="18" fill="#b8d0d8" stroke="#2a4a5a"/>
+  <text x="360" y="555" text-anchor="middle" font-size="10" fill="#1a2a2a" font-weight="bold">HAND WASH</text>
+
+  <!-- Monitoring / desk -->
+  <rect x="440" y="480" width="160" height="90" fill="#fff" stroke="#1a2a2a" stroke-width="1.5"/>
+  <text x="520" y="515" text-anchor="middle" font-size="11" fill="#1a2a2a" font-weight="bold">NURSE / FIRST-AID</text>
+  <text x="520" y="535" text-anchor="middle" font-size="9" fill="#3a5a5a">desk · incident log</text>
+  <text x="520" y="552" text-anchor="middle" font-size="9" fill="#3a5a5a">guest medical notes*</text>
+
+  <!-- Privacy curtain track -->
+  <line x1="300" y1="180" x2="840" y2="180" stroke="#7a9aaa" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="570" y="175" text-anchor="middle" font-size="9" fill="#3a5a5a">PRIVACY CURTAIN TRACK</text>
+
+  <!-- Stretcher park -->
+  <rect x="640" y="480" width="200" height="90" fill="#e8eef0" stroke="#2a4a5a" stroke-width="1.5"/>
+  <rect x="670" y="505" width="140" height="40" rx="8" fill="#fff" stroke="#2a4a5a" stroke-width="1.5"/>
+  <circle cx="690" cy="550" r="8" fill="#2c2416"/>
+  <circle cx="790" cy="550" r="8" fill="#2c2416"/>
+  <text x="740" y="500" text-anchor="middle" font-size="10" fill="#1a2a2a" font-weight="bold">STRETCHER PARK</text>
+
+  <!-- Panic / call -->
+  <rect x="300" y="600" width="200" height="70" fill="#1a2a2a" stroke="#c0392b" stroke-width="2"/>
+  <text x="400" y="630" text-anchor="middle" font-size="12" fill="#ff6b6b" font-weight="bold">PANIC / EMS CALL</text>
+  <text x="400" y="650" text-anchor="middle" font-size="9" fill="#c9b896">VIP + FOH linked · 998</text>
+
+  <rect x="520" y="600" width="320" height="70" fill="#fff" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="680" y="625" text-anchor="middle" font-size="10" fill="#c0392b" font-weight="bold">SEIZURE RESPONSE STEPS (POSTED)</text>
+  <text x="680" y="645" text-anchor="middle" font-size="8" fill="#3a5a5a">1 Protect  2 Time  3 Recovery position  4 Airway  5 EMS if &gt;5 min / injury / first</text>
+  <text x="680" y="660" text-anchor="middle" font-size="8" fill="#3a5a5a">Do NOT restrain · Do NOT put objects in mouth · Clear scene · Hostess escort</text>
+
+  <!-- Side panel specs -->
+  <rect x="920" y="100" width="220" height="600" fill="#fff" stroke="#1a2a2a" stroke-width="1.5"/>
+  <text x="1030" y="135" text-anchor="middle" font-size="12" font-weight="bold" fill="#c0392b">CLINICAL OPS</text>
+
+  <text x="940" y="170" font-size="10" fill="#1a2a2a" font-weight="bold">Purpose</text>
+  <text x="940" y="188" font-size="9" fill="#3a5a5a">On-site first response for</text>
+  <text x="940" y="204" font-size="9" fill="#3a5a5a">seizure / collapse / hypoxia</text>
+  <text x="940" y="220" font-size="9" fill="#3a5a5a">until EMS arrives</text>
+
+  <text x="940" y="250" font-size="10" fill="#1a2a2a" font-weight="bold">Equipment</text>
+  <text x="940" y="268" font-size="9" fill="#3a5a5a">" Treatment bed + rails</text>
+  <text x="940" y="284" font-size="9" fill="#3a5a5a">" O2 cylinder + regulator</text>
+  <text x="940" y="300" font-size="9" fill="#3a5a5a">" Portable suction</text>
+  <text x="940" y="316" font-size="9" fill="#3a5a5a">" AED (monthly check)</text>
+  <text x="940" y="332" font-size="9" fill="#3a5a5a">" Seizure / first-aid kit</text>
+  <text x="940" y="348" font-size="9" fill="#3a5a5a">" Stretcher + wheelchair</text>
+  <text x="940" y="364" font-size="9" fill="#3a5a5a">" SpO2 / BP monitor</text>
+  <text x="940" y="380" font-size="9" fill="#3a5a5a">" Privacy curtain</text>
+
+  <text x="940" y="410" font-size="10" fill="#1a2a2a" font-weight="bold">Staffing</text>
+  <text x="940" y="428" font-size="9" fill="#3a5a5a">" Trained first-aiders</text>
+  <text x="940" y="444" font-size="9" fill="#3a5a5a">  on every shift</text>
+  <text x="940" y="460" font-size="9" fill="#3a5a5a">" Optional on-call nurse</text>
+  <text x="940" y="476" font-size="9" fill="#3a5a5a">  peak VIP nights</text>
+  <text x="940" y="492" font-size="9" fill="#3a5a5a">" VIP panic ’ room + EMS</text>
+
+  <text x="940" y="522" font-size="10" fill="#1a2a2a" font-weight="bold">Location rules</text>
+  <text x="940" y="540" font-size="9" fill="#3a5a5a">" Near VIP + guest WC</text>
+  <text x="940" y="556" font-size="9" fill="#3a5a5a">" Stretcher path e 1.1 m</text>
+  <text x="940" y="572" font-size="9" fill="#3a5a5a">" Direct street / lift exit</text>
+  <text x="940" y="588" font-size="9" fill="#3a5a5a">" No robot parking here</text>
+
+  <text x="940" y="618" font-size="10" fill="#1a2a2a" font-weight="bold">Indicative cost</text>
+  <text x="940" y="636" font-size="9" fill="#3a5a5a">Fit-out: AED 80k220k</text>
+  <text x="940" y="652" font-size="9" fill="#3a5a5a">Equipment: 40k120k</text>
+  <text x="940" y="668" font-size="9" fill="#3a5a5a">Training/OPEX: 3k12k/mo</text>
+
+  <text x="1030" y="700" text-anchor="middle" font-size="8" fill="#c0392b">*DHA / clinic license if</text>
+  <text x="1030" y="714" text-anchor="middle" font-size="8" fill="#c0392b">medications are stocked</text>
+
+  <!-- Legend -->
+  <rect x="60" y="80" width="160" height="180" fill="#fff" stroke="#1a2a2a" stroke-width="1"/>
+  <text x="140" y="105" text-anchor="middle" font-size="10" font-weight="bold" fill="#1a2a2a">LEGEND</text>
+  <rect x="75" y="120" width="20" height="12" fill="#fff0f0" stroke="#c0392b" stroke-width="2"/>
+  <text x="100" y="130" font-size="8" fill="#1a2a2a">Seizure kit</text>
+  <rect x="75" y="145" width="20" height="12" fill="#d0e8f0" stroke="#2980b9"/>
+  <text x="100" y="155" font-size="8" fill="#1a2a2a">O2 / suction</text>
+  <rect x="75" y="170" width="20" height="12" fill="#fff8e8" stroke="#e67e22"/>
+  <text x="100" y="180" font-size="8" fill="#1a2a2a">AED</text>
+  <line x1="75" y1="200" x2="100" y2="200" stroke="#c0392b" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="110" y="204" font-size="8" fill="#1a2a2a">EMS route</text>
+  <rect x="75" y="220" width="20" height="12" fill="#c8d8d0" stroke="#2a5a4a"/>
+  <text x="100" y="230" font-size="8" fill="#1a2a2a">Soft zone</text>
+
+  <g transform="translate(200,100)">
+    <polygon points="0,-16 6,8 -6,8" fill="#1a2a2a"/>
+    <text x="0" y="24" text-anchor="middle" font-size="10" font-weight="bold">N</text>
+  </g>
+</svg>

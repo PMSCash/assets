@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 850" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#f0d0e0" stroke-width="0.5"/>
+    </pattern>
+    <linearGradient id="pink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF69B4"/><stop offset="100%" stop-color="#FF2D95"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFE08A"/><stop offset="100%" stop-color="#D4AF37"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#FF2D95"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="850" fill="#1a0f16"/>
+  <rect x="40" y="40" width="1120" height="720" fill="#2a1524" stroke="#D4AF37" stroke-width="2"/>
+  <rect x="40" y="40" width="1120" height="720" fill="url(#grid)" opacity="0.35"/>
+
+  <!-- Title -->
+  <rect x="40" y="770" width="1120" height="60" fill="#120816"/>
+  <text x="60" y="798" fill="#FF69B4" font-size="16" font-weight="bold">EJL LIGHTHOUSE — VIP SUITE PLAN</text>
+  <text x="60" y="818" fill="#D4AF37" font-size="11">E-locked · indoor fountain · fireplace · pole dance · TVs/VOD · hostesses · e-shisha · no tip e-pay</text>
+  <text x="980" y="805" fill="#FF69B4" font-size="11">DRAWING A-04</text>
+
+  <!-- Corridor -->
+  <rect x="60" y="280" width="160" height="240" fill="#3a2034" stroke="#D4AF37" stroke-width="1.5"/>
+  <text x="140" y="380" text-anchor="middle" font-size="12" fill="#FFE08A" font-weight="bold">CORRIDOR</text>
+  <text x="140" y="400" text-anchor="middle" font-size="10" fill="#FFB6D9">from main lounge</text>
+  <text x="140" y="420" text-anchor="middle" font-size="9" fill="#c9a0b8">robot stop · EJL logo</text>
+
+  <!-- Vestibule + e-door -->
+  <rect x="220" y="300" width="110" height="200" fill="#4a2840" stroke="#D4AF37" stroke-width="2"/>
+  <text x="275" y="340" text-anchor="middle" font-size="11" fill="#FFE08A" font-weight="bold">VESTIBULE</text>
+  <rect x="310" y="360" width="18" height="80" fill="#120816" stroke="#FF2D95" stroke-width="2"/>
+  <rect x="314" y="390" width="10" height="20" rx="2" fill="#2ecc71"/>
+  <text x="319" y="350" text-anchor="middle" font-size="8" fill="#FF69B4" font-weight="bold">E-DOOR</text>
+  <text x="319" y="455" text-anchor="middle" font-size="7" fill="#2ecc71">LOCKED</text>
+  <rect x="250" y="380" width="36" height="48" rx="3" fill="#120816" stroke="#D4AF37"/>
+  <circle cx="268" cy="416" r="4" fill="#2ecc71"/>
+  <text x="268" y="440" text-anchor="middle" font-size="7" fill="#FFE08A">RFID</text>
+
+  <line x1="330" y1="400" x2="370" y2="400" stroke="#FF2D95" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- VIP suite -->
+  <rect x="350" y="70" width="580" height="660" fill="#321828" stroke="#FF2D95" stroke-width="3"/>
+  <text x="640" y="100" text-anchor="middle" font-size="16" fill="#FF69B4" font-weight="bold">EJL LIGHTHOUSE VIP · ELECTRONICALLY CLOSED</text>
+  <text x="640" y="120" text-anchor="middle" font-size="11" fill="#D4AF37">~50 m² · fountain · fireplace · pole · 3 TVs · hostesses</text>
+
+  <!-- Banquettes L/R leaving center clear for fountain + pole -->
+  <rect x="380" y="200" width="70" height="280" rx="8" fill="#6a3058" stroke="#D4AF37" opacity="0.9"/>
+  <rect x="800" y="200" width="70" height="280" rx="8" fill="#6a3058" stroke="#D4AF37" opacity="0.9"/>
+  <rect x="470" y="160" width="300" height="55" rx="8" fill="#6a3058" stroke="#D4AF37" opacity="0.9"/>
+  <text x="640" y="192" text-anchor="middle" font-size="11" fill="#FFE08A" font-weight="bold">BANQUETTE · 8–10 SEATS</text>
+
+  <!-- Seat dots -->
+  <circle cx="415" cy="240" r="8" fill="#D4AF37"/><circle cx="415" cy="300" r="8" fill="#D4AF37"/>
+  <circle cx="415" cy="360" r="8" fill="#D4AF37"/><circle cx="415" cy="420" r="8" fill="#D4AF37"/>
+  <circle cx="835" cy="240" r="8" fill="#D4AF37"/><circle cx="835" cy="300" r="8" fill="#D4AF37"/>
+  <circle cx="835" cy="360" r="8" fill="#D4AF37"/><circle cx="835" cy="420" r="8" fill="#D4AF37"/>
+  <circle cx="520" cy="175" r="8" fill="#D4AF37"/><circle cx="640" cy="175" r="8" fill="#D4AF37"/>
+  <circle cx="760" cy="175" r="8" fill="#D4AF37"/>
+
+  <!-- INDOOR FOUNTAIN (center-front) -->
+  <ellipse cx="560" cy="320" rx="55" ry="40" fill="#3a6a8a" stroke="#7ec8e3" stroke-width="2"/>
+  <ellipse cx="560" cy="320" rx="35" ry="24" fill="#5a9ab0"/>
+  <circle cx="560" cy="320" r="8" fill="#FF69B4"/>
+  <text x="560" y="380" text-anchor="middle" font-size="10" fill="#7ec8e3" font-weight="bold">INDOOR FOUNTAIN</text>
+  <text x="560" y="394" text-anchor="middle" font-size="8" fill="#FFB6D9">pink LED wash · drain</text>
+
+  <!-- FIREPLACE (feature wall) -->
+  <rect x="700" y="260" width="80" height="100" fill="#120816" stroke="#D4AF37" stroke-width="2.5"/>
+  <rect x="712" y="280" width="56" height="55" fill="#FF2D95" opacity="0.85"/>
+  <path d="M720,330 Q740,250 760,330" fill="#FFD700" opacity="0.7"/>
+  <text x="740" y="375" text-anchor="middle" font-size="10" fill="#D4AF37" font-weight="bold">FIREPLACE</text>
+  <text x="740" y="388" text-anchor="middle" font-size="8" fill="#FFB6D9">gas · gold surround</text>
+
+  <!-- POLE DANCE STAGE -->
+  <circle cx="640" cy="455" r="55" fill="#4a2040" stroke="#FF2D95" stroke-width="2.5"/>
+  <circle cx="640" cy="455" r="40" fill="#2a1020" stroke="#D4AF37" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <circle cx="640" cy="455" r="5" fill="#C0C0C0" stroke="#FFE08A" stroke-width="2"/>
+  <line x1="640" y1="400" x2="640" y2="510" stroke="#C0C0C0" stroke-width="4"/>
+  <text x="640" y="530" text-anchor="middle" font-size="11" fill="#FF69B4" font-weight="bold">POLE DANCE STAGE</text>
+  <text x="640" y="544" text-anchor="middle" font-size="8" fill="#D4AF37">chrome pole · pink uplight · 2.4m clear</text>
+
+  <!-- Low table + VOD -->
+  <ellipse cx="560" cy="430" rx="36" ry="22" fill="#fff0f8" stroke="#D4AF37"/>
+  <text x="560" y="428" text-anchor="middle" font-size="8" fill="#2c2416" font-weight="bold">TABLE</text>
+  <text x="560" y="440" text-anchor="middle" font-size="7" fill="#6a3058">e-shisha · VOD</text>
+
+  <!-- TVs -->
+  <rect x="530" y="130" width="160" height="28" rx="2" fill="#120816" stroke="#D4AF37"/>
+  <text x="610" y="149" text-anchor="middle" font-size="9" fill="#FF69B4" font-weight="bold">TV-1 75" ON-DEMAND</text>
+  <rect x="360" y="250" width="22" height="90" rx="2" fill="#120816" stroke="#D4AF37"/>
+  <text x="371" y="300" text-anchor="middle" font-size="7" fill="#FF69B4" transform="rotate(-90 371 295)">TV-2</text>
+  <rect x="900" y="250" width="22" height="90" rx="2" fill="#120816" stroke="#D4AF37"/>
+  <text x="911" y="300" text-anchor="middle" font-size="7" fill="#FF69B4" transform="rotate(-90 911 295)">TV-3</text>
+
+  <!-- Hostess / WC / Pass -->
+  <rect x="380" y="570" width="150" height="130" fill="#4a2840" stroke="#FF2D95" stroke-width="2"/>
+  <text x="455" y="605" text-anchor="middle" font-size="11" fill="#FF69B4" font-weight="bold">HOSTESS</text>
+  <text x="455" y="625" text-anchor="middle" font-size="9" fill="#D4AF37">VIP girls · no tips</text>
+  <text x="455" y="642" text-anchor="middle" font-size="9" fill="#FFB6D9">e-pay assist · cloak</text>
+  <circle cx="430" cy="670" r="8" fill="#D4AF37"/><rect x="423" y="678" width="14" height="18" rx="3" fill="#FF2D95"/>
+  <circle cx="480" cy="670" r="8" fill="#D4AF37"/><rect x="473" y="678" width="14" height="18" rx="3" fill="#FF2D95"/>
+
+  <rect x="550" y="570" width="120" height="130" fill="#3a3040" stroke="#D4AF37"/>
+  <text x="610" y="630" text-anchor="middle" font-size="11" fill="#FFE08A" font-weight="bold">PRIVATE WC</text>
+  <text x="610" y="650" text-anchor="middle" font-size="9" fill="#FFB6D9">ensuite 6 m²</text>
+
+  <rect x="690" y="570" width="180" height="130" fill="#4a2840" stroke="#D4AF37" stroke-width="2"/>
+  <text x="780" y="610" text-anchor="middle" font-size="11" fill="#D4AF37" font-weight="bold">SERVICE PASS</text>
+  <text x="780" y="630" text-anchor="middle" font-size="9" fill="#FFB6D9">EJL robot ? pass only</text>
+  <rect x="720" y="650" width="120" height="28" fill="#120816" stroke="#FF2D95"/>
+  <text x="780" y="668" text-anchor="middle" font-size="9" fill="#FF69B4">PASS WINDOW</text>
+
+  <!-- Side panel -->
+  <rect x="960" y="70" width="180" height="660" fill="#120816" stroke="#D4AF37" stroke-width="1.5"/>
+  <text x="1050" y="105" text-anchor="middle" font-size="12" fill="#FF69B4" font-weight="bold">EJL VIP OPS</text>
+
+  <!-- Mini logo mark -->
+  <circle cx="1050" cy="155" r="28" fill="none" stroke="#D4AF37" stroke-width="2"/>
+  <text x="1050" y="150" text-anchor="middle" font-size="14" fill="#FF2D95" font-weight="bold">EJL</text>
+  <text x="1050" y="168" text-anchor="middle" font-size="7" fill="#D4AF37">LIGHTHOUSE</text>
+
+  <text x="980" y="210" font-size="10" fill="#FFE08A" font-weight="bold">Must-have features</text>
+  <text x="980" y="230" font-size="9" fill="#FFB6D9">• Indoor fountain</text>
+  <text x="980" y="248" font-size="9" fill="#FFB6D9">• Gas fireplace</text>
+  <text x="980" y="266" font-size="9" fill="#FFB6D9">• Pole dance stage</text>
+  <text x="980" y="284" font-size="9" fill="#FFB6D9">• 3× TVs + VOD</text>
+  <text x="980" y="302" font-size="9" fill="#FFB6D9">• E-door locked</text>
+  <text x="980" y="320" font-size="9" fill="#FFB6D9">• Hostess ×2</text>
+
+  <text x="980" y="355" font-size="10" fill="#FFE08A" font-weight="bold">Safety</text>
+  <text x="980" y="375" font-size="9" fill="#FFB6D9">• Soft floor at pole</text>
+  <text x="980" y="393" font-size="9" fill="#FFB6D9">• Fireplace guard</text>
+  <text x="980" y="411" font-size="9" fill="#FFB6D9">• Fountain keep-out</text>
+  <text x="980" y="429" font-size="9" fill="#FFB6D9">• Panic ? emerg. room</text>
+
+  <text x="980" y="465" font-size="10" fill="#FFE08A" font-weight="bold">Pay</text>
+  <text x="980" y="485" font-size="9" fill="#FFB6D9">• Electronic only</text>
+  <text x="980" y="503" font-size="9" fill="#FFB6D9">• No tipping</text>
+  <text x="980" y="521" font-size="9" fill="#FFB6D9">• Donations only</text>
+
+  <text x="980" y="555" font-size="10" fill="#FFE08A" font-weight="bold">Branding</text>
+  <text x="980" y="575" font-size="9" fill="#FFB6D9">• Pink + gold EJL</text>
+  <text x="980" y="593" font-size="9" fill="#FFB6D9">• Logo on robots</text>
+  <text x="980" y="611" font-size="9" fill="#FFB6D9">• Suite plaque</text>
+
+  <text x="1050" y="680" text-anchor="middle" font-size="9" fill="#FF2D95" font-weight="bold">PRIVACY MODE ON</text>
+
+  <!-- Legend -->
+  <rect x="60" y="70" width="150" height="170" fill="#120816" stroke="#D4AF37"/>
+  <text x="135" y="95" text-anchor="middle" font-size="10" fill="#FF69B4" font-weight="bold">LEGEND</text>
+  <ellipse cx="85" cy="120" rx="10" ry="7" fill="#3a6a8a" stroke="#7ec8e3"/>
+  <text x="105" y="124" font-size="8" fill="#FFE08A">Fountain</text>
+  <rect x="75" y="140" width="16" height="14" fill="#FF2D95" stroke="#D4AF37"/>
+  <text x="105" y="151" font-size="8" fill="#FFE08A">Fireplace</text>
+  <circle cx="83" cy="175" r="8" fill="#4a2040" stroke="#FF2D95"/>
+  <text x="105" y="179" font-size="8" fill="#FFE08A">Pole stage</text>
+  <circle cx="83" cy="205" r="5" fill="#D4AF37"/>
+  <text x="105" y="209" font-size="8" fill="#FFE08A">Seat</text>
+</svg>

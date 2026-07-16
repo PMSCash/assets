@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <linearGradient id="night" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a2438"/>
+      <stop offset="40%" stop-color="#3a4a5a"/>
+      <stop offset="100%" stop-color="#c9a070"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="700" fill="#faf7f2"/>
+  <rect x="0" y="0" width="1200" height="55" fill="#2c2416"/>
+  <text x="40" y="35" fill="#f5e6c8" font-size="16" font-weight="bold">BUILDING SECTION  INDOOR + ROOFTOP (CONCEPT)</text>
+  <text x="1050" y="35" fill="#f5e6c8" font-size="11">DRAWING A-03</text>
+
+  <!-- Sky backdrop for rooftop -->
+  <rect x="80" y="70" width="1040" height="200" fill="url(#night)"/>
+
+  <!-- Rooftop deck -->
+  <rect x="100" y="240" width="900" height="18" fill="#8a7a60" stroke="#2c2416" stroke-width="1.5"/>
+  <text x="120" y="253" font-size="9" fill="#fff">ROOF DECK / WATERPROOF MEMBRANE</text>
+
+  <!-- Pergola -->
+  <rect x="140" y="140" width="600" height="12" fill="#c9a96e" stroke="#2c2416"/>
+  <line x1="160" y1="152" x2="160" y2="240" stroke="#8B7355" stroke-width="4"/>
+  <line x1="320" y1="152" x2="320" y2="240" stroke="#8B7355" stroke-width="4"/>
+  <line x1="480" y1="152" x2="480" y2="240" stroke="#8B7355" stroke-width="4"/>
+  <line x1="640" y1="152" x2="640" y2="240" stroke="#8B7355" stroke-width="4"/>
+  <line x1="720" y1="152" x2="720" y2="240" stroke="#8B7355" stroke-width="4"/>
+
+  <!-- Ceiling light strips -->
+  <line x1="180" y1="158" x2="700" y2="158" stroke="#f5e6c8" stroke-width="3" opacity="0.9"/>
+  <line x1="180" y1="168" x2="700" y2="168" stroke="#f5e6c8" stroke-width="2" opacity="0.7"/>
+  <line x1="180" y1="178" x2="700" y2="178" stroke="#f5e6c8" stroke-width="3" opacity="0.9"/>
+  <text x="450" y="130" text-anchor="middle" font-size="10" fill="#f5e6c8">REFLECTIVE LINEAR CEILING LIGHTING</text>
+
+  <!-- Rooftop furniture -->
+  <rect x="200" y="210" width="60" height="30" rx="4" fill="#c4a882" stroke="#2c2416"/>
+  <rect x="300" y="210" width="60" height="30" rx="4" fill="#c4a882" stroke="#2c2416"/>
+  <rect x="400" y="210" width="60" height="30" rx="4" fill="#c4a882" stroke="#2c2416"/>
+  <rect x="500" y="210" width="60" height="30" rx="4" fill="#c4a882" stroke="#2c2416"/>
+  <text x="380" y="200" text-anchor="middle" font-size="9" fill="#f5e6c8">ROOFTOP LOUNGE SEATING</text>
+
+  <!-- Robot on roof -->
+  <rect x="580" y="218" width="26" height="18" rx="3" fill="#fff" stroke="#8B4513" stroke-width="1.5"/>
+  <text x="593" y="212" text-anchor="middle" font-size="7" fill="#f5e6c8">R4</text>
+
+  <!-- Exhaust stacks -->
+  <rect x="820" y="100" width="30" height="140" fill="#5a4a32" stroke="#2c2416"/>
+  <rect x="860" y="80" width="30" height="160" fill="#5a4a32" stroke="#2c2416"/>
+  <text x="855" y="95" text-anchor="middle" font-size="8" fill="#f5e6c8">EXHAUST</text>
+  <text x="855" y="108" text-anchor="middle" font-size="8" fill="#f5e6c8">STACKS</text>
+
+  <!-- MEP box -->
+  <rect x="910" y="180" width="70" height="60" fill="#6a6a6a" stroke="#2c2416"/>
+  <text x="945" y="215" text-anchor="middle" font-size="9" fill="#fff">AHU</text>
+
+  <!-- Floor slab between levels -->
+  <rect x="100" y="258" width="900" height="22" fill="#6a6050" stroke="#2c2416" stroke-width="1.5"/>
+  <text x="550" y="273" text-anchor="middle" font-size="9" fill="#fff">STRUCTURAL SLAB + ACOUSTIC INSULATION</text>
+
+  <!-- Indoor walls -->
+  <line x1="100" y1="280" x2="100" y2="560" stroke="#2c2416" stroke-width="4"/>
+  <line x1="1000" y1="280" x2="1000" y2="560" stroke="#2c2416" stroke-width="4"/>
+
+  <!-- Indoor ceiling -->
+  <rect x="100" y="280" width="900" height="10" fill="#d8d0c0" stroke="#2c2416"/>
+
+  <!-- Indoor fountain -->
+  <ellipse cx="400" cy="500" rx="50" ry="20" fill="#a8cdd9" stroke="#3a6a7a" stroke-width="2"/>
+  <rect x="385" y="420" width="30" height="80" fill="#c5dde8" stroke="#3a6a7a" opacity="0.5"/>
+  <path d="M400 420 Q410 450 400 480 Q390 450 400 420" fill="#7ab0c0" opacity="0.6"/>
+  <text x="400" y="540" text-anchor="middle" font-size="10" fill="#3a6a7a" font-weight="bold">INDOOR FOUNTAIN</text>
+
+  <!-- Dining tables -->
+  <rect x="180" y="480" width="50" height="25" fill="#fff" stroke="#2c2416"/>
+  <rect x="250" y="480" width="50" height="25" fill="#fff" stroke="#2c2416"/>
+  <text x="240" y="470" text-anchor="middle" font-size="9" fill="#2c2416">DINING</text>
+
+  <!-- Massage seats -->
+  <rect x="520" y="470" width="30" height="40" rx="4" fill="#b8956a" stroke="#2c2416"/>
+  <rect x="560" y="470" width="30" height="40" rx="4" fill="#b8956a" stroke="#2c2416"/>
+  <rect x="600" y="470" width="30" height="40" rx="4" fill="#b8956a" stroke="#2c2416"/>
+  <text x="575" y="460" text-anchor="middle" font-size="9" fill="#2c2416">MASSAGE</text>
+
+  <!-- Indoor robot -->
+  <rect x="300" y="500" width="28" height="20" rx="3" fill="#fff" stroke="#8B4513" stroke-width="1.5"/>
+  <circle cx="308" cy="522" r="3" fill="#2c2416"/>
+  <circle cx="320" cy="522" r="3" fill="#2c2416"/>
+  <text x="314" y="495" text-anchor="middle" font-size="8" fill="#8B4513">R1</text>
+  <line x1="200" y1="530" x2="650" y2="530" stroke="#8B4513" stroke-width="2" stroke-dasharray="8,4" opacity="0.6"/>
+  <text x="450" y="550" text-anchor="middle" font-size="8" fill="#8B4513">ROBOT AISLE</text>
+
+  <!-- Coal room (right) -->
+  <rect x="720" y="300" width="180" height="260" fill="#d8c8b0" stroke="#8B0000" stroke-width="3"/>
+  <text x="810" y="340" text-anchor="middle" font-size="11" font-weight="bold" fill="#8B0000">COAL SHISHA</text>
+  <text x="810" y="358" text-anchor="middle" font-size="9" fill="#8B0000">NEG. PRESSURE</text>
+
+  <!-- Exhaust duct from coal to roof -->
+  <rect x="830" y="100" width="16" height="200" fill="#8B0000" opacity="0.4"/>
+  <path d="M838 300 L838 100" stroke="#8B0000" stroke-width="3" stroke-dasharray="6,3"/>
+  <text x="870" y="280" font-size="8" fill="#8B0000">DEDICATED</text>
+  <text x="870" y="292" font-size="8" fill="#8B0000">EXHAUST DUCT</text>
+
+  <!-- Airflow arrows into coal room -->
+  <text x="700" y="420" font-size="9" fill="#2c6a8a">AIR ’</text>
+  <text x="810" y="400" font-size="8" fill="#2c6a8a">make-up air in</text>
+  <text x="810" y="520" font-size="8" fill="#8B0000">smoke out ‘</text>
+
+  <!-- Floor -->
+  <rect x="100" y="560" width="900" height="20" fill="#5a5040" stroke="#2c2416"/>
+  <text x="550" y="574" text-anchor="middle" font-size="9" fill="#fff">GROUND / INDOOR FINISHED FLOOR</text>
+
+  <!-- Dimension notes -->
+  <text x="40" y="180" font-size="10" fill="#2c2416" transform="rotate(-90 40 180)">ROOFTOP</text>
+  <text x="40" y="420" font-size="10" fill="#2c2416" transform="rotate(-90 40 420)">INDOOR</text>
+
+  <!-- Key notes -->
+  <rect x="80" y="600" width="1040" height="80" fill="#fff" stroke="#2c2416"/>
+  <text x="100" y="625" font-size="11" font-weight="bold" fill="#2c2416">SECTION NOTES</text>
+  <text x="100" y="645" font-size="10" fill="#5a4a32">1. Coal room maintained at negative pressure vs dining; dedicated exhaust to roof stacks  not shared with dining return air.</text>
+  <text x="100" y="662" font-size="10" fill="#5a4a32">2. Fountain waterproofing + dedicated drainage; robot keep-out zone mapped in SLAM.</text>
+  <text x="100" y="679" font-size="10" fill="#5a4a32">3. Rooftop lighting is linear reflective strips under pergola (luxury automotive-inspired aesthetic  no brand logos). Civil Defense + landlord approval required for all rooftop MEP.</text>
+</svg>
