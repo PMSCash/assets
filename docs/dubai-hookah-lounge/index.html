@@ -140,6 +140,29 @@
       border-bottom: 1px solid transparent;
     }
     a.doc:hover { border-bottom-color: var(--clay); }
+    .download {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-top: 0.5rem;
+      padding: 0.75rem 1.25rem;
+      background: var(--ink);
+      color: #f5e6c8;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      border: 1px solid var(--brass);
+    }
+    .download:hover { background: #3a3020; }
+    .policy {
+      background: rgba(255,255,255,0.7);
+      border: 1px solid var(--line);
+      padding: 1rem 1.25rem;
+      margin: 0 0 1rem;
+      color: var(--smoke);
+      font-size: 0.95rem;
+    }
+    .policy strong { color: var(--ink); }
     footer {
       max-width: 1100px;
       margin: 0 auto;
@@ -157,20 +180,35 @@
       50-seat rooftop and indoor lounge with electronic hookah, traditional coal shisha
       (Russian / Turkish / Arabic), dining, indoor fountain, massage seats,
       an electronically locked VIP suite with TVs and on-demand display plus hostess service,
-      an on-site emergency room for seizure first response, and
-      table-delivery robots with digital order routing.
+      an on-site emergency room for seizure first response,
+      table-delivery robots with digital order routing, and
+      strictly electronic payments with no tipping — donations only.
     </p>
     <div class="meta">
       <span><strong>Seats:</strong> 50 (28 rooftop + 22 indoor incl. VIP)</span>
+      <span><strong>Pay:</strong> E-only · no tip · donations</span>
       <span><strong>VIP:</strong> E-lock · TVs · VOD · hostesses</span>
       <span><strong>Medical:</strong> Seizure / emergency room</span>
       <span><strong>Robots:</strong> 4 delivery units</span>
       <span><strong>CAPEX:</strong> AED 10M–28M</span>
       <span><a class="doc" href="./ARCHITECTURE-AND-COST.md">Full architecture &amp; cost memo →</a></span>
     </div>
+    <p style="margin:1.25rem 0 0">
+      <a class="download" href="./download/dubai-hookah-lounge-drawings.zip">↓ Download full drawing set (ZIP)</a>
+    </p>
   </header>
 
   <main>
+    <section>
+      <h2>Pay policy</h2>
+      <p class="policy">
+        <strong>Strictly electronic.</strong> No cash. <strong>No tipping</strong> — tip fields disabled on POS and tablets;
+        staff (including VIP hostesses) cannot accept tip gifts. After the bill, guests may make an
+        <strong>optional electronic donation</strong> to a designated house fund or partner charity only —
+        never to an individual staffer.
+      </p>
+    </section>
+
     <section>
       <h2>Concept atmospheres</h2>
       <p class="note">Visual direction for rooftop lighting, indoor robot service, and the sealed VIP suite.</p>
@@ -209,6 +247,17 @@
       </p>
       <div class="frame">
         <object data="./drawings/06-emergency-room-plan.svg" type="image/svg+xml" aria-label="Emergency seizure room plan">Emergency room plan</object>
+      </div>
+    </section>
+
+    <section>
+      <h2>P-01 · Electronic payment (no tip · donations only)</h2>
+      <p class="note">
+        Card / NFC / wallet only. Bill has no tip line. Optional donation after e-receipt goes to
+        house fund or charity — never to staff.
+      </p>
+      <div class="frame">
+        <object data="./drawings/07-payment-system.svg" type="image/svg+xml" aria-label="Payment system diagram">Payment system</object>
       </div>
     </section>
 
@@ -293,6 +342,15 @@
           </ul>
         </div>
         <div class="tile">
+          <h3>E-pay · no tip</h3>
+          <p class="figure">AED 40k – 200k</p>
+          <ul>
+            <li>NFC / QR / wallet terminals</li>
+            <li>Tip fields removed from POS</li>
+            <li>Optional donation after receipt</li>
+          </ul>
+        </div>
+        <div class="tile">
           <h3>Key constraint</h3>
           <p class="figure" style="font-size:1.15rem;color:var(--ink)">Coal ≠ robots</p>
           <ul>
@@ -308,6 +366,7 @@
   <footer>
     Concept package for planning only — not construction documents. Costs are indicative Dubai ranges.
     Full memo: <a class="doc" href="./ARCHITECTURE-AND-COST.md">ARCHITECTURE-AND-COST.md</a>
+    · <a class="doc" href="./download/dubai-hookah-lounge-drawings.zip">Download all drawings (ZIP)</a>
   </footer>
 </body>
 </html>

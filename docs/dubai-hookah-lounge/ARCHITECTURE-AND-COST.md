@@ -3,7 +3,8 @@
 **Concept:** 50-seat premium rooftop + indoor lounge in Dubai  
 **Offer:** Electronic hookah + traditional coal shisha (Russian / Turkish / Arabic) + dining  
 **Service model:** Table-delivery robots; orders routed digitally → kitchen → robot → table  
-**Drawings:** see [`drawings/`](./drawings/) and [`index.html`](./index.html)
+**Payments:** **Strictly electronic · no cash · no tipping · donations only** (optional, separate from bill)  
+**Drawings:** see [`drawings/`](./drawings/), [`index.html`](./index.html), and [`download/`](./download/) zip pack
 
 ---
 
@@ -34,17 +35,19 @@
 | + docks | 1 indoor charging dock, 1 rooftop charging point |
 
 ### Order path
-1. Guest orders via **QR / table tablet**
-2. **POS** stamps table ID + zone (INDOOR / ROOF)
+1. Guest orders via **QR / table tablet** (VIP: VOD pad / app)
+2. **POS** stamps table ID + zone (INDOOR / ROOF / VIP)
 3. **Kitchen Display (KDS)** tickets food/drink
 4. Staff plates tray at **Robot Loading Bay**
 5. System assigns free robot → SLAM path to table
 6. Guest takes tray → robot returns → dock/charge
+7. Guest settles via **electronic pay only** → optional **donation** prompt (never a tip)
 
 ### Hard rules
 - Robots **never enter coal shisha room**
 - Robots **never enter VIP suite** while e-door is locked — trays stop at **service pass**
 - Robots do **not** carry hot coals or lit traditional pipes
+- Robots have **no payment slot** (pay is table / VIP / host terminal only)
 - Traditional coal service = **staff only** through airlock vestibule
 - Fountain, stairs, coal vestibule, VIP suite, **emergency room** = **virtual walls** in robot map
 - Main aisle clear width ≥ **1.2 m**; stretcher path to emergency room / exit ≥ **1.1 m**
@@ -57,6 +60,24 @@ Kitchen → **service lift / dumbwaiter tray** → rooftop bar handoff → **R4*
 - Hardware: 4 delivery robots + docks  
 - Software: POS + KDS + robot fleet manager + QR menus  
 - Mapping / integration / training  
+
+---
+
+## 2.1 Payment system — strictly electronic
+
+| Rule | Spec |
+|------|------|
+| Cash | **Not accepted** anywhere (tables, bar, VIP, host stand) |
+| Tipping | **Disabled** — no tip line on POS, tablet, or receipt; staff cannot accept tip gifts |
+| Bill | Itemized F&B + VAT only; optional house **service fee** (if used) must be a fixed % disclosed up front — **not** a tip |
+| Tender | Card contactless · Apple / Google / Samsung Pay · UAE wallets / QR |
+| Touchpoints | Host NFC · table QR · VIP NFC + VOD pad pay |
+| After pay | E-receipt to phone → optional **donation** screen |
+| Donations | **Only** voluntary electronic gift to a designated **house fund or partner charity** — never routed to an individual staffer |
+| Staff pay | Salary / wage model only — **no tip pool** |
+| Audit | All payments and donations logged; offline / unlogged guest pay forbidden |
+
+See drawing [`drawings/07-payment-system.svg`](./drawings/07-payment-system.svg) (P-01).
 
 ---
 
@@ -100,6 +121,7 @@ Kitchen → **service lift / dumbwaiter tray** → rooftop bar handoff → **R4*
 | **On-demand** | Guest **VOD pad** on low table; sports / film / karaoke catalogs; no lobby CCTV feed into suite |
 | AV rack | Streaming players + scene lighting control in suite AV closet |
 | Service | 2 VIP hostesses (greeting, ordering aid, e-shisha assist, media assist, privacy etiquette) |
+| Pay | In-room NFC + VOD pad — **electronic only**; hostesses **cannot** take tips or cash |
 | F&B path | Robot → corridor stop → **service pass window** → hostess handoff inside |
 | Smoke | E-shisha only inside VIP (no coal) |
 | Panic | In-suite panic → FOH + **emergency room** + EMS call |
@@ -159,6 +181,7 @@ Ranges assume a **premium** fit-out in a suitable rooftop-capable building. Land
 | Hookah equipment (coal + e-shisha) | 120k–500k | 250k–900k |
 | Kitchen / commissary | 400k–1.3M | 800k–2.4M |
 | **Robots + POS/KDS/QR integration** | **250k–550k** | **450k–1.1M** |
+| **E-pay terminals + no-tip POS config + donation flow** | **40k–120k** | **80k–200k** |
 | IT / CCTV / networking | 60k–220k | 140k–480k |
 | Contingency | 12%–20% | 15%–25% |
 
@@ -185,6 +208,7 @@ Ranges assume a **premium** fit-out in a suitable rooftop-capable building. Land
 | Utilities (HVAC-heavy) | 25k–60k |
 | Consumables (tobacco, coals, e-liquid, F&B) | 40k–100k |
 | VIP VOD / streaming licenses | 1k–5k |
+| Payment gateway / POS SaaS (no-tip build) | 1k–4k |
 | Robot maintenance / SaaS | 3k–10k |
 | Marketing | 15k–40k |
 
@@ -200,10 +224,12 @@ Ranges assume a **premium** fit-out in a suitable rooftop-capable building. Land
 | [`drawings/04-section-elevation.svg`](./drawings/04-section-elevation.svg) | Cut section: levels, exhaust, fountain, robots |
 | [`drawings/05-vip-room-plan.svg`](./drawings/05-vip-room-plan.svg) | **A-04 VIP suite:** e-lock, TVs + on-demand, hostess, service pass |
 | [`drawings/06-emergency-room-plan.svg`](./drawings/06-emergency-room-plan.svg) | **A-05 Emergency / seizure room:** bed, O2, AED, EMS route |
+| [`drawings/07-payment-system.svg`](./drawings/07-payment-system.svg) | **P-01 Payment:** electronic only · no tip · donations only |
 | [`drawings/01-rooftop-concept.png`](./drawings/01-rooftop-concept.png) | Rooftop atmosphere concept |
 | [`drawings/02-indoor-robot-concept.png`](./drawings/02-indoor-robot-concept.png) | Indoor robot + fountain concept |
 | [`drawings/03-building-section-concept.png`](./drawings/03-building-section-concept.png) | Section concept render |
 | [`drawings/04-vip-room-concept.png`](./drawings/04-vip-room-concept.png) | VIP suite concept: closed e-door + hostesses |
+| [`download/dubai-hookah-lounge-drawings.zip`](./download/dubai-hookah-lounge-drawings.zip) | **Full image set** (all PNG + SVG) for download |
 
 Open [`index.html`](./index.html) for a single-page drawing board.
 
@@ -218,6 +244,7 @@ Open [`index.html`](./index.html) for a single-page drawing board.
 5. Robot vendor site survey after preliminary FF&E freeze  
 6. Confirm **DHA / first-aid** pathway for on-site seizure room (clinic license only if stocking meds)  
 7. Spec VIP **VOD / IPTV** vendor + content licensing for private suites  
+8. Configure POS / gateway with **tip fields removed** and optional **donation** destination (charity / house fund)  
 
 ---
 

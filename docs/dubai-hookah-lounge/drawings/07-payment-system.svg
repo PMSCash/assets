@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 850" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e8e0d4" stroke-width="0.5"/>
+    </pattern>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#8B4513"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="850" fill="#faf7f2"/>
+  <rect x="40" y="40" width="1120" height="720" fill="url(#grid)" stroke="#2c2416" stroke-width="2"/>
+
+  <rect x="40" y="770" width="1120" height="60" fill="#2c2416"/>
+  <text x="60" y="798" fill="#f5e6c8" font-size="16" font-weight="bold">DUBAI PREMIUM HOOKAH LOUNGE  ELECTRONIC PAYMENT SYSTEM</text>
+  <text x="60" y="818" fill="#c9b896" font-size="11">Strictly electronic · No cash · No tipping · Donations only (optional, separate from bill)</text>
+  <text x="980" y="805" fill="#f5e6c8" font-size="11">DRAWING P-01</text>
+
+  <!-- Policy banner -->
+  <rect x="80" y="70" width="1040" height="70" fill="#1a1510" stroke="#c9a96e" stroke-width="2"/>
+  <text x="600" y="100" text-anchor="middle" font-size="18" fill="#f5e6c8" font-weight="bold">STRICTLY ELECTRONIC  ·  NO TIPPING  ·  DONATIONS ONLY</text>
+  <text x="600" y="122" text-anchor="middle" font-size="12" fill="#c9a96e">Card / Apple Pay / Google Pay / NFC / QR wallet · Staff cannot accept cash or tips</text>
+
+  <!-- Flow boxes -->
+  <rect x="80" y="180" width="180" height="100" rx="4" fill="#fff" stroke="#2c2416" stroke-width="2"/>
+  <text x="170" y="220" text-anchor="middle" font-size="13" fill="#2c2416" font-weight="bold">1 · ORDER</text>
+  <text x="170" y="242" text-anchor="middle" font-size="10" fill="#5a4a32">QR / table tablet</text>
+  <text x="170" y="258" text-anchor="middle" font-size="10" fill="#5a4a32">VIP VOD pad / app</text>
+
+  <line x1="260" y1="230" x2="300" y2="230" stroke="#8B4513" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="300" y="180" width="180" height="100" rx="4" fill="#fff" stroke="#2c2416" stroke-width="2"/>
+  <text x="390" y="220" text-anchor="middle" font-size="13" fill="#2c2416" font-weight="bold">2 · POS BILL</text>
+  <text x="390" y="242" text-anchor="middle" font-size="10" fill="#5a4a32">Itemized total only</text>
+  <text x="390" y="258" text-anchor="middle" font-size="10" fill="#5a4a32">VAT · no tip field</text>
+
+  <line x1="480" y1="230" x2="520" y2="230" stroke="#8B4513" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="520" y="180" width="180" height="100" rx="4" fill="#f0e0c8" stroke="#8B4513" stroke-width="2.5"/>
+  <text x="610" y="220" text-anchor="middle" font-size="13" fill="#8B4513" font-weight="bold">3 · E-PAY</text>
+  <text x="610" y="242" text-anchor="middle" font-size="10" fill="#5a4a32">Card · NFC · Wallet</text>
+  <text x="610" y="258" text-anchor="middle" font-size="10" fill="#5a4a32">Tap / scan · receipt</text>
+
+  <line x1="700" y1="230" x2="740" y2="230" stroke="#8B4513" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="740" y="180" width="180" height="100" rx="4" fill="#fff" stroke="#2c2416" stroke-width="2"/>
+  <text x="830" y="220" text-anchor="middle" font-size="13" fill="#2c2416" font-weight="bold">4 · CLOSE</text>
+  <text x="830" y="242" text-anchor="middle" font-size="10" fill="#5a4a32">E-receipt to phone</text>
+  <text x="830" y="258" text-anchor="middle" font-size="10" fill="#5a4a32">Table unlocked</text>
+
+  <line x1="920" y1="230" x2="960" y2="230" stroke="#8B4513" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="960" y="180" width="160" height="100" rx="4" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+  <text x="1040" y="220" text-anchor="middle" font-size="13" fill="#2e7d32" font-weight="bold">5 · DONATE?</text>
+  <text x="1040" y="242" text-anchor="middle" font-size="10" fill="#3a5a3a">Optional · separate</text>
+  <text x="1040" y="258" text-anchor="middle" font-size="10" fill="#3a5a3a">Never on bill</text>
+
+  <!-- Two columns: Allowed / Forbidden -->
+  <rect x="80" y="320" width="500" height="280" fill="#fff" stroke="#2e7d32" stroke-width="2.5"/>
+  <rect x="80" y="320" width="500" height="40" fill="#2e7d32"/>
+  <text x="330" y="346" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">ALLOWED  ELECTRONIC ONLY</text>
+  <text x="110" y="390" font-size="13" fill="#2c2416">" Visa / Mastercard / Amex contactless</text>
+  <text x="110" y="415" font-size="13" fill="#2c2416">" Apple Pay / Google Pay / Samsung Pay</text>
+  <text x="110" y="440" font-size="13" fill="#2c2416">" UAE digital wallets / QR pay</text>
+  <text x="110" y="465" font-size="13" fill="#2c2416">" Table QR pre-auth + settle at close</text>
+  <text x="110" y="490" font-size="13" fill="#2c2416">" VIP suite: in-room NFC + VOD pad pay</text>
+  <text x="110" y="515" font-size="13" fill="#2c2416">" Optional DONATION after receipt</text>
+  <text x="110" y="540" font-size="13" fill="#2c2416">" Donation ’ designated fund / charity</text>
+  <text x="110" y="565" font-size="13" fill="#2c2416">" Staff wages = salary (no tip pool)</text>
+
+  <rect x="620" y="320" width="500" height="280" fill="#fff" stroke="#c0392b" stroke-width="2.5"/>
+  <rect x="620" y="320" width="500" height="40" fill="#c0392b"/>
+  <text x="870" y="346" text-anchor="middle" font-size="14" fill="#fff" font-weight="bold">FORBIDDEN</text>
+  <text x="650" y="390" font-size="13" fill="#2c2416">" Cash of any kind at tables / bar / VIP</text>
+  <text x="650" y="415" font-size="13" fill="#2c2416">" Tip line on POS, receipt, or tablet</text>
+  <text x="650" y="440" font-size="13" fill="#2c2416">" Hostess / staff accepting money gifts</text>
+  <text x="650" y="465" font-size="13" fill="#2c2416">" Service charge disguised as tip</text>
+  <text x="650" y="490" font-size="13" fill="#2c2416">" Cash boxes, tip jars, envelopes</text>
+  <text x="650" y="515" font-size="13" fill="#2c2416">" Splitting tips into payroll ad-hoc</text>
+  <text x="650" y="540" font-size="13" fill="#2c2416">" Donations routed to individual staff</text>
+  <text x="650" y="565" font-size="13" fill="#2c2416">" Offline / unlogged guest payments</text>
+
+  <!-- Hardware strip -->
+  <rect x="80" y="630" width="1040" height="100" fill="#efe6d8" stroke="#2c2416" stroke-width="1.5"/>
+  <text x="600" y="660" text-anchor="middle" font-size="13" fill="#2c2416" font-weight="bold">HARDWARE &amp; TOUCHPOINTS</text>
+  <text x="600" y="685" text-anchor="middle" font-size="12" fill="#5a4a32">Host NFC terminal · Table QR stands · Robot tray has NO payment slot · VIP NFC reader + VOD pad pay</text>
+  <text x="600" y="708" text-anchor="middle" font-size="12" fill="#5a4a32">Donation kiosk / post-pay screen: Support the house fund or partner charity  optional</text>
+</svg>
