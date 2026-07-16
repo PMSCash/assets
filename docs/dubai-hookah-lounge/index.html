@@ -3,29 +3,30 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Dubai Premium Hookah Lounge — Architecture Drawings</title>
+  <title>EJL Lighthouse — Architecture Drawings</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet" />
   <style>
     :root {
-      --ink: #2c2416;
-      --sand: #f5efe4;
-      --paper: #faf7f2;
-      --brass: #c9a96e;
-      --clay: #8B4513;
-      --smoke: #5a4a32;
-      --line: #d4c4a8;
+      --ink: #f8e8f0;
+      --sand: #1a0f16;
+      --paper: #120816;
+      --brass: #D4AF37;
+      --clay: #FF2D95;
+      --smoke: #FFB6D9;
+      --line: #5a3050;
+      --pink: #FF69B4;
     }
     * { box-sizing: border-box; }
     body {
       margin: 0;
-      font-family: "Source Sans 3", sans-serif;
+      font-family: "Outfit", sans-serif;
       color: var(--ink);
       background:
-        radial-gradient(ellipse at 20% 0%, rgba(201,169,110,0.18), transparent 50%),
-        radial-gradient(ellipse at 80% 20%, rgba(139,69,19,0.08), transparent 45%),
-        linear-gradient(180deg, #efe6d4 0%, var(--paper) 35%, #f3ebe0 100%);
+        radial-gradient(ellipse at 20% 0%, rgba(255,45,149,0.28), transparent 50%),
+        radial-gradient(ellipse at 80% 15%, rgba(212,175,55,0.18), transparent 45%),
+        linear-gradient(180deg, #1a0f16 0%, var(--paper) 40%, #0a0610 100%);
       line-height: 1.5;
     }
     header {
@@ -33,21 +34,38 @@
       max-width: 1100px;
       margin: 0 auto;
     }
+    .brand-row {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      margin-bottom: 1rem;
+    }
+    .brand-row img {
+      width: 96px;
+      height: 96px;
+      border-radius: 18px;
+      border: 2px solid var(--brass);
+      background: #120816;
+    }
     .eyebrow {
       letter-spacing: 0.18em;
       text-transform: uppercase;
       font-size: 0.75rem;
-      color: var(--clay);
+      color: var(--pink);
       font-weight: 600;
       margin: 0 0 0.75rem;
     }
     h1 {
-      font-family: "Cormorant Garamond", Georgia, serif;
-      font-size: clamp(2.4rem, 5vw, 3.8rem);
-      font-weight: 600;
+      font-family: "Playfair Display", Georgia, serif;
+      font-size: clamp(2.6rem, 5.5vw, 4rem);
+      font-weight: 700;
       line-height: 1.05;
       margin: 0 0 0.75rem;
-      max-width: 16ch;
+      max-width: 14ch;
+      background: linear-gradient(120deg, #FF69B4, #FF2D95 45%, #D4AF37);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
     }
     .lede {
       max-width: 58ch;
@@ -73,10 +91,11 @@
       gap: 2.5rem;
     }
     section h2 {
-      font-family: "Cormorant Garamond", Georgia, serif;
+      font-family: "Playfair Display", Georgia, serif;
       font-size: 1.85rem;
       font-weight: 600;
       margin: 0 0 0.35rem;
+      color: var(--pink);
     }
     section p.note {
       margin: 0 0 1rem;
@@ -112,19 +131,20 @@
       .cost { grid-template-columns: 1fr 1fr; }
     }
     .tile {
-      background: rgba(255,255,255,0.65);
+      background: rgba(42,21,36,0.75);
       border: 1px solid var(--line);
       padding: 1.25rem 1.4rem;
     }
     .tile h3 {
-      font-family: "Cormorant Garamond", Georgia, serif;
+      font-family: "Playfair Display", Georgia, serif;
       margin: 0 0 0.4rem;
       font-size: 1.45rem;
+      color: var(--brass);
     }
     .tile .figure {
       font-size: 1.6rem;
       font-weight: 600;
-      color: var(--clay);
+      color: var(--pink);
       margin: 0.25rem 0 0.5rem;
     }
     .tile ul {
@@ -174,22 +194,27 @@
 </head>
 <body>
   <header>
-    <p class="eyebrow">Dubai · Concept Package</p>
-    <h1>Premium Hookah Lounge</h1>
+    <div class="brand-row">
+      <img src="./drawings/ejl-lighthouse-logo.png" alt="EJL Lighthouse logo" />
+      <div>
+        <p class="eyebrow">Dubai · Pink &amp; Gold · Robot Service</p>
+        <h1>EJL Lighthouse</h1>
+      </div>
+    </div>
     <p class="lede">
-      50-seat rooftop and indoor lounge with electronic hookah, traditional coal shisha
-      (Russian / Turkish / Arabic), dining, indoor fountain, massage seats,
-      an electronically locked VIP suite with TVs and on-demand display plus hostess service,
+      50-seat rooftop and indoor house with electronic hookah, traditional coal shisha
+      (Russian / Turkish / Arabic), dining, massage seats,
+      electronically locked VIP suites with indoor fountain, fireplace, pole dance, TVs and hostesses,
       an on-site emergency room for seizure first response,
-      table-delivery robots with digital order routing, and
+      EJL-branded table-delivery robots, and
       strictly electronic payments with no tipping — donations only.
     </p>
     <div class="meta">
-      <span><strong>Seats:</strong> 50 (28 rooftop + 22 indoor incl. VIP)</span>
+      <span><strong>House:</strong> EJL Lighthouse</span>
+      <span><strong>Seats:</strong> 50</span>
+      <span><strong>VIP:</strong> Fountain · fireplace · pole · VOD</span>
       <span><strong>Pay:</strong> E-only · no tip · donations</span>
-      <span><strong>VIP:</strong> E-lock · TVs · VOD · hostesses</span>
-      <span><strong>Medical:</strong> Seizure / emergency room</span>
-      <span><strong>Robots:</strong> 4 delivery units</span>
+      <span><strong>Robots:</strong> 4 · pink/gold logo tagged</span>
       <span><strong>CAPEX:</strong> AED 10M–28M</span>
       <span><a class="doc" href="./ARCHITECTURE-AND-COST.md">Full architecture &amp; cost memo →</a></span>
     </div>
@@ -210,17 +235,30 @@
     </section>
 
     <section>
-      <h2>Concept atmospheres</h2>
-      <p class="note">Visual direction for rooftop lighting, indoor robot service, and the sealed VIP suite.</p>
+      <h2>Brand · EJL Lighthouse</h2>
+      <p class="note">Flashy pink &amp; gold logo — tagged on every delivery robot, VIP plaque, and tray liner.</p>
       <div class="grid-2">
+        <div class="frame">
+          <img src="./drawings/ejl-lighthouse-logo.png" alt="EJL Lighthouse pink and gold logo" />
+        </div>
+        <div class="frame">
+          <object data="./drawings/08-robot-branding.svg" type="image/svg+xml" aria-label="Robot branding drawing">Robot branding</object>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Concept atmospheres</h2>
+      <p class="note">VIP suite with fountain, fireplace, and pole · plus rooftop / indoor direction.</p>
+      <div class="grid-2">
+        <div class="frame">
+          <img src="./drawings/05-vip-ejl-concept.png" alt="EJL VIP suite with fountain fireplace and pole" />
+        </div>
         <div class="frame">
           <img src="./drawings/01-rooftop-concept.png" alt="Rooftop lounge concept at dusk" />
         </div>
         <div class="frame">
           <img src="./drawings/02-indoor-robot-concept.png" alt="Indoor dining with fountain and delivery robot" />
-        </div>
-        <div class="frame">
-          <img src="./drawings/04-vip-room-concept.png" alt="VIP suite with closed electronic door and hostesses" />
         </div>
         <div class="frame">
           <img src="./drawings/03-building-section-concept.png" alt="Building section concept render" />
@@ -229,10 +267,10 @@
     </section>
 
     <section>
-      <h2>A-04 · VIP suite (electronically closed)</h2>
+      <h2>A-04 · VIP suite (fountain · fireplace · pole)</h2>
       <p class="note">
-        Private e-locked room with RFID/app access, 3 TVs + on-demand VOD pad, hostess station,
-        service pass for robot trays, and e-shisha only. Door stays closed during the booking.
+        E-locked EJL VIP: indoor fountain, gas fireplace, chrome pole stage, 3 TVs + VOD,
+        hostess station, service pass. Door stays closed during the booking.
       </p>
       <div class="frame">
         <object data="./drawings/05-vip-room-plan.svg" type="image/svg+xml" aria-label="VIP suite floor plan">VIP suite plan</object>
@@ -325,11 +363,11 @@
         </div>
         <div class="tile">
           <h3>VIP suite + TVs</h3>
-          <p class="figure">AED 430k – 1.5M</p>
+          <p class="figure">AED 530k – 1.7M</p>
           <ul>
-            <li>E-lock · 75" + 2×55" · on-demand pad</li>
-            <li>2 VIP hostesses · robot → pass window</li>
-            <li>Panic linked to emergency room</li>
+            <li>Fountain · fireplace · pole stage</li>
+            <li>E-lock · 75" + 2×55" · VOD pad</li>
+            <li>2 hostesses · EJL robot → pass</li>
           </ul>
         </div>
         <div class="tile">

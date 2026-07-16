@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="EJL Lighthouse logo">
+  <defs>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF69B4"/>
+      <stop offset="45%" stop-color="#FF2D95"/>
+      <stop offset="100%" stop-color="#E91E8C"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFE08A"/>
+      <stop offset="40%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#A67C00"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#FF2D95" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#0a0610" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Badge -->
+  <rect width="512" height="512" rx="48" fill="#120816"/>
+  <circle cx="256" cy="210" r="180" fill="url(#glow)"/>
+  <circle cx="256" cy="256" r="230" fill="none" stroke="url(#goldGrad)" stroke-width="10"/>
+  <circle cx="256" cy="256" r="214" fill="none" stroke="url(#pinkGrad)" stroke-width="3" opacity="0.8"/>
+
+  <!-- Lighthouse -->
+  <g transform="translate(256,118)">
+    <!-- Light beams -->
+    <path d="M0,20 L-110,-40 L-90,-55 Z" fill="#FF69B4" opacity="0.35"/>
+    <path d="M0,20 L110,-40 L90,-55 Z" fill="#FF69B4" opacity="0.35"/>
+    <path d="M0,20 L-40,-90 L-20,-95 Z" fill="#FFD700" opacity="0.45"/>
+    <path d="M0,20 L40,-90 L20,-95 Z" fill="#FFD700" opacity="0.45"/>
+    <!-- Lantern -->
+    <rect x="-28" y="8" width="56" height="36" rx="4" fill="url(#goldGrad)"/>
+    <rect x="-20" y="14" width="40" height="24" fill="#FF2D95"/>
+    <circle cx="0" cy="26" r="8" fill="#FFE08A"/>
+    <!-- Gallery -->
+    <rect x="-40" y="44" width="80" height="8" fill="url(#goldGrad)"/>
+    <!-- Tower -->
+    <path d="M-30,52 L30,52 L22,150 L-22,150 Z" fill="url(#pinkGrad)"/>
+    <rect x="-18" y="70" width="12" height="16" fill="#FFE08A" opacity="0.85"/>
+    <rect x="6" y="70" width="12" height="16" fill="#FFE08A" opacity="0.85"/>
+    <rect x="-16" y="105" width="12" height="16" fill="#FFE08A" opacity="0.85"/>
+    <rect x="4" y="105" width="12" height="16" fill="#FFE08A" opacity="0.85"/>
+    <!-- Base -->
+    <rect x="-36" y="150" width="72" height="14" rx="2" fill="url(#goldGrad)"/>
+    <rect x="-48" y="164" width="96" height="10" rx="2" fill="#A67C00"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="256" y="360" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="78" font-weight="700" fill="url(#pinkGrad)" stroke="#D4AF37" stroke-width="2">EJL</text>
+  <text x="256" y="410" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="600" letter-spacing="8" fill="url(#goldGrad)">LIGHTHOUSE</text>
+  <text x="256" y="445" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="14" letter-spacing="4" fill="#FF69B4">DUBAI · VIP · ROBOT SERVICE</text>
+</svg>

@@ -1,6 +1,8 @@
-# Dubai Premium Hookah Lounge — Architecture, Robot Ops & Cost
+# EJL Lighthouse — Architecture, Robot Ops & Cost
 
-**Concept:** 50-seat premium rooftop + indoor lounge in Dubai  
+**House name:** **EJL Lighthouse** (Dubai)  
+**Brand:** Flashy **pink + gold** · logo on all robots, VIP plaques, and app  
+**Concept:** 50-seat premium rooftop + indoor lounge  
 **Offer:** Electronic hookah + traditional coal shisha (Russian / Turkish / Arabic) + dining  
 **Service model:** Table-delivery robots; orders routed digitally → kitchen → robot → table  
 **Payments:** **Strictly electronic · no cash · no tipping · donations only** (optional, separate from bill)  
@@ -15,7 +17,7 @@
 | Rooftop lounge | 28 | Pergola, reflective linear ceiling lighting, e-shisha OK |
 | Indoor dining | 10 | Food-led, robot-primary aisles |
 | Indoor e-shisha lounge | 4 | Electronic only, odor extract |
-| **VIP suite** | **8–10** | **E-locked private room + TVs / on-demand + VIP hostesses** |
+| **VIP suite** | **8–10** | **E-locked · indoor fountain · fireplace · pole dance · TVs/VOD · hostesses** |
 | Coal shisha room | *(capacity within 50 via booth rotation; design for ~10 booth seats)* | **Negative pressure, staff-only, no robots** |
 | Massage seats | 6 | Within indoor footprint (shared with lounge dwell) |
 | **Emergency / seizure room** | — | **On-site first-response medical room (non-seating)** |
@@ -30,9 +32,11 @@
 ### Fleet
 | Unit | Role |
 |------|------|
-| R1–R3 | Indoor dining + e-shisha lounge delivery |
-| R4 | Rooftop delivery from bar handoff |
+| R1–R3 | Indoor dining + e-shisha lounge delivery · **EJL pink/gold logo tagged** |
+| R4 | Rooftop delivery from bar handoff · **same EJL livery** |
 | + docks | 1 indoor charging dock, 1 rooftop charging point |
+
+**Robot branding:** Circular **EJL** mark (pink + gold) on front panel; **EJL LIGHTHOUSE** wordmark on both sides; tray liners carry mini logo. See [`drawings/08-robot-branding.svg`](./drawings/08-robot-branding.svg) and [`drawings/ejl-lighthouse-logo.svg`](./drawings/ejl-lighthouse-logo.svg).
 
 ### Order path
 1. Guest orders via **QR / table tablet** (VIP: VOD pad / app)
@@ -106,10 +110,11 @@ See drawing [`drawings/07-payment-system.svg`](./drawings/07-payment-system.svg)
 | Indoor fountain | Central calm anchor; waterproofing + drain + 0.8 m robot keep-out |
 | Massage seats | 6 powered seats; quiet zone lighting; service power + maintenance access |
 | Premium dining | Limited kitchen/commissary; robot-led FOH |
-| **VIP suite (e-closed)** | Private ~45 m²; e-lock; **3 TVs + on-demand VOD**; hostess station; e-shisha only |
+| **VIP suite (e-closed)** | Private ~50 m²; e-lock; **indoor fountain · fireplace · pole dance**; 3 TVs + VOD; hostesses |
 | **Emergency / seizure room** | ~18 m² first-response room: treatment bed, O2, suction, AED, seizure kit, stretcher, EMS route |
+| **EJL brand system** | Pink (#FF2D95 / #FF69B4) + gold (#D4AF37) · logo on robots, VIP plaque, app, tray liners |
 
-### 4.1 VIP suite — electronic close + hostess + TVs / on-demand
+### 4.1 VIP suite — fountain, fireplace, pole + hostess + TVs
 
 | Item | Spec |
 |------|------|
@@ -117,6 +122,9 @@ See drawing [`drawings/07-payment-system.svg`](./drawings/07-payment-system.svg)
 | Door | Flush electronic door; magnetic lock (~600 kg); fail-safe open on fire alarm; LED LOCKED status |
 | Access | RFID / booking app unlock; hostess can badge guests in |
 | Privacy | Vestibule sound lock; door remains closed for the booking window |
+| **Indoor fountain** | Feature fountain with pink LED wash; waterproofing + drain; guest keep-clear ring |
+| **Fireplace** | Gas fireplace with gold surround + guard; Civil Defense–compliant flue / sealed unit |
+| **Pole dance** | Chrome pole on circular stage; pink uplight; soft floor; **2.4 m clear height** |
 | **Displays** | **1× 75" main wall TV + 2× 55" side TVs**; matrix switcher; mirror or solo modes |
 | **On-demand** | Guest **VOD pad** on low table; sports / film / karaoke catalogs; no lobby CCTV feed into suite |
 | AV rack | Streaming players + scene lighting control in suite AV closet |
@@ -125,7 +133,7 @@ See drawing [`drawings/07-payment-system.svg`](./drawings/07-payment-system.svg)
 | F&B path | Robot → corridor stop → **service pass window** → hostess handoff inside |
 | Smoke | E-shisha only inside VIP (no coal) |
 | Panic | In-suite panic → FOH + **emergency room** + EMS call |
-| Add-on CAPEX | Fit-out AED 350k–900k; e-lock AED 40k–120k; **TVs + VOD AED 80k–220k** |
+| Add-on CAPEX | Fit-out AED 450k–1.1M (incl. fountain/fireplace/pole); e-lock AED 40k–120k; **TVs + VOD AED 80k–220k** |
 | Hostess OPEX | AED 18k–40k / month (2 FTE equivalent, shift cover) |
 
 ### 4.2 On-site emergency / seizure treatment room
@@ -175,8 +183,9 @@ Ranges assume a **premium** fit-out in a suitable rooftop-capable building. Land
 | Fountain plumbing + waterproofing | 150k–550k | 300k–1.0M |
 | Interior fit-out | 1.6M–3.8M | 3.2M–7.0M |
 | Furniture + massage seats | 350k–1.4M | 900k–2.2M |
-| **VIP suite fit-out + e-lock** | **350k–700k** | **700k–1.2M** |
+| **VIP suite fit-out + e-lock + fountain/fireplace/pole** | **450k–900k** | **800k–1.5M** |
 | **VIP TVs + on-demand AV** | **80k–180k** | **150k–280k** |
+| **EJL brand livery (robots + suite plaques + print)** | **25k–80k** | **50k–140k** |
 | **Emergency / seizure room + kit** | **120k–280k** | **200k–400k** |
 | Hookah equipment (coal + e-shisha) | 120k–500k | 250k–900k |
 | Kitchen / commissary | 400k–1.3M | 800k–2.4M |
@@ -222,13 +231,17 @@ Ranges assume a **premium** fit-out in a suitable rooftop-capable building. Land
 | [`drawings/02-rooftop-floor-plan.svg`](./drawings/02-rooftop-floor-plan.svg) | Rooftop plan: 28 seats, bar handoff, exhaust stacks |
 | [`drawings/03-robot-routing.svg`](./drawings/03-robot-routing.svg) | Order lifecycle + indoor path loops + rooftop handoff |
 | [`drawings/04-section-elevation.svg`](./drawings/04-section-elevation.svg) | Cut section: levels, exhaust, fountain, robots |
-| [`drawings/05-vip-room-plan.svg`](./drawings/05-vip-room-plan.svg) | **A-04 VIP suite:** e-lock, TVs + on-demand, hostess, service pass |
+| [`drawings/05-vip-room-plan.svg`](./drawings/05-vip-room-plan.svg) | **A-04 VIP suite:** fountain · fireplace · pole · e-lock · TVs · hostess |
 | [`drawings/06-emergency-room-plan.svg`](./drawings/06-emergency-room-plan.svg) | **A-05 Emergency / seizure room:** bed, O2, AED, EMS route |
 | [`drawings/07-payment-system.svg`](./drawings/07-payment-system.svg) | **P-01 Payment:** electronic only · no tip · donations only |
+| [`drawings/08-robot-branding.svg`](./drawings/08-robot-branding.svg) | **B-01 Robot livery:** EJL pink/gold logo on fleet |
+| [`drawings/ejl-lighthouse-logo.svg`](./drawings/ejl-lighthouse-logo.svg) | **Brand logo** (SVG) |
+| [`drawings/ejl-lighthouse-logo.png`](./drawings/ejl-lighthouse-logo.png) | **Brand logo** (PNG) |
 | [`drawings/01-rooftop-concept.png`](./drawings/01-rooftop-concept.png) | Rooftop atmosphere concept |
 | [`drawings/02-indoor-robot-concept.png`](./drawings/02-indoor-robot-concept.png) | Indoor robot + fountain concept |
 | [`drawings/03-building-section-concept.png`](./drawings/03-building-section-concept.png) | Section concept render |
-| [`drawings/04-vip-room-concept.png`](./drawings/04-vip-room-concept.png) | VIP suite concept: closed e-door + hostesses |
+| [`drawings/04-vip-room-concept.png`](./drawings/04-vip-room-concept.png) | Earlier VIP concept |
+| [`drawings/05-vip-ejl-concept.png`](./drawings/05-vip-ejl-concept.png) | **EJL VIP concept:** fountain · fireplace · pole · pink/gold |
 | [`download/dubai-hookah-lounge-drawings.zip`](./download/dubai-hookah-lounge-drawings.zip) | **Full image set** (all PNG + SVG) for download |
 
 Open [`index.html`](./index.html) for a single-page drawing board.
