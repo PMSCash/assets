@@ -8,7 +8,8 @@
 **Payments:** **Strictly electronic · no cash · no tipping · donations only** (optional, separate from bill)  
 **Images (one folder):** [`images/`](./images/) — all classic PNGs compiled together  
 **Drawings:** see [`drawings/`](./drawings/), [`index.html`](./index.html), and [`download/`](./download/) zip pack  
-**All images PDF:** [`download/EJL-Lighthouse-all-images.pdf`](./download/EJL-Lighthouse-all-images.pdf) — every drawing + concept on landscape A4 sheets (rebuild via [`scripts/build-all-images-pdf.py`](./scripts/build-all-images-pdf.py))
+**All images PDF:** [`download/EJL-Lighthouse-all-images.pdf`](./download/EJL-Lighthouse-all-images.pdf) — every drawing + concept on landscape A4 sheets (rebuild via [`scripts/build-all-images-pdf.py`](./scripts/build-all-images-pdf.py))  
+**Development-order PDF:** [`download/EJL-Lighthouse-development-order.pdf`](./download/EJL-Lighthouse-development-order.pdf) — scanned folders, each image with definition, sequenced for build execution (rebuild via [`scripts/build-development-order-pdf.py`](./scripts/build-development-order-pdf.py))
 
 ---
 
@@ -340,6 +341,7 @@ Ranges assume a **premium** fit-out in a suitable rooftop-capable building. Land
 | [`images/19-vip-office-bedroom-suite.png`](./images/19-vip-office-bedroom-suite.png) | One VIP suite cutaway |
 | [`download/dubai-hookah-lounge-drawings.zip`](./download/dubai-hookah-lounge-drawings.zip) | **Full pack** — `images/` + `drawings/` + memo |
 | [`download/EJL-Lighthouse-all-images.pdf`](./download/EJL-Lighthouse-all-images.pdf) | **All images PDF** — cover · contents · every plan SVG + concept PNG |
+| [`download/EJL-Lighthouse-development-order.pdf`](./download/EJL-Lighthouse-development-order.pdf) | **Development-order PDF** — definitions · build sequence phases 0–9 |
 | [`download/EJL-Lighthouse-A1-boards.pdf`](./download/EJL-Lighthouse-A1-boards.pdf) | **Print-ready A1 boards** — key plans at large format |
 | [`images/25-rooftop-vip.png`](./images/25-rooftop-vip.png) … [`29-guest-journey.png`](./images/29-guest-journey.png) | Add-on concept renders |
 
