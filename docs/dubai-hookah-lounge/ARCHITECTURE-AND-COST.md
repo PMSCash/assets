@@ -93,13 +93,7 @@ See drawing [`drawings/07-payment-system.svg`](./drawings/07-payment-system.svg)
 
 ## 3. Smoke & MEP strategy
 
-```
-[Dining / e-shisha]  ← make-up air
-        ↓ pressure cascade
-[Airlock vestibule]
-        ↓
-[Coal room NEGATIVE] → dedicated exhaust duct → ROOF STACKS
-```
+**Pressure cascade:** Dining / e-shisha (make-up air) → Airlock vestibule → Coal room NEGATIVE → dedicated exhaust duct → ROOF STACKS
 
 - Separate AHU/exhaust for coal room  
 - Dining return air **not** shared with coal exhaust  
