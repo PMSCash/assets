@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EJL Lighthouse — Architecture Drawings</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink: #f8e8f0;
+      --sand: #1a0f16;
+      --paper: #120816;
+      --brass: #D4AF37;
+      --clay: #FF2D95;
+      --smoke: #FFB6D9;
+      --line: #5a3050;
+      --pink: #FF69B4;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Outfit", sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(ellipse at 20% 0%, rgba(255,45,149,0.28), transparent 50%),
+        radial-gradient(ellipse at 80% 15%, rgba(212,175,55,0.18), transparent 45%),
+        linear-gradient(180deg, #1a0f16 0%, var(--paper) 40%, #0a0610 100%);
+      line-height: 1.5;
+    }
+    header {
+      padding: 3rem 1.5rem 2rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .brand-row {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      margin-bottom: 1rem;
+    }
+    .brand-row img {
+      width: 96px;
+      height: 96px;
+      border-radius: 18px;
+      border: 2px solid var(--brass);
+      background: #120816;
+    }
+    .eyebrow {
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      font-size: 0.75rem;
+      color: var(--pink);
+      font-weight: 600;
+      margin: 0 0 0.75rem;
+    }
+    h1 {
+      font-family: "Playfair Display", Georgia, serif;
+      font-size: clamp(2.6rem, 5.5vw, 4rem);
+      font-weight: 700;
+      line-height: 1.05;
+      margin: 0 0 0.75rem;
+      max-width: 14ch;
+      background: linear-gradient(120deg, #FF69B4, #FF2D95 45%, #D4AF37);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .lede {
+      max-width: 58ch;
+      color: var(--smoke);
+      font-size: 1.05rem;
+      margin: 0 0 1.5rem;
+    }
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem 1.25rem;
+      font-size: 0.9rem;
+      color: var(--smoke);
+      border-top: 1px solid var(--line);
+      padding-top: 1rem;
+    }
+    .meta strong { color: var(--ink); font-weight: 600; }
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 1.5rem 4rem;
+      display: grid;
+      gap: 2.5rem;
+    }
+    section h2 {
+      font-family: "Playfair Display", Georgia, serif;
+      font-size: 1.85rem;
+      font-weight: 600;
+      margin: 0 0 0.35rem;
+      color: var(--pink);
+    }
+    section p.note {
+      margin: 0 0 1rem;
+      color: var(--smoke);
+      font-size: 0.95rem;
+    }
+    .frame {
+      background: #fff;
+      border: 1px solid var(--line);
+      padding: 0.75rem;
+      overflow: auto;
+    }
+    .frame img, .frame object {
+      display: block;
+      width: 100%;
+      height: auto;
+      background: #faf7f2;
+    }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+    @media (min-width: 800px) {
+      .grid-2 { grid-template-columns: 1fr 1fr; }
+    }
+    .cost {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    @media (min-width: 700px) {
+      .cost { grid-template-columns: 1fr 1fr; }
+    }
+    .tile {
+      background: rgba(42,21,36,0.75);
+      border: 1px solid var(--line);
+      padding: 1.25rem 1.4rem;
+    }
+    .tile h3 {
+      font-family: "Playfair Display", Georgia, serif;
+      margin: 0 0 0.4rem;
+      font-size: 1.45rem;
+      color: var(--brass);
+    }
+    .tile .figure {
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: var(--pink);
+      margin: 0.25rem 0 0.5rem;
+    }
+    .tile ul {
+      margin: 0.5rem 0 0;
+      padding-left: 1.1rem;
+      color: var(--smoke);
+      font-size: 0.92rem;
+    }
+    a.doc {
+      color: var(--clay);
+      font-weight: 600;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+    a.doc:hover { border-bottom-color: var(--clay); }
+    .download {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-top: 0.5rem;
+      padding: 0.75rem 1.25rem;
+      background: var(--ink);
+      color: #f5e6c8;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      border: 1px solid var(--brass);
+    }
+    .download:hover { background: #3a3020; }
+    .policy {
+      background: rgba(255,255,255,0.7);
+      border: 1px solid var(--line);
+      padding: 1rem 1.25rem;
+      margin: 0 0 1rem;
+      color: var(--smoke);
+      font-size: 0.95rem;
+    }
+    .policy strong { color: var(--ink); }
+    footer {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 1.5rem 3rem;
+      font-size: 0.85rem;
+      color: var(--smoke);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand-row">
+      <img src="./drawings/ejl-lighthouse-logo.png" alt="EJL Lighthouse logo" />
+      <div>
+        <p class="eyebrow">Dubai · Pink &amp; Gold · Robot Service</p>
+        <h1>EJL Lighthouse</h1>
+      </div>
+    </div>
+    <p class="lede">
+      50-seat rooftop and indoor house with electronic hookah, traditional coal shisha
+      (Russian / Turkish / Arabic), dining, massage seats,
+      one electronically locked VIP unit with entertainment lounge, private office, bedroom and ensuite
+      (fountain, fireplace, pole dance, TVs and hostesses),
+      an on-site emergency room for seizure first response,
+      EJL-branded table-delivery robots, and
+      strictly electronic payments with no tipping — donations only.
+    </p>
+    <div class="meta">
+      <span><strong>House:</strong> EJL Lighthouse</span>
+      <span><strong>Seats:</strong> 50</span>
+      <span><strong>VIP-1:</strong> Lounge · office · bedroom</span>
+      <span><strong>VIP-2:</strong> Rooftop terrace</span>
+      <span><strong>Pay:</strong> E-only · no tip · donations</span>
+      <span><strong>Robots:</strong> 4 · pink/gold logo tagged</span>
+      <span><strong>CAPEX:</strong> AED 10M–28M</span>
+      <span><a class="doc" href="./ARCHITECTURE-AND-COST.md">Full architecture &amp; cost memo →</a></span>
+    </div>
+    <p style="margin:1.25rem 0 0">
+      <a class="download" href="./download/EJL-Lighthouse-development-order.pdf">↓ Development-order PDF</a>
+      <a class="download" href="./download/EJL-Lighthouse-all-images.pdf" style="margin-left:0.5rem">↓ All images PDF</a>
+      <a class="download" href="./download/EJL-Lighthouse-A1-boards.pdf" style="margin-left:0.5rem">↓ A1 print boards</a>
+      <a class="download" href="./download/dubai-hookah-lounge-drawings.zip" style="margin-left:0.5rem">↓ ZIP pack</a>
+      <a class="download" href="./images/" style="margin-left:0.5rem;background:transparent;color:#FF69B4">Browse images/ →</a>
+    </p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Classic VIP features</h2>
+      <p class="note">Fountain displays, fireplaces, and pole stage — all images also live in the <a class="doc" href="./images/">images/</a> folder.</p>
+      <div class="grid-2">
+        <div class="frame">
+          <img src="./images/10-classic-fountain-display.png" alt="Classic indoor fountain display" />
+        </div>
+        <div class="frame">
+          <img src="./images/11-classic-fountain-detail.png" alt="Classic fountain detail" />
+        </div>
+        <div class="frame">
+          <img src="./images/12-classic-fireplace.png" alt="Classic VIP fireplace" />
+        </div>
+        <div class="frame">
+          <img src="./images/13-classic-fireplace-detail.png" alt="Classic fireplace detail" />
+        </div>
+        <div class="frame">
+          <img src="./images/14-classic-pole-dance.png" alt="Classic pole dance stage with performers" />
+        </div>
+        <div class="frame">
+          <img src="./images/15-vip-suite-full.png" alt="Full EJL VIP suite concept" />
+        </div>
+        <div class="frame">
+          <img src="./images/18-vip-office.png" alt="VIP private office" />
+        </div>
+        <div class="frame">
+          <img src="./images/17-vip-bedroom.png" alt="VIP bedroom with king bed" />
+        </div>
+        <div class="frame">
+          <img src="./images/19-vip-office-bedroom-suite.png" alt="One VIP unit cutaway with office and bedroom" />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Pay policy</h2>
+      <p class="policy">
+        <strong>Strictly electronic.</strong> No cash. <strong>No tipping</strong> — tip fields disabled on POS and tablets;
+        staff (including VIP hostesses) cannot accept tip gifts. After the bill, guests may make an
+        <strong>optional electronic donation</strong> to a designated house fund or partner charity only —
+        never to an individual staffer.
+      </p>
+    </section>
+
+    <section>
+      <h2>Brand · EJL Lighthouse</h2>
+      <p class="note">Flashy pink &amp; gold logo — tagged on every delivery robot, VIP plaque, and tray liner.</p>
+      <div class="grid-2">
+        <div class="frame">
+          <img src="./drawings/ejl-lighthouse-logo.png" alt="EJL Lighthouse pink and gold logo" />
+        </div>
+        <div class="frame">
+          <object data="./drawings/08-robot-branding.svg" type="image/svg+xml" aria-label="Robot branding drawing">Robot branding</object>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Concept atmospheres</h2>
+      <p class="note">One VIP with office and bedroom · fountain, fireplace, and pole · plus rooftop / indoor direction.</p>
+      <div class="grid-2">
+        <div class="frame">
+          <img src="./drawings/05-vip-ejl-concept.png" alt="EJL VIP suite with fountain fireplace and pole" />
+        </div>
+        <div class="frame">
+          <img src="./drawings/01-rooftop-concept.png" alt="Rooftop lounge concept at dusk" />
+        </div>
+        <div class="frame">
+          <img src="./drawings/02-indoor-robot-concept.png" alt="Indoor dining with fountain and delivery robot" />
+        </div>
+        <div class="frame">
+          <img src="./drawings/03-building-section-concept.png" alt="Building section concept render" />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>A-04 · One VIP unit (lounge · office · bedroom)</h2>
+      <p class="note">
+        Single principal VIP: entertainment lounge (fountain, fireplace, pole, 3 TVs + VOD),
+        private office, bedroom with ensuite, hostess station, and service pass.
+        One e-locked vestibule — door stays closed during the booking.
+      </p>
+      <div class="frame">
+        <object data="./drawings/05-vip-room-plan.svg" type="image/svg+xml" aria-label="VIP unit floor plan with office and bedroom">VIP unit plan</object>
+      </div>
+      <div class="grid-2" style="margin-top:1.5rem">
+        <div class="frame">
+          <img src="./drawings/11-vip-office-concept.png" alt="VIP private office concept" />
+        </div>
+        <div class="frame">
+          <img src="./drawings/10-vip-bedroom-concept.png" alt="VIP bedroom concept" />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>A-05 · Emergency / seizure treatment room</h2>
+      <p class="note">
+        On-site first-response room: treatment bed, oxygen, suction, AED, seizure kit, stretcher park,
+        and EMS route. Stabilizes guests until ambulance transfer — DHA pathway if stocking meds.
+        Adjacent to staff rest &amp; changing (A-06).
+      </p>
+      <div class="frame">
+        <object data="./drawings/06-emergency-room-plan.svg" type="image/svg+xml" aria-label="Emergency seizure room plan">Emergency room plan</object>
+      </div>
+      <div class="frame" style="margin-top:1.5rem">
+        <img src="./drawings/13-emergency-room-concept.png" alt="Emergency room concept render" />
+      </div>
+    </section>
+
+    <section>
+      <h2>A-06 · Staff resting &amp; changing room (closets)</h2>
+      <p class="note">
+        Workers-only BOH: rest sofas and recliners, women/men changing booths, lockable personal closets
+        C01–C12, uniform closet, shoe rack, staff WC, and phone cubbies. Badge access · no robots · no guests.
+      </p>
+      <div class="frame">
+        <object data="./drawings/09-staff-rest-changing-plan.svg" type="image/svg+xml" aria-label="Staff rest and changing room plan">Staff rest changing plan</object>
+      </div>
+      <div class="frame" style="margin-top:1.5rem">
+        <img src="./drawings/14-staff-changing-room-concept.png" alt="Staff rest and changing room with closets" />
+      </div>
+    </section>
+
+    <section>
+      <h2>A-07 · Rooftop VIP-2 (second VIP)</h2>
+      <p class="note">
+        Open-air e-locked terrace: pergola, outdoor fireplace, weather TV, 8 seats, hostesses, R4 service pass.
+        Replaces 8 general rooftop seats when booked. No bedroom/office (those stay on indoor VIP-1).
+      </p>
+      <div class="frame">
+        <object data="./drawings/10-rooftop-vip-plan.svg" type="image/svg+xml" aria-label="Rooftop VIP-2 plan">Rooftop VIP-2 plan</object>
+      </div>
+      <div class="frame" style="margin-top:1.5rem">
+        <img src="./images/25-rooftop-vip.png" alt="Rooftop VIP-2 concept" />
+      </div>
+    </section>
+
+    <section>
+      <h2>A-08 · Kitchen / BOH (prep · cook · dish · storage)</h2>
+      <p class="note">Staff-only kitchen with prep, cook line, dish, cold/dry stores, robot loading bay, and dumbwaiter to rooftop.</p>
+      <div class="frame">
+        <object data="./drawings/11-kitchen-boh-plan.svg" type="image/svg+xml" aria-label="Kitchen BOH plan">Kitchen BOH plan</object>
+      </div>
+      <div class="frame" style="margin-top:1.5rem">
+        <img src="./images/26-kitchen-boh.png" alt="Kitchen BOH concept" />
+      </div>
+    </section>
+
+    <section>
+      <h2>M-01 · MEP systems (coal · HVAC · fire)</h2>
+      <p class="note">Schematic: dedicated coal stacks, separate kitchen hood, pressure cascade, sprinklers, fail-safe VIP e-doors.</p>
+      <div class="frame">
+        <object data="./drawings/12-mep-systems.svg" type="image/svg+xml" aria-label="MEP systems schematic">MEP schematic</object>
+      </div>
+      <div class="frame" style="margin-top:1.5rem">
+        <img src="./images/27-mep-systems.png" alt="MEP systems concept" />
+      </div>
+    </section>
+
+    <section>
+      <h2>F-01 · FF&amp;E schedule (quantities)</h2>
+      <p class="note">Indicative furniture and equipment counts for VIP-1, VIP-2, FOH, BOH, staff, and clinical rooms.</p>
+      <div class="frame">
+        <object data="./drawings/13-ffe-schedule.svg" type="image/svg+xml" aria-label="FF and E schedule">FF&amp;E schedule</object>
+      </div>
+      <div class="frame" style="margin-top:1.5rem">
+        <img src="./images/28-ffe-mood.png" alt="FF and E mood board" />
+      </div>
+    </section>
+
+    <section>
+      <h2>G-01 · Guest journey (entry → VIP → pay)</h2>
+      <p class="note">Host → escort → e-unlock → experience → robot/hostess service → electronic pay → optional donation → depart.</p>
+      <div class="frame">
+        <object data="./drawings/14-guest-journey.svg" type="image/svg+xml" aria-label="Guest journey map">Guest journey</object>
+      </div>
+      <div class="frame" style="margin-top:1.5rem">
+        <img src="./images/29-guest-journey.png" alt="Guest journey concept" />
+      </div>
+    </section>
+
+    <section>
+      <h2>P-01 · Electronic payment (no tip · donations only)</h2>
+      <p class="note">
+        Card / NFC / wallet only. Bill has no tip line. Optional donation after e-receipt goes to
+        house fund or charity — never to staff.
+      </p>
+      <div class="frame">
+        <object data="./drawings/07-payment-system.svg" type="image/svg+xml" aria-label="Payment system diagram">Payment system</object>
+      </div>
+    </section>
+
+    <section>
+      <h2>A-01 · Indoor floor plan</h2>
+      <p class="note">Dining, fountain, massage, one VIP (lounge · office · bedroom), kitchen, robot bay, coal room, emergency room, staff rest &amp; changing with closets.</p>
+      <div class="frame">
+        <object data="./drawings/01-indoor-floor-plan.svg" type="image/svg+xml" aria-label="Indoor floor plan">Indoor floor plan</object>
+      </div>
+    </section>
+
+    <section>
+      <h2>A-02 · Rooftop floor plan</h2>
+      <p class="note">28 lounge seats, bar handoff, exhaust stacks, robot aisle.</p>
+      <div class="frame">
+        <object data="./drawings/02-rooftop-floor-plan.svg" type="image/svg+xml" aria-label="Rooftop floor plan">Rooftop floor plan</object>
+      </div>
+    </section>
+
+    <section>
+      <h2>R-01 · Robot routing &amp; order flow</h2>
+      <p class="note">QR order → KDS → load bay → table delivery. Coal room is a hard no-go zone for robots.</p>
+      <div class="frame">
+        <object data="./drawings/03-robot-routing.svg" type="image/svg+xml" aria-label="Robot routing diagram">Robot routing</object>
+      </div>
+    </section>
+
+    <section>
+      <h2>A-03 · Building section</h2>
+      <p class="note">Indoor + rooftop cut, dedicated coal exhaust to roof stacks, fountain, robot aisle.</p>
+      <div class="frame">
+        <object data="./drawings/04-section-elevation.svg" type="image/svg+xml" aria-label="Section elevation drawing">Section drawing</object>
+      </div>
+    </section>
+
+    <section>
+      <h2>Cost snapshot</h2>
+      <div class="cost">
+        <div class="tile">
+          <h3>Premium fit-out</h3>
+          <p class="figure">AED 10M – 16M</p>
+          <ul>
+            <li>Full coal exhaust + fire strategy</li>
+            <li>4 table-delivery robots + POS/KDS</li>
+            <li>Rooftop lighting + indoor fountain</li>
+          </ul>
+        </div>
+        <div class="tile">
+          <h3>Ultra-premium</h3>
+          <p class="figure">AED 16M – 28M</p>
+          <ul>
+            <li>Heavier rooftop structure &amp; FF&amp;E</li>
+            <li>Higher-spec lighting &amp; furniture</li>
+            <li>Expanded kitchen / brand detailing</li>
+          </ul>
+        </div>
+        <div class="tile">
+          <h3>Robotics package</h3>
+          <p class="figure">AED 270k – 610k</p>
+          <ul>
+            <li>3 indoor + 1 rooftop robots</li>
+            <li>Docks, mapping, QR menus, training</li>
+            <li>Coal service remains staff-only</li>
+          </ul>
+        </div>
+        <div class="tile">
+          <h3>One VIP · office + bedroom</h3>
+          <p class="figure">AED 800k – 2.3M</p>
+          <ul>
+            <li>Lounge · private office · bedroom + ensuite</li>
+            <li>Fountain · fireplace · pole · TVs/VOD</li>
+            <li>E-lock · 2 hostesses · robot → pass</li>
+          </ul>
+        </div>
+        <div class="tile">
+          <h3>Emergency / seizure room</h3>
+          <p class="figure">AED 120k – 400k</p>
+          <ul>
+            <li>Bed · O2 · suction · AED · stretcher</li>
+            <li>Posted seizure protocol · EMS route</li>
+            <li>Trained first-aiders every shift</li>
+          </ul>
+        </div>
+        <div class="tile">
+          <h3>Staff rest + closets</h3>
+          <p class="figure">AED 120k – 400k</p>
+          <ul>
+            <li>Rest zone · W/M changing booths</li>
+            <li>Worker closets C01–C12 · uniform stock</li>
+            <li>Shoe rack · staff WC · phone cubbies</li>
+          </ul>
+        </div>
+        <div class="tile">
+          <h3>E-pay · no tip</h3>
+          <p class="figure">AED 40k – 200k</p>
+          <ul>
+            <li>NFC / QR / wallet terminals</li>
+            <li>Tip fields removed from POS</li>
+            <li>Optional donation after receipt</li>
+          </ul>
+        </div>
+        <div class="tile">
+          <h3>Key constraint</h3>
+          <p class="figure" style="font-size:1.15rem;color:var(--ink)">Coal ≠ robots</p>
+          <ul>
+            <li>Negative-pressure coal room</li>
+            <li>VIP + emergency = robot no-go</li>
+            <li>Civil Defense + landlord NOC critical</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Concept package for planning only — not construction documents. Costs are indicative Dubai ranges.
+    Full memo: <a class="doc" href="./ARCHITECTURE-AND-COST.md">ARCHITECTURE-AND-COST.md</a>
+    · <a class="doc" href="./download/dubai-hookah-lounge-drawings.zip">Download all drawings (ZIP)</a>
+  </footer>
+</body>
+</html>

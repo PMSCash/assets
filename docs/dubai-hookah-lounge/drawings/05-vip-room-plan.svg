@@ -1,0 +1,219 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 920" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#f0d0e0" stroke-width="0.5"/>
+    </pattern>
+    <linearGradient id="pink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF69B4"/><stop offset="100%" stop-color="#FF2D95"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFE08A"/><stop offset="100%" stop-color="#D4AF37"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#FF2D95"/>
+    </marker>
+  </defs>
+
+  <rect width="1400" height="920" fill="#1a0f16"/>
+  <rect x="40" y="40" width="1320" height="780" fill="#2a1524" stroke="#D4AF37" stroke-width="2"/>
+  <rect x="40" y="40" width="1320" height="780" fill="url(#grid)" opacity="0.35"/>
+
+  <!-- Title bar -->
+  <rect x="40" y="830" width="1320" height="70" fill="#120816"/>
+  <text x="60" y="858" fill="#FF69B4" font-size="16" font-weight="bold">EJL LIGHTHOUSE — ONE VIP UNIT · OFFICE + BEDROOM</text>
+  <text x="60" y="880" fill="#D4AF37" font-size="11">E-locked · entertainment lounge · private office · bedroom + ensuite · fountain · fireplace · pole · TVs/VOD · hostesses</text>
+  <text x="1220" y="868" fill="#FF69B4" font-size="12">DRAWING A-04</text>
+
+  <!-- Corridor -->
+  <rect x="60" y="300" width="140" height="220" fill="#3a2034" stroke="#D4AF37" stroke-width="1.5"/>
+  <text x="130" y="390" text-anchor="middle" font-size="12" fill="#FFE08A" font-weight="bold">CORRIDOR</text>
+  <text x="130" y="410" text-anchor="middle" font-size="10" fill="#FFB6D9">from main lounge</text>
+  <text x="130" y="430" text-anchor="middle" font-size="9" fill="#c9a0b8">robot stop · EJL logo</text>
+
+  <!-- Vestibule + e-door -->
+  <rect x="200" y="320" width="100" height="180" fill="#4a2840" stroke="#D4AF37" stroke-width="2"/>
+  <text x="250" y="360" text-anchor="middle" font-size="11" fill="#FFE08A" font-weight="bold">VESTIBULE</text>
+  <rect x="230" y="400" width="36" height="48" rx="3" fill="#120816" stroke="#D4AF37"/>
+  <circle cx="248" cy="436" r="4" fill="#2ecc71"/>
+  <text x="248" y="460" text-anchor="middle" font-size="7" fill="#FFE08A">RFID</text>
+  <rect x="282" y="380" width="16" height="70" fill="#120816" stroke="#FF2D95" stroke-width="2"/>
+  <rect x="286" y="405" width="8" height="18" rx="2" fill="#2ecc71"/>
+  <text x="290" y="370" text-anchor="middle" font-size="8" fill="#FF69B4" font-weight="bold">E-DOOR</text>
+  <text x="290" y="470" text-anchor="middle" font-size="7" fill="#2ecc71">LOCKED</text>
+
+  <line x1="300" y1="415" x2="340" y2="415" stroke="#FF2D95" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Outer VIP envelope -->
+  <rect x="330" y="60" width="820" height="740" fill="none" stroke="#FF2D95" stroke-width="3"/>
+  <text x="740" y="88" text-anchor="middle" font-size="15" fill="#FF69B4" font-weight="bold">ONE VIP FOR PRINCIPAL · ~90 m² · ELECTRONICALLY CLOSED</text>
+  <text x="740" y="108" text-anchor="middle" font-size="11" fill="#D4AF37">Entertainment + private office + bedroom suite</text>
+
+  <!-- ENTERTAINMENT LOUNGE -->
+  <rect x="350" y="120" width="500" height="400" fill="#321828" stroke="#FF69B4" stroke-width="2"/>
+  <text x="600" y="145" text-anchor="middle" font-size="13" fill="#FF69B4" font-weight="bold">ENTERTAINMENT LOUNGE · ~40 m²</text>
+  <text x="600" y="162" text-anchor="middle" font-size="9" fill="#D4AF37">8–10 seats · fountain · fireplace · pole · 3 TVs</text>
+
+  <!-- Banquettes -->
+  <rect x="370" y="200" width="55" height="220" rx="6" fill="#6a3058" stroke="#D4AF37" opacity="0.9"/>
+  <rect x="760" y="200" width="55" height="220" rx="6" fill="#6a3058" stroke="#D4AF37" opacity="0.9"/>
+  <rect x="450" y="180" width="260" height="42" rx="6" fill="#6a3058" stroke="#D4AF37" opacity="0.9"/>
+  <text x="580" y="205" text-anchor="middle" font-size="10" fill="#FFE08A" font-weight="bold">BANQUETTE</text>
+
+  <circle cx="397" cy="230" r="7" fill="#D4AF37"/><circle cx="397" cy="280" r="7" fill="#D4AF37"/>
+  <circle cx="397" cy="330" r="7" fill="#D4AF37"/><circle cx="397" cy="380" r="7" fill="#D4AF37"/>
+  <circle cx="787" cy="230" r="7" fill="#D4AF37"/><circle cx="787" cy="280" r="7" fill="#D4AF37"/>
+  <circle cx="787" cy="330" r="7" fill="#D4AF37"/><circle cx="787" cy="380" r="7" fill="#D4AF37"/>
+  <circle cx="500" cy="195" r="7" fill="#D4AF37"/><circle cx="580" cy="195" r="7" fill="#D4AF37"/><circle cx="660" cy="195" r="7" fill="#D4AF37"/>
+
+  <!-- Fountain -->
+  <ellipse cx="520" cy="300" rx="42" ry="30" fill="#3a6a8a" stroke="#7ec8e3" stroke-width="2"/>
+  <ellipse cx="520" cy="300" rx="26" ry="18" fill="#5a9ab0"/>
+  <circle cx="520" cy="300" r="6" fill="#FF69B4"/>
+  <text x="520" y="348" text-anchor="middle" font-size="9" fill="#7ec8e3" font-weight="bold">FOUNTAIN</text>
+
+  <!-- Fireplace -->
+  <rect x="650" y="250" width="70" height="85" fill="#120816" stroke="#D4AF37" stroke-width="2"/>
+  <rect x="660" y="265" width="50" height="48" fill="#FF2D95" opacity="0.85"/>
+  <path d="M668,310 Q685,245 702,310" fill="#FFD700" opacity="0.7"/>
+  <text x="685" y="355" text-anchor="middle" font-size="9" fill="#D4AF37" font-weight="bold">FIREPLACE</text>
+
+  <!-- Pole -->
+  <circle cx="600" cy="400" r="42" fill="#4a2040" stroke="#FF2D95" stroke-width="2"/>
+  <circle cx="600" cy="400" r="30" fill="#2a1020" stroke="#D4AF37" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <circle cx="600" cy="400" r="4" fill="#C0C0C0" stroke="#FFE08A" stroke-width="2"/>
+  <line x1="600" y1="360" x2="600" y2="440" stroke="#C0C0C0" stroke-width="3"/>
+  <text x="600" y="460" text-anchor="middle" font-size="9" fill="#FF69B4" font-weight="bold">POLE STAGE</text>
+
+  <!-- Table -->
+  <ellipse cx="520" cy="400" rx="28" ry="16" fill="#fff0f8" stroke="#D4AF37"/>
+  <text x="520" y="404" text-anchor="middle" font-size="7" fill="#2c2416" font-weight="bold">VOD</text>
+
+  <!-- TVs -->
+  <rect x="500" y="168" width="140" height="22" rx="2" fill="#120816" stroke="#D4AF37"/>
+  <text x="570" y="183" text-anchor="middle" font-size="8" fill="#FF69B4" font-weight="bold">TV-1 75"</text>
+  <rect x="355" y="250" width="18" height="70" rx="2" fill="#120816" stroke="#D4AF37"/>
+  <text x="364" y="290" text-anchor="middle" font-size="7" fill="#FF69B4" transform="rotate(-90 364 285)">TV-2</text>
+  <rect x="825" y="250" width="18" height="70" rx="2" fill="#120816" stroke="#D4AF37"/>
+  <text x="834" y="290" text-anchor="middle" font-size="7" fill="#FF69B4" transform="rotate(-90 834 285)">TV-3</text>
+
+  <!-- Hostess / WC / Pass under lounge -->
+  <rect x="350" y="540" width="140" height="110" fill="#4a2840" stroke="#FF2D95" stroke-width="2"/>
+  <text x="420" y="575" text-anchor="middle" font-size="11" fill="#FF69B4" font-weight="bold">HOSTESS</text>
+  <text x="420" y="595" text-anchor="middle" font-size="9" fill="#D4AF37">VIP girls · no tips</text>
+  <text x="420" y="612" text-anchor="middle" font-size="9" fill="#FFB6D9">e-pay · cloak</text>
+  <circle cx="395" cy="630" r="7" fill="#D4AF37"/><rect x="388" y="636" width="14" height="16" rx="3" fill="#FF2D95"/>
+  <circle cx="445" cy="630" r="7" fill="#D4AF37"/><rect x="438" y="636" width="14" height="16" rx="3" fill="#FF2D95"/>
+
+  <rect x="500" y="540" width="110" height="110" fill="#3a3040" stroke="#D4AF37"/>
+  <text x="555" y="590" text-anchor="middle" font-size="11" fill="#FFE08A" font-weight="bold">GUEST WC</text>
+  <text x="555" y="610" text-anchor="middle" font-size="9" fill="#FFB6D9">lounge 5 m²</text>
+
+  <rect x="620" y="540" width="230" height="110" fill="#4a2840" stroke="#D4AF37" stroke-width="2"/>
+  <text x="735" y="580" text-anchor="middle" font-size="11" fill="#D4AF37" font-weight="bold">SERVICE PASS</text>
+  <text x="735" y="600" text-anchor="middle" font-size="9" fill="#FFB6D9">EJL robot ? pass only</text>
+  <rect x="675" y="615" width="120" height="24" fill="#120816" stroke="#FF2D95"/>
+  <text x="735" y="632" text-anchor="middle" font-size="9" fill="#FF69B4">PASS WINDOW</text>
+
+  <!-- PRIVATE OFFICE -->
+  <rect x="870" y="120" width="260" height="250" fill="#2a1830" stroke="#D4AF37" stroke-width="2.5"/>
+  <text x="1000" y="150" text-anchor="middle" font-size="14" fill="#FFE08A" font-weight="bold">PRIVATE OFFICE · ~14 m²</text>
+  <text x="1000" y="168" text-anchor="middle" font-size="9" fill="#FFB6D9">for principal · sound-sealed</text>
+
+  <!-- Desk -->
+  <rect x="900" y="200" width="200" height="55" rx="4" fill="#4a3040" stroke="#D4AF37"/>
+  <text x="1000" y="232" text-anchor="middle" font-size="11" fill="#FFE08A" font-weight="bold">EXEC DESK</text>
+  <rect x="970" y="255" width="60" height="40" rx="3" fill="#6a3058" stroke="#D4AF37"/>
+  <text x="1000" y="280" text-anchor="middle" font-size="8" fill="#FFB6D9">CHAIR</text>
+
+  <!-- Office sofa / meeting -->
+  <rect x="900" y="310" width="90" height="40" rx="4" fill="#6a3058" stroke="#D4AF37"/>
+  <text x="945" y="335" text-anchor="middle" font-size="8" fill="#FFE08A">SOFA</text>
+  <rect x="1010" y="310" width="90" height="40" rx="4" fill="#3a2840" stroke="#D4AF37"/>
+  <text x="1055" y="335" text-anchor="middle" font-size="8" fill="#FFE08A">SAFE</text>
+
+  <!-- Office monitor -->
+  <rect x="920" y="185" width="160" height="14" rx="2" fill="#120816" stroke="#FF69B4"/>
+  <text x="1000" y="196" text-anchor="middle" font-size="7" fill="#FF69B4">MONITOR WALL</text>
+
+  <!-- Door from lounge to office -->
+  <rect x="850" y="220" width="20" height="50" fill="#120816" stroke="#D4AF37"/>
+  <text x="860" y="210" text-anchor="middle" font-size="7" fill="#D4AF37">DOOR</text>
+
+  <!-- BEDROOM -->
+  <rect x="870" y="390" width="260" height="270" fill="#321828" stroke="#FF2D95" stroke-width="2.5"/>
+  <text x="1000" y="420" text-anchor="middle" font-size="14" fill="#FF69B4" font-weight="bold">BEDROOM · ~18 m²</text>
+  <text x="1000" y="438" text-anchor="middle" font-size="9" fill="#D4AF37">king · blackout · pink/gold suite</text>
+
+  <!-- King bed -->
+  <rect x="920" y="460" width="160" height="100" rx="6" fill="#6a3058" stroke="#D4AF37" stroke-width="2"/>
+  <rect x="930" y="468" width="140" height="28" rx="3" fill="#FF69B4" opacity="0.55"/>
+  <text x="1000" y="520" text-anchor="middle" font-size="12" fill="#FFE08A" font-weight="bold">KING BED</text>
+
+  <!-- Nightstands -->
+  <rect x="890" y="480" width="24" height="40" fill="#4a2840" stroke="#D4AF37"/>
+  <rect x="1086" y="480" width="24" height="40" fill="#4a2840" stroke="#D4AF37"/>
+
+  <!-- Wardrobe -->
+  <rect x="890" y="580" width="100" height="60" fill="#3a2034" stroke="#D4AF37"/>
+  <text x="940" y="615" text-anchor="middle" font-size="9" fill="#FFE08A">WARDROBE</text>
+
+  <!-- Bedroom TV -->
+  <rect x="1010" y="590" width="90" height="40" rx="2" fill="#120816" stroke="#D4AF37"/>
+  <text x="1055" y="615" text-anchor="middle" font-size="8" fill="#FF69B4">TV 55"</text>
+
+  <!-- Door lounge ? bedroom -->
+  <rect x="850" y="480" width="20" height="50" fill="#120816" stroke="#FF2D95"/>
+  <text x="860" y="470" text-anchor="middle" font-size="7" fill="#FF69B4">DOOR</text>
+
+  <!-- Ensuite -->
+  <rect x="870" y="680" width="260" height="100" fill="#3a3040" stroke="#D4AF37" stroke-width="2"/>
+  <text x="1000" y="715" text-anchor="middle" font-size="12" fill="#FFE08A" font-weight="bold">ENSUITE · ~8 m²</text>
+  <text x="1000" y="735" text-anchor="middle" font-size="9" fill="#FFB6D9">shower · vanity · WC · gold fittings</text>
+  <rect x="900" y="745" width="50" height="25" fill="#5a9ab0" stroke="#7ec8e3"/>
+  <text x="925" y="762" text-anchor="middle" font-size="7" fill="#fff">SHOWER</text>
+  <rect x="970" y="745" width="50" height="25" fill="#4a2840" stroke="#D4AF37"/>
+  <text x="995" y="762" text-anchor="middle" font-size="7" fill="#FFE08A">VANITY</text>
+  <rect x="1040" y="745" width="50" height="25" fill="#4a2840" stroke="#D4AF37"/>
+  <text x="1065" y="762" text-anchor="middle" font-size="7" fill="#FFE08A">WC</text>
+
+  <!-- Side ops panel -->
+  <rect x="1170" y="60" width="170" height="740" fill="#120816" stroke="#D4AF37" stroke-width="1.5"/>
+  <text x="1255" y="95" text-anchor="middle" font-size="12" fill="#FF69B4" font-weight="bold">EJL VIP OPS</text>
+
+  <circle cx="1255" cy="140" r="26" fill="none" stroke="#D4AF37" stroke-width="2"/>
+  <text x="1255" y="136" text-anchor="middle" font-size="13" fill="#FF2D95" font-weight="bold">EJL</text>
+  <text x="1255" y="152" text-anchor="middle" font-size="6" fill="#D4AF37">LIGHTHOUSE</text>
+
+  <text x="1190" y="195" font-size="10" fill="#FFE08A" font-weight="bold">One VIP unit</text>
+  <text x="1190" y="215" font-size="9" fill="#FFB6D9">• Entertainment lounge</text>
+  <text x="1190" y="233" font-size="9" fill="#FFB6D9">• Private office</text>
+  <text x="1190" y="251" font-size="9" fill="#FFB6D9">• Bedroom + ensuite</text>
+  <text x="1190" y="269" font-size="9" fill="#FFB6D9">• ~90 m² total</text>
+
+  <text x="1190" y="305" font-size="10" fill="#FFE08A" font-weight="bold">Kept features</text>
+  <text x="1190" y="325" font-size="9" fill="#FFB6D9">• Indoor fountain</text>
+  <text x="1190" y="343" font-size="9" fill="#FFB6D9">• Gas fireplace</text>
+  <text x="1190" y="361" font-size="9" fill="#FFB6D9">• Pole dance stage</text>
+  <text x="1190" y="379" font-size="9" fill="#FFB6D9">• 3× lounge TVs + VOD</text>
+  <text x="1190" y="397" font-size="9" fill="#FFB6D9">• Bedroom TV</text>
+  <text x="1190" y="415" font-size="9" fill="#FFB6D9">• E-door locked</text>
+  <text x="1190" y="433" font-size="9" fill="#FFB6D9">• Hostess ×2</text>
+
+  <text x="1190" y="470" font-size="10" fill="#FFE08A" font-weight="bold">Office</text>
+  <text x="1190" y="490" font-size="9" fill="#FFB6D9">• Exec desk + monitor</text>
+  <text x="1190" y="508" font-size="9" fill="#FFB6D9">• Meeting sofa</text>
+  <text x="1190" y="526" font-size="9" fill="#FFB6D9">• In-room safe</text>
+  <text x="1190" y="544" font-size="9" fill="#FFB6D9">• Sound-sealed door</text>
+
+  <text x="1190" y="580" font-size="10" fill="#FFE08A" font-weight="bold">Bedroom</text>
+  <text x="1190" y="600" font-size="9" fill="#FFB6D9">• King bed + blackout</text>
+  <text x="1190" y="618" font-size="9" fill="#FFB6D9">• Wardrobe</text>
+  <text x="1190" y="636" font-size="9" fill="#FFB6D9">• Ensuite shower</text>
+  <text x="1190" y="654" font-size="9" fill="#FFB6D9">• Panic ? emerg.</text>
+
+  <text x="1190" y="690" font-size="10" fill="#FFE08A" font-weight="bold">Hard rules</text>
+  <text x="1190" y="710" font-size="9" fill="#FFB6D9">• Robots at pass only</text>
+  <text x="1190" y="728" font-size="9" fill="#FFB6D9">• E-shisha only</text>
+  <text x="1190" y="746" font-size="9" fill="#FFB6D9">• E-pay · no tips</text>
+  <text x="1190" y="764" font-size="9" fill="#FFB6D9">• Principal booking</text>
+</svg>

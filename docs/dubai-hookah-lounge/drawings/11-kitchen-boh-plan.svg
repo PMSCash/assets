@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 920" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e8e0d0" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="1400" height="920" fill="#1a0f16"/>
+  <rect x="40" y="40" width="1320" height="780" fill="#2a2018" stroke="#D4AF37" stroke-width="2"/>
+  <rect x="40" y="40" width="1320" height="780" fill="url(#grid)" opacity="0.25"/>
+
+  <rect x="40" y="830" width="1320" height="70" fill="#120816"/>
+  <text x="60" y="858" fill="#FF69B4" font-size="16" font-weight="bold">EJL LIGHTHOUSE  KITCHEN / BOH (PREP · COOK · DISH · STORAGE)</text>
+  <text x="60" y="880" fill="#D4AF37" font-size="11">Staff-only · tray pass to robot bay · cold / dry stores · dish wash · dumbwaiter to rooftop</text>
+  <text x="1220" y="868" fill="#FF69B4" font-size="12">DRAWING A-08</text>
+
+  <rect x="80" y="80" width="1080" height="700" fill="none" stroke="#D4AF37" stroke-width="3"/>
+  <text x="620" y="115" text-anchor="middle" font-size="15" fill="#FF69B4" font-weight="bold">KITCHEN + BOH · ~55 m² · NO GUESTS · NO ROBOTS INSIDE COOK LINE</text>
+
+  <!-- PREP -->
+  <rect x="110" y="150" width="240" height="280" fill="#3a3028" stroke="#D4AF37" stroke-width="2"/>
+  <text x="230" y="185" text-anchor="middle" font-size="14" fill="#FFE08A" font-weight="bold">PREP</text>
+  <text x="230" y="205" text-anchor="middle" font-size="10" fill="#FFB6D9">~12 m² · cold prep</text>
+  <rect x="130" y="230" width="200" height="50" fill="#5a5048" stroke="#D4AF37"/>
+  <text x="230" y="260" text-anchor="middle" font-size="11" fill="#FFE08A">PREP TABLE</text>
+  <rect x="130" y="300" width="90" height="90" fill="#4a4038" stroke="#7ec8e3"/>
+  <text x="175" y="350" text-anchor="middle" font-size="10" fill="#7ec8e3">SINKS</text>
+  <rect x="240" y="300" width="90" height="90" fill="#4a4038" stroke="#D4AF37"/>
+  <text x="285" y="350" text-anchor="middle" font-size="10" fill="#FFE08A">CUTTING</text>
+
+  <!-- COOK LINE -->
+  <rect x="380" y="150" width="320" height="280" fill="#4a3020" stroke="#FF2D95" stroke-width="2"/>
+  <text x="540" y="185" text-anchor="middle" font-size="14" fill="#FF69B4" font-weight="bold">COOK LINE</text>
+  <text x="540" y="205" text-anchor="middle" font-size="10" fill="#D4AF37">~16 m² · hot line + hood</text>
+  <rect x="400" y="230" width="280" height="70" fill="#2a1810" stroke="#D4AF37"/>
+  <text x="540" y="270" text-anchor="middle" font-size="12" fill="#FFE08A" font-weight="bold">RANGE / GRILL / FRY</text>
+  <rect x="400" y="320" width="130" height="80" fill="#3a2820" stroke="#D4AF37"/>
+  <text x="465" y="365" text-anchor="middle" font-size="11" fill="#FFE08A">PASS SHELF</text>
+  <rect x="550" y="320" width="130" height="80" fill="#3a2820" stroke="#FF69B4"/>
+  <text x="615" y="365" text-anchor="middle" font-size="11" fill="#FF69B4">KDS SCREEN</text>
+
+  <!-- DISH -->
+  <rect x="730" y="150" width="200" height="280" fill="#2a3040" stroke="#7ec8e3" stroke-width="2"/>
+  <text x="830" y="185" text-anchor="middle" font-size="14" fill="#7ec8e3" font-weight="bold">DISH</text>
+  <text x="830" y="205" text-anchor="middle" font-size="10" fill="#FFB6D9">~10 m² · wash</text>
+  <rect x="750" y="230" width="160" height="60" fill="#3a4858" stroke="#7ec8e3"/>
+  <text x="830" y="265" text-anchor="middle" font-size="11" fill="#fff">DISHWASHER</text>
+  <rect x="750" y="310" width="70" height="80" fill="#3a4858" stroke="#D4AF37"/>
+  <text x="785" y="355" text-anchor="middle" font-size="9" fill="#FFE08A">DIRTY</text>
+  <rect x="840" y="310" width="70" height="80" fill="#3a4858" stroke="#2ecc71"/>
+  <text x="875" y="355" text-anchor="middle" font-size="9" fill="#2ecc71">CLEAN</text>
+
+  <!-- COLD STORE -->
+  <rect x="960" y="150" width="170" height="130" fill="#1a3048" stroke="#7ec8e3" stroke-width="2"/>
+  <text x="1045" y="200" text-anchor="middle" font-size="13" fill="#7ec8e3" font-weight="bold">COLD</text>
+  <text x="1045" y="225" text-anchor="middle" font-size="11" fill="#FFB6D9">STORE · 6 m²</text>
+  <text x="1045" y="250" text-anchor="middle" font-size="9" fill="#D4AF37">+2 to +5 C</text>
+
+  <!-- DRY STORE -->
+  <rect x="960" y="300" width="170" height="130" fill="#3a3028" stroke="#D4AF37" stroke-width="2"/>
+  <text x="1045" y="350" text-anchor="middle" font-size="13" fill="#FFE08A" font-weight="bold">DRY</text>
+  <text x="1045" y="375" text-anchor="middle" font-size="11" fill="#FFB6D9">STORE · 6 m²</text>
+  <text x="1045" y="400" text-anchor="middle" font-size="9" fill="#D4AF37">shelving</text>
+
+  <!-- ROBOT LOAD BAY -->
+  <rect x="110" y="470" width="400" height="260" fill="#4a2840" stroke="#FF2D95" stroke-width="2.5"/>
+  <text x="310" y="510" text-anchor="middle" font-size="14" fill="#FF69B4" font-weight="bold">ROBOT LOADING BAY</text>
+  <text x="310" y="535" text-anchor="middle" font-size="10" fill="#D4AF37">Staff loads trays · QR scan · dispatch · ~14 m²</text>
+  <rect x="140" y="560" width="100" height="70" rx="6" fill="#120816" stroke="#FF2D95"/>
+  <text x="190" y="600" text-anchor="middle" font-size="11" fill="#FF69B4" font-weight="bold">R1</text>
+  <rect x="260" y="560" width="100" height="70" rx="6" fill="#120816" stroke="#FF2D95"/>
+  <text x="310" y="600" text-anchor="middle" font-size="11" fill="#FF69B4" font-weight="bold">R2</text>
+  <rect x="380" y="560" width="100" height="70" rx="6" fill="#120816" stroke="#D4AF37"/>
+  <text x="430" y="600" text-anchor="middle" font-size="11" fill="#D4AF37" font-weight="bold">CHG</text>
+  <rect x="140" y="650" width="340" height="50" fill="#321828" stroke="#D4AF37"/>
+  <text x="310" y="680" text-anchor="middle" font-size="12" fill="#FFE08A" font-weight="bold">TRAY PASS COUNTER ’ AISLE</text>
+
+  <!-- DUMBWAITER -->
+  <rect x="540" y="470" width="180" height="260" fill="#3a2034" stroke="#D4AF37" stroke-width="2"/>
+  <text x="630" y="530" text-anchor="middle" font-size="13" fill="#FFE08A" font-weight="bold">DUMBWAITER</text>
+  <text x="630" y="555" text-anchor="middle" font-size="10" fill="#FFB6D9">to rooftop bar</text>
+  <rect x="580" y="580" width="100" height="100" fill="#120816" stroke="#FF69B4" stroke-width="2"/>
+  <text x="630" y="635" text-anchor="middle" font-size="11" fill="#FF69B4">LIFT SHAFT</text>
+
+  <!-- CHEMICAL / BIN -->
+  <rect x="750" y="470" width="180" height="120" fill="#3a2820" stroke="#e67e22"/>
+  <text x="840" y="525" text-anchor="middle" font-size="12" fill="#e67e22" font-weight="bold">CHEM / BIN</text>
+  <text x="840" y="550" text-anchor="middle" font-size="9" fill="#FFB6D9">locked · waste</text>
+
+  <rect x="750" y="610" width="180" height="120" fill="#3a2820" stroke="#D4AF37"/>
+  <text x="840" y="665" text-anchor="middle" font-size="12" fill="#FFE08A" font-weight="bold">STAFF ENTRY</text>
+  <text x="840" y="690" text-anchor="middle" font-size="9" fill="#FFB6D9">to rest/change A-06</text>
+
+  <!-- side -->
+  <rect x="1170" y="80" width="170" height="700" fill="#120816" stroke="#D4AF37"/>
+  <text x="1255" y="120" text-anchor="middle" font-size="12" fill="#FF69B4" font-weight="bold">BOH OPS</text>
+  <text x="1190" y="170" font-size="10" fill="#FFE08A" font-weight="bold">Zones</text>
+  <text x="1190" y="192" font-size="9" fill="#FFB6D9">" Prep 12 m²</text>
+  <text x="1190" y="210" font-size="9" fill="#FFB6D9">" Cook 16 m²</text>
+  <text x="1190" y="228" font-size="9" fill="#FFB6D9">" Dish 10 m²</text>
+  <text x="1190" y="246" font-size="9" fill="#FFB6D9">" Cold 6 m²</text>
+  <text x="1190" y="264" font-size="9" fill="#FFB6D9">" Dry 6 m²</text>
+  <text x="1190" y="282" font-size="9" fill="#FFB6D9">" Robot bay 14 m²</text>
+  <text x="1190" y="320" font-size="10" fill="#FFE08A" font-weight="bold">Hard rules</text>
+  <text x="1190" y="342" font-size="9" fill="#FFB6D9">" No guests</text>
+  <text x="1190" y="360" font-size="9" fill="#FFB6D9">" Robots only in bay</text>
+  <text x="1190" y="378" font-size="9" fill="#FFB6D9">" No coal here</text>
+  <text x="1190" y="396" font-size="9" fill="#FFB6D9">" Hood to roof</text>
+  <text x="1190" y="430" font-size="10" fill="#FFE08A" font-weight="bold">CAPEX</text>
+  <text x="1190" y="452" font-size="9" fill="#FFB6D9">Kitchen 400k2.4M</text>
+  <text x="1190" y="470" font-size="9" fill="#FFB6D9">(see cost memo)</text>
+</svg>
