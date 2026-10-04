@@ -3,6 +3,11 @@
 .vscode/
 *~
 *.txt
+!telegram-psychic-bot/requirements.txt
 .env
 .env.test
 bin/
+telegram-psychic-bot/.venv/
+telegram-psychic-bot/__pycache__/
+telegram-psychic-bot/**/__pycache__/
+telegram-psychic-bot/.env
