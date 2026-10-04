@@ -85,13 +85,16 @@ TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN:-}
 TELEGRAM_TOKEN=${TELEGRAM_TOKEN:-}
 TELEGRAM_CHAT_ID=${TELEGRAM_CHAT_ID:-}
 CHAT_ID=${CHAT_ID:-}
+GROQ_API_KEY=${GROQ_API_KEY:-}
 OPENAI_API_KEY=${OPENAI_API_KEY:-}
+OPENAI_BASE_URL=${OPENAI_BASE_URL:-}
+OPENAI_MODEL=${OPENAI_MODEL:-}
 LOG_LEVEL=${LOG_LEVEL:-INFO}
 BOT_DISPLAY_NAME=${BOT_DISPLAY_NAME:-Projekt212 Oracle}
 EOF
 
 echo "==> Running install.sh on server"
-run_ssh "set -a; source /tmp/psychic-bot-install.env; set +a; sudo --preserve-env=SRC_DIR,TELEGRAM_BOT_TOKEN,TELEGRAM_TOKEN,TELEGRAM_CHAT_ID,CHAT_ID,OPENAI_API_KEY,LOG_LEVEL,BOT_DISPLAY_NAME bash '${REMOTE_TMP}/deploy/install.sh'; rm -f /tmp/psychic-bot-install.env"
+run_ssh "set -a; source /tmp/psychic-bot-install.env; set +a; sudo --preserve-env=SRC_DIR,TELEGRAM_BOT_TOKEN,TELEGRAM_TOKEN,TELEGRAM_CHAT_ID,CHAT_ID,GROQ_API_KEY,OPENAI_API_KEY,OPENAI_BASE_URL,OPENAI_MODEL,LOG_LEVEL,BOT_DISPLAY_NAME bash '${REMOTE_TMP}/deploy/install.sh'; rm -f /tmp/psychic-bot-install.env"
 
 echo "==> Verifying service"
 run_ssh "sudo systemctl is-active psychic-bot && sudo systemctl --no-pager --full status psychic-bot | head -20"

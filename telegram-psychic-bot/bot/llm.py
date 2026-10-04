@@ -27,10 +27,13 @@ async def mystic_reply(
         "Authorization": f"Bearer {settings.openai_api_key}",
         "Content-Type": "application/json",
     }
+    # Reasoning-capable Groq models (e.g. gpt-oss) spend tokens on "reasoning"
+    # before visible content — keep a higher ceiling so replies aren't empty.
+    max_tokens = 800 if "gpt-oss" in settings.openai_model else 280
     payload = {
         "model": settings.openai_model,
         "temperature": 0.9,
-        "max_tokens": 280,
+        "max_tokens": max_tokens,
         "messages": [
             {"role": "system", "content": SYSTEM_PROMPT},
             {

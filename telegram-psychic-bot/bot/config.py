@@ -37,20 +37,34 @@ def load_settings() -> Settings:
             "Copy .env.example to .env and set your BotFather token."
         )
 
-    openai_key = os.getenv("OPENAI_API_KEY", "").strip() or None
+    # OpenAI-compatible keys: OPENAI_API_KEY, or GROQ_API_KEY for Groq.
+    groq_key = os.getenv("GROQ_API_KEY", "").strip() or None
+    openai_key = os.getenv("OPENAI_API_KEY", "").strip() or groq_key
+
     chat_id = (
         os.getenv("TELEGRAM_CHAT_ID", "").strip()
         or os.getenv("CHAT_ID", "").strip()
         or None
     )
 
+    # If only Groq is configured, default to Groq's OpenAI-compatible endpoint.
+    default_base = (
+        "https://api.groq.com/openai/v1"
+        if groq_key and not os.getenv("OPENAI_API_KEY", "").strip()
+        else "https://api.openai.com/v1"
+    )
+    default_model = (
+        # Current Groq chat-capable default for many new API keys.
+        "openai/gpt-oss-20b"
+        if groq_key and not os.getenv("OPENAI_API_KEY", "").strip()
+        else "gpt-4o-mini"
+    )
+
     return Settings(
         telegram_bot_token=token,
         openai_api_key=openai_key,
-        openai_base_url=os.getenv(
-            "OPENAI_BASE_URL", "https://api.openai.com/v1"
-        ).strip(),
-        openai_model=os.getenv("OPENAI_MODEL", "gpt-4o-mini").strip(),
+        openai_base_url=os.getenv("OPENAI_BASE_URL", default_base).strip(),
+        openai_model=os.getenv("OPENAI_MODEL", default_model).strip(),
         log_level=os.getenv("LOG_LEVEL", "INFO").strip().upper(),
         bot_display_name=os.getenv(
             "BOT_DISPLAY_NAME", "Projekt212 Oracle"

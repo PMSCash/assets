@@ -17,13 +17,16 @@ Preferred path: copy this folder to the server and run `deploy/install.sh` as ro
 |----------|----------|-------------|
 | `TELEGRAM_BOT_TOKEN` | yes* | Token from BotFather (`TELEGRAM_TOKEN` alias also accepted) |
 | `TELEGRAM_CHAT_ID` | no | Optional chat id for smoke tests / proactive pings (`CHAT_ID` alias) |
-| `OPENAI_API_KEY` | no | Enables AI mystic replies; without it, scripted replies are used |
-| `OPENAI_BASE_URL` | no | Default `https://api.openai.com/v1` (any OpenAI-compatible API) |
-| `OPENAI_MODEL` | no | Default `gpt-4o-mini` |
+| `GROQ_API_KEY` | no | Groq API key; enables AI replies via Groq’s OpenAI-compatible API |
+| `OPENAI_API_KEY` | no | Any OpenAI-compatible key (used if set; else `GROQ_API_KEY`) |
+| `OPENAI_BASE_URL` | no | Default Groq URL when only `GROQ_API_KEY` is set; else OpenAI |
+| `OPENAI_MODEL` | no | Default `openai/gpt-oss-20b` for Groq, else `gpt-4o-mini` |
 | `LOG_LEVEL` | no | Default `INFO` |
 | `BOT_DISPLAY_NAME` | no | Default `Projekt212 Oracle` |
 
 \* One of `TELEGRAM_BOT_TOKEN` or `TELEGRAM_TOKEN` is required.
+
+For Groq AI replies, set `GROQ_API_KEY` in `.env` (optionally override `OPENAI_MODEL`). Without any LLM key, scripted mystic replies are used.
 
 Never commit a real `.env` or token. On the server, secrets live only in `/opt/telegram-psychic-bot/.env` (mode `600`, owned by the service user).
 
