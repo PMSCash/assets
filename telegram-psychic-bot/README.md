@@ -7,21 +7,9 @@ A small, deployable Python Telegram bot that answers in a mystic fortune-teller 
 - Python 3.11+
 - A Telegram bot token from [@BotFather](https://t.me/BotFather)
 
-## Quick start (VPS)
+## Quick start (VPS / systemd)
 
-```bash
-# on the server
-sudo mkdir -p /opt/telegram-psychic-bot
-sudo rsync -a ./ /opt/telegram-psychic-bot/   # or git clone / copy this folder
-cd /opt/telegram-psychic-bot
-
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-
-cp .env.example .env
-nano .env   # set TELEGRAM_BOT_TOKEN (and optionally OPENAI_API_KEY)
-```
+Preferred path: copy this folder to the server and run `deploy/install.sh` as root. Telegram only — no web UI or open HTTP ports required (outbound HTTPS to `api.telegram.org`).
 
 ### Environment variables
 
@@ -37,32 +25,58 @@ nano .env   # set TELEGRAM_BOT_TOKEN (and optionally OPENAI_API_KEY)
 
 \* One of `TELEGRAM_BOT_TOKEN` or `TELEGRAM_TOKEN` is required.
 
-Never commit a real `.env` or token.
+Never commit a real `.env` or token. On the server, secrets live only in `/opt/telegram-psychic-bot/.env` (mode `600`, owned by the service user).
 
-### Run in the foreground (smoke test)
+### A) One-shot install on the server
 
 ```bash
-cd /opt/telegram-psychic-bot
-source .venv/bin/activate
-python -m bot
+# as root on the VPS, with this directory present (e.g. /tmp/telegram-psychic-bot-src)
+export TELEGRAM_BOT_TOKEN='...'          # or TELEGRAM_TOKEN
+export TELEGRAM_CHAT_ID='...'            # optional
+sudo -E bash deploy/install.sh
 ```
 
-Message the bot on Telegram: `/start`, then ask a question, or try `/tarot` / `/horoscope leo`.
+This creates `/opt/telegram-psychic-bot`, a venv, `psychicbot` system user, writes `.env` from the environment (if missing), installs `psychic-bot.service`, and enables it.
 
-### Run with systemd (recommended)
+### B) Push from your laptop / agent (when SSH works)
 
 ```bash
-sudo useradd --system --home /opt/telegram-psychic-bot --shell /usr/sbin/nologin psychicbot
-sudo chown -R psychicbot:psychicbot /opt/telegram-psychic-bot
+cd telegram-psychic-bot
+cp .env.example .env   # fill TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID locally (gitignored)
 
-sudo cp deploy/psychic-bot.service /etc/systemd/system/psychic-bot.service
-sudo systemctl daemon-reload
-sudo systemctl enable --now psychic-bot
+export SSH_HOST=5.223.73.223
+export SSH_USER=root                   # or ubuntu / your user with sudo
+export SSH_KEY=~/.ssh/id_ed25519       # or: export SSH_PASSWORD='...'
+bash deploy/remote-push.sh
+```
+
+### Useful systemd commands
+
+```bash
 sudo systemctl status psychic-bot
+sudo systemctl restart psychic-bot
+sudo systemctl stop psychic-bot
 journalctl -u psychic-bot -f
 ```
 
-Graceful shutdown: `sudo systemctl stop psychic-bot` (SIGINT/SIGTERM handled by the polling loop).
+### Manual steps (equivalent to install.sh)
+
+```bash
+sudo mkdir -p /opt/telegram-psychic-bot
+sudo rsync -a --exclude '.venv' --exclude '.env' ./ /opt/telegram-psychic-bot/
+cd /opt/telegram-psychic-bot
+sudo python3 -m venv .venv
+sudo .venv/bin/pip install -r requirements.txt
+sudo cp .env.example .env && sudo nano .env   # set token
+sudo useradd --system --home /opt/telegram-psychic-bot --shell /usr/sbin/nologin psychicbot || true
+sudo chown -R psychicbot:psychicbot /opt/telegram-psychic-bot
+sudo chmod 600 /opt/telegram-psychic-bot/.env
+sudo cp deploy/psychic-bot.service /etc/systemd/system/psychic-bot.service
+sudo systemctl daemon-reload
+sudo systemctl enable --now psychic-bot
+```
+
+Foreground smoke test (optional): `sudo -u psychicbot /opt/telegram-psychic-bot/.venv/bin/python -m bot` from `/opt/telegram-psychic-bot`.
 
 ## Commands
 
