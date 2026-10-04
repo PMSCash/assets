@@ -1,0 +1,23 @@
+[Unit]
+Description=Projekt212 Psychic Telegram Bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=psychicbot
+Group=psychicbot
+WorkingDirectory=/opt/telegram-psychic-bot
+EnvironmentFile=/opt/telegram-psychic-bot/.env
+ExecStart=/opt/telegram-psychic-bot/.venv/bin/python -m bot
+Restart=on-failure
+RestartSec=5
+# Hardening
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/telegram-psychic-bot
+
+[Install]
+WantedBy=multi-user.target
